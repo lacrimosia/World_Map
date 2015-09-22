@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.directives', [])
+angular.module('myApp.directives', ['ui.bootstrap', 'ngAnimate'])
 
   // check z-index of mobilecheck class to determine the size of the viewport
   .directive("mobileCheck", function() {
@@ -20,3 +20,4 @@ angular.module('myApp.directives', [])
       }
     }
   });
+

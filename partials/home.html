@@ -1,88 +1,81 @@
 <div class="lightbox" ng-show="data.caseStudyLightbox">
   <div class="lightbox-overlay" ng-click="toggleLightbox()">
   </div>
-  <div class="lightbox-outer">
-    <div class="lightbox-inner">
-      <article>
-        <h2>Can you calculate how to do calculus?</h2>
-        <p>
-          As she walks into her house, Luciana calls out to her mom that she is home.  Walking through her house, she drops her backpack just inside the bedroom door she shares with her younger sister.  "Luciana mija, I thought you were studying after school today?" her mother asks, walking up to the bedroom door.
-        </p>
-        <p>
-          "No mama, I wanted to beat traffic and get home, but I'm going to do some studying after I take care of the dishes and put away some laundry."
-        </p>
-        <p>
-          "Mija, make sure you get your studying done first, your sister can help me with the chores when she gets home from band practice.  I'm so proud of you for going to school, I want you to focus on your studies, remember, 'sí, se puede...!"  With that Luciana's mother gives her a hug and walks back into the kitchen, rubbing her tired back as she starts to get food ready for dinner.
-        </p>
-        <p>
-          Watching her go, Luciana shakes her head, knowing her mama will not let her into the kitchen to help with the chores until her calculo is finished.  For her mother, nothing is more important than Luciana and her sister Elena doing well in school.  While Luciana's mother finished high school, she went right to work to help support her parents and their large family.  While she never said anything, Luciana sometimes thought her mother would have liked to go to college.
-        </p>
-        <p>
-          Turning back to her room, she grabbed her back pack, and with a thump, set it on her bed next to the small cluttered desk sandwiched between her bed and her sister's bed.  Elena would not be home for a few hours, giving her time to hopefully start understanding her calculus homework a little better.  With a sign, she unzipped her bag and pulled out her notebook and math notes and the Monster energy drink she had picked-up on the way home.  From the other room she could hear the dialogue from the daytime talk show her mom put on to help her unwind after her long shift at work.  As much as she liked Ellen, she knew it would be a distraction, so she got back up and shut the door to her room.
-        </p>
-        <p>
-          Opening up her notebook she looked over what her math homework was for the next two days.  She had homework for two sections of the latest chapter on integers.  She rolled her eyes and she looked into the textbook, seeing that for this section she had 48 problems between the two sections.  "This is going to take forever!" she thought to herself.  Discouraged, she settled down to start the homework.
-        </p>
-        <p> 
-          After about 5 minutes of looking back and forth between her notes from class that morning and the book, she realized she wasn't getting anywhere with the first few problems.  She had been hoping that sitting down and looking over the book would help the concept be clearer, but it was just not happening.  Throwing her pencil down in disgust, she chugged some of her energy drink and thought to herself "how am I supposed to figure this stuff out?"  Her thoughts were interrupted by the ping of her cell phone lying on her bed next to her backpack.  Relieved by the interruption, she reached over and grabbed the phone, reading the text message from her friend Eddie.  Laughing at his frustrated text about the homework, she spent the next few minutes going back and forth between her homework and texting him back about the problem she was having with the homework, glad that she was not the only one frustrated with the situation.  He replied with the suggestion that they study together tomorrow afternoon after they were both done with their classes and she agreed, glad to have someone else to hopefully help with the concepts.
-        </p>
-        <p>
-          Stretching, she looked at the clock next to her bed and realized almost 40 minutes had gone by since she had sat down to start her homework and she had only solved two of the problems!  "How did the time pass so quickly!?" she thought to herself.  "I cannot believe I have not gotten more problems done!"  With a frustrated look at her phone, she sat back down and tried to make sense of the concepts the book was outlining.  She really did not understand one term the book kept mentioning and their definition in the glossary was not making sense at all!
-        </p>
-        <p>
-          Pushing her book away, she turned to her computer monitor and decided to google the term.  "Maybe the internet can help me with this one," she thought to herself.  After a quick search, she stumbled upon a teacher's resource website from another university, and they had a series of step by step instructions on how to break down problems similar to the concept she was studying.  After reviewing for a few minutes, Luciana found herself getting excited.  While she didn't know how to do all of the problems, she had an idea of how to better solve the next few problems.  She bookmarked the website so she could visit it later, and made a note to herself about one area she was not certain of that she could ask Eddie about later.
-        </p>
-        <p>
-          With a renewed sense of determination, she grabbed a bottle of water out of her backpack, stretched, and sat back down to work on her math homework.  After a moment, she got back up and shoved her phone under her pillow.  "No more phone for right now" she told herself, "sí, se puede calculo!"
-        </p>
-        <p>
-          <button class="pure-button pure-button-regular" ng-click="toggleLightbox()">Return to Luciana's room</button>
-        </p>
-      </article>
-    </div>
-  </div>
 </div>
 <div class="container">
+<div class="row">
   <div class="pure-g">
     <div class="pure-u-1">
-      <h2>{{data.appTitle}}</h2>
-      <p>
-        {{data.intro}}
-        <br>(<span class="toggle-lightbox" ng-click="toggleLightbox()">Click this link to review the case study</span>)
-      </p>
+    <div class="col-md-12">
+      <h4 class="pull-left visible-lg visible-md"><strong>{{data.appTitle}}</strong></h4>
+      <h6 class="pull-left visible-sm visible-xs"><strong>{{data.appTitle}}</strong></h6>
+      </div>
+      
+        <!--<div class="col-md-12"><p>{{data.intro}}</p></div>-->
+        <!-- <br>(<span class="toggle-lightbox" ng-click="toggleLightbox()">Click this link to review the case study</span>)-->
+      
     </div>
   </div>
   <div class="pure-g">
     <div class="pure-u-1 background">
       <div class="invisible-clear-button" ng-click="clearAll()"></div>
-      <div class="popup" ng-class="{'expanded': thing.choiceMade}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)" ng-if="thing.promptOpen">
-        <div ng-if="!thing.choiceMade">
-          <h3>{{thing.name}}</h3>
+      <div class="popup" ng-class="{'expanded': thing.choiceMade}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
+        <div> <!-- ng-if="!thing.choiceMade" -->
+          <h4 ng-if="!thing.choiceMade" class="bubbleText visible-md visible-lg">{{thing.name}}</h4>
+          <h4 ng-if="!thing.choiceMade" class="bubbleText2 visible-sm visible-xs">{{thing.name}}</h4>
           <p>
-            <button class="pure-button encourage" ng-click="makeSelection(thing, 'Encourages')">Encourages</button>
-            <button class="pure-button hinder" ng-click="makeSelection(thing, 'Hinders')">Hinders</button>
+            <!--<button class="pure-button encourage" ng-click="makeSelection(thing, 'Encourages')">Encourages</button>
+            <button class="pure-button hinder" ng-click="makeSelection(thing, 'Hinders')">Hinders</button>-->
           </p>
         </div>
-        <div class="animated fadeIn" ng-if="thing.choiceMade">
-          <h2>{{thing.name}}</h2>
-          <p>
-            <strong>Your Answer:</strong> {{thing.selection}}
-          <p>
-            <strong>Correct Answer:</strong> {{thing.answer}}
-          </p>
-          <p>
-            <strong>Feedback:</strong> {{thing.feedback}}
-          </p>
-          <p>
-            <button class="pure-button pure-button-regular" ng-click="clearAll()">Return to room</button>
-          </p>
-        </div>
+        <!-- answer box-->
+       
+      
+
+       <div class="" ng-if="thing.choiceMade"><!--animated fadeIn-->
+       <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 returns">
+       <h1 class="pull-left visible-md visible-lg">{{thing.name}} - Region</h1>
+       <h3 class="pull-left hidden-md hidden-lg">{{thing.name}} - Region</h3>
+       <div class="form-inline">
+            <button class="btn btn-danger btn-md pull-right hidden-sm hidden-xs" ng-click="thing.choiceMade = false"><i class="fa fa-times"></i></button>
+            <button class="btn btn-danger btn-sm pull-right visible-sm" ng-click="thing.choiceMade = false"><i class="fa fa-times"></i></button>
+            <!--thing.choiceMade = false-->
+            <button class="btn btn-danger btn-md pull-right hidden-sm hidden-cs visible-md visible-lg" ng-click="thing.choiceMade = false"><i class="fa fa-question"></i> Help</button>
+      <button class="btn btn-danger btn-sm pull-right visible-sm visible-xs hidden-md hidden-lg" ng-click="thing.choiceMade = false"><i class="fa fa-question"></i> Help</button>
       </div>
-      <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': thing.promptOpen, 'complete': thing.choiceMade}">
+          </div>
+             <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>
+                <div class="cityStars" ng-repeat="city in data.things[$parent.$index].Cities">
+                  <div class="stars" ng-style="{'bottom': city.y+'%', 'left': city.x+'%'}"><img ng-src="img/{{city.marker}}"/>   {{ city.name}} </div>
+                  </div>
+             </div>
+             <div class="Books col-md-4 col-sm-4 col-xs-4 col-lg-4">
+                <accordion close-others="oneAtATime" class="visible-md visible-lg">
+                   <accordion-group heading="{{book.name}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="book in data.things[$parent.$index].Books">
+                       <div class="imageBox col-md-4 col-xs-4 col-lg-4 hidden-sm hidden-xs"><p> <img ng-src="img/{{book.image}}" class="imageDesc img-responsive"/></p></div>
+                       <div class="desc col-md-8 col-sm-12 col-xs-12 col-lg-8"><h5>{{ book.description }}</h5></div>
+                    </accordion-group>
+                </accordion>
+
+                <accordion close-others="oneAtATime" class="visible-sm visible-xs">
+                   <accordion-group heading="{{book.name}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="book in data.things[$parent.$index].Books" class="lables">
+                       <div class="imageBox col-md-4 col-xs-4 col-lg-4 hidden-sm hidden-xs"><p> <img ng-src="img/{{book.image}}" class="imageDesc img-responsive"/></p></div>
+                       <div class="desc col-md-8 col-sm-12 col-xs-12 col-lg-8"><h5>{{ book.description }}</h5></div>
+                    </accordion-group>
+                </accordion>
+
+             </div>
+          
+        </div>
+   </div>
+<div class="col-md-12">
+      <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': !thing.promptOpen, 'complete': thing.choiceMade}" ng-init="prompt($index)" ng-click="makeSelection(thing, 'Encourages')">
         <div class="pulse"></div>
-        <button ng-click="prompt($index)"></button>
+        <button ng-click=""></button>
       </div>
-      <img src="img/casestudy1_a_optimized.jpg">
+      <img src="img/main_map.jpg" class="img-responsive">
+  </div>
     </div>
+  </div>
   </div>
 </div>

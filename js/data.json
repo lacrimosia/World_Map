@@ -1,99 +1,232 @@
 {
-  "appTitle": "Study Environment: Case Study 1",
+  "appTitle": "Eng 231 - Interactive Map",
   "coursePrefix": "EGG",
-  "courseNumber": "101",
-  "intro": "Click on the items in Luciana's room and decide whether they are encouraging or hindering a good study environment.",
+  "courseNumber": "231",
+  "intro": "Click on one of the regions to see a listing of books.",
   "caseStudyLightbox": false,
   "things": [
     {
-    	"name": "TV show",
-    	"x": 9,
-    	"y": 30,
+    	"name": "Mesoamerica",
+    	"x": 28,
+    	"y": 43,
     	"promptOpen": false,
       "choiceMade": false,
       "answer": "Hinders",
-      "feedback": "Being able to hear words coming from TV or music is a significant distraction while studying. Most students do not realize it, but even a movie or song they are familiar with can take away from the brain’s ability to process information. Think of it like an application on your computer running in the background. It may not be taking up all of the processing abilities of the computer, but it is slowing the process down. If it is difficult for you to study in silence, then soothing music can be an excellent way to fill the silence and multiple studies have confirmed that classical music can actually help the brain to learn more effectively, reduce stress and help you learn and focus at a more receptive rate. (Study tip – This is called the Mozart Effect and both Pandora and Spotify have stations specifically geared towards music for studying)."
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "mesoamerica.png",
+             "id": "1"
+           },
+           {
+             "link": "mesoamerica_lines.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about Mesoamerica",
+            "image": "placeholder.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget efficitur lacus. Aliquam vel odio at sapien faucibus faucibus ut id est. Vestibulum tristique aliquam pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nec velit quis risus pretium aliquet vel in libero. Maecenas placerat, nunc vel volutpat pellentesque, ligula mauris malesuada tortor, ac lobortis neque ante a augue. Curabitur lobortis, est at mollis posuere, ex orci finibus felis, sed fermentum nunc elit a justo. Vivamus vehicula aliquam tellus nec consequat."
+          },
+          {
+            "name": "Book about Mesoamerica 2",
+            "image": "placeholder.png",
+            "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+          },
+          {
+            "name": "Book about Mesoamerica 3",
+            "image": "placeholder.png",
+            "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+          }
+      ]
     },
     {
-    	"name": "Open door",
-    	"x": 4,
-    	"y": 48,
+    	"name": "Mediterranean",
+    	"x": 56,
+    	"y": 29,
     	"promptOpen": false,
       "choiceMade": false,
       "answer": "Hinders",
-      "feedback": "While no one likes to feel isolated, as students transition to college, it can be hard for family members to understand the need of the student to be given the time and space to study.  If you find yourself studying at home and constantly being interrupted, a closed door can be a great indication that you need to focus unless it is an urgent issue.  You will never take an exam in a noisy room with lots of distractions, so your study environment should be no different."
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "mediterranean.png",
+             "id": "1"
+           },
+           {
+             "link": "mesoamerica_lines.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about Mediterranean",
+            "image": "placeholder.png",
+            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+          },
+          {
+            "name": "Book about Mediterranean 2",
+            "image": "placeholder.png",
+            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper."
+          }
+      ]
     },
     {
-    	"name": "Bed",
-    	"x": 27,
-    	"y": 70,
+    	"name": "Middle East",
+    	"x": 64,
+    	"y": 38,
     	"promptOpen": false,
       "choiceMade": false,
       "answer": "Both",
-      "feedback": "Is it a good idea to study in your bedroom? Yes it can be. Is it a good idea to study on your bed? Maybe, that depends on you! Your brain has been trained since birth to associate a bed with the proper location of where to obtain rest, and for many people sitting on their bed and reading textbook homework is a recipe for disaster, but not everyone.  When you are comfortable, you are not focusing on how your body feels, and you can direct your mind to the task at hand of studying and reading. You do not want to do homework on the bed however if it involves writing, such as math or science problems. You want your body to be positioned comfortably and effectively, not hunched over on a bed."
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "middle-east.png",
+             "id": "1"
+           },
+           {
+             "link": "middle-east_lines.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about Middle East",
+            "image": "placeholder.png",
+            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+          },
+          {
+            "name": "Book about Middle East 2",
+            "image": "placeholder.png",
+            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+          }
+      ]
     },
     {
-      "name": "Backpack",
-      "x": 42,
-      "y": 56,
+      "name": "India",
+      "x": 73,
+      "y": 35,
       "promptOpen": false,
       "choiceMade": false,
       "answer": "Encourages",
-      "feedback": "Putting your backpack on your bed in your line of sight is an effective subconscious measure to encourage students to stay on track. All of your study materials should be within reach for effective studying."
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "middle-east.png",
+             "id": "1"
+           },
+           {
+             "link": "middle-east_lines.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about India",
+            "image": "placeholder.png",
+            "description": "This is a book about India"
+          },
+          {
+            "name": "Book about India 2",
+            "image": "placeholder.png",
+            "description": "This is a book about India 2"
+          }
+      ]
     },
     {
-      "name": "Cell phone",
-      "x": 48,
-      "y": 63,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Hinders",
-      "feedback": "This is college, and a quick text can absolutely derail you when you are making progress on writing a paper or beginning to understand a concept for a class. The more efficiently you complete your homework, the more you will be able to diminish the stress of school, and focus on being able to enjoy time with friends and family after studying. If you are concerned about not shutting your phone off in case of an emergency, consider making more use out of your phone’s \"do not disturb\" feature.  Create a list of emergency contacts that can get through if you are studying, and block everyone else until it is time to take a break. Or, you can always do like Luciana, and put your phone out of sight so it can’t distract you."
-    },
-    {
-      "name": "Desk",
-      "x": 76,
-      "y": 60,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Encourages",
-      "feedback": "Have you ever sat down to do homework, and the clutter on the desk or table was in your way, and was frustrating or distracting? A well-ordered study space can help keep your mind focused and actually can help your brain be less stressed. 10-15 minutes within the first two weeks spend organizing folders or binders for each class and keeping material organized on a desk or table is well worth the time so you can have a study space that helps you to learn."
-    },
-    {
-      "name": "Notes, notebook, and calculus book ",
-      "x": 82,
-      "y": 56,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Encourages",
-      "feedback": "You should always have your resources for learning out and easily accessible. Sometimes two or three different sources of material are needed to bring about an understanding of a concept."
-    },
-    {
-      "name": "Computer",
-      "x": 71,
-      "y": 56,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Both",
-      "feedback": "Can the computer be a distraction?  Of course it can, but as Luciana found, it can also be a tool to help you learn. Here’s a tip – change your home screen on your browser to either google, or UNLV’s homepage or a study site like howtostudy.org. Avoid home pages like Yahoo, MSN, ESPN, Facebook or people.com, as these sites have headlines that are going to draw your attention away from whatever information you were looking up. Having Facebook, messenger, YouTube or other social media sites up while you are trying to study is just going to end up being a huge time suck."
-    },
-    {
-      "name": "Soda/Coffee/Energy drink",
-      "x": 87,
+      "name": "Africa",
+      "x": 58,
       "y": 53,
       "promptOpen": false,
       "choiceMade": false,
       "answer": "Hinders",
-      "feedback": "Did you know your body is almost 60% water?  Did you know that caffeine is a diuretic that can help contribute to dehydration? Did you know that even a loss of 1.5% of your body’s needed balance of water can actually negatively affect the way you feel, respond and process information and even how you memory works? In the case study Luciana chugged some of her energy drink, hoping the kick of sugar and caffeine would help her focus, and it will, short term. The problem however, is that this is a temporary boost, and caffeine is a highly addictive stimulant, and over time it can take more and more of this stimulant to give your brain the same effect. So when possible, kick the caffeine and energy drinks to the curb!  A high protein snack, some water, and a quick walk around will help your body to focus much more effectively, and will keep you from experiencing the jittery up of the caffeine boost or the crash after the energy drink is metabolized by your body."
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "africa.png",
+             "id": "1"
+           },
+           {
+             "link": "africa.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about Africa",
+            "image": "placeholder.png",
+            "description": "This is a book about Africa"
+          },
+          {
+            "name": "Book about Africa 2",
+            "image": "placeholder.png",
+            "description": "This is a book about Africa"
+          }
+      ]
     },
     {
-      "name": "Clock",
-      "x": 34,
-      "y": 51.5,
+      "name": "East Asia",
+      "x": 82,
+      "y": 32,
       "promptOpen": false,
       "choiceMade": false,
-      "answer": "Both",
-      "feedback": "Some students find the clock to be intimidating, reminding you of how much time has passed, which, if you are making slow progress on a difficult subject or textbook, can make you feel like you are not being productive. On the other hand, a clock can be a very handy tool at helping you develop a rhythm of manageable chunks of time to study multiple subjects effectively.  Module 1 covered how to create a weekly study schedule, and a well-placed clock can help you stay on track in regards to your time studying, but also balancing the demands of your many classes and their assignments."
+      "answer": "Encourages",
+      "feedback": "",
+      "zoomImages": [
+           {
+             "link": "east-asia.png",
+             "id": "1"
+           },
+           {
+             "link": "east-asia.png",
+             "id": "2"
+           }
+      ],
+      "Books": [
+          {
+            "name": "Book about East Asia",
+            "image": "placeholder.png",
+            "description": "This is a book about East Asia"
+          },
+          {
+            "name": "Book about East Asia 2",
+            "image": "placeholder.png",
+            "description": "This is a book about East Asia"
+          }
+      ],
+      "Cities": [
+          {
+            "name": "Nagasaki",
+            "x": 10,
+            "y": 40, 
+            "marker": "city-star_small.png"
+          },
+          {
+            "name": "Hiroshima",
+            "x": 30,
+            "y": 70,
+            "marker": "city-star_small.png"
+          },
+          {
+            "name": "Kyoto",
+            "x": 18,
+            "y": 50,
+            "marker": "city-star_small.png"
+          },
+          {
+            "name": "Osaka",
+            "x": 92,
+            "y": 26,
+            "marker": "city-star.png"
+          },
+          {
+            "name": "Tokyo",
+            "x": 10,
+            "y": 600,
+            "marker": "city-star.png"
+          }
+      ]
     }
   ]
 }
