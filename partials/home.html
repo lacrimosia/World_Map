@@ -46,7 +46,7 @@
           </div>
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>
                 <div class="cityStars" ng-repeat="city in data.things[$parent.$index].Cities">
-                  <div class="stars" ng-style="{'bottom': city.y+'%', 'left': city.x+'%'}"><img ng-src="img/{{city.marker}}"/>   {{ city.name}} </div>
+                  <div class="stars" ng-style="{'top': city.y+'px', 'left': city.x+'px'}"><img ng-src="img/{{city.marker}}"/><span>{{ city.name }}</span></div>
                   </div>
              </div>
              <div class="Books col-md-4 col-sm-4 col-xs-4 col-lg-4">

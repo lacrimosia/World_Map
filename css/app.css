@@ -8,6 +8,10 @@ div.lightbox {
 	z-index: 999;
 }
 
+.container{
+	width: 900px !important;
+}
+
 div.lightbox-overlay {
 	cursor: pointer;
 	position: absolute;
@@ -236,9 +240,6 @@ div.popup.expanded {
 	/*width: 1170px;*/
 	width: 100%;
 	height: auto;
-	/*min-height: 580px;*/
-	height: auto;
-	cursor: pointer;
 	-webkit-transition: height .8s, width .8s;
     transition:  height .8s, width .8s;
     -ms-transform: none;
@@ -247,19 +248,24 @@ div.popup.expanded {
     z-index: 40;
     position: absolute;
     top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .bubbleText{
-	font-size: 210%;
+	font-size: 160%;
+	font-weight: bold !important;
 }
 
 .cityStars, .stars{
   position: relative !important;
+  height: 1rem;
+  width: 1rem;
 }
+
 
 .bubbleText2{
 	font-size: 130%;
+	font-weight: bold !important;
 }
 
 .returns{
@@ -272,8 +278,7 @@ div.popup.expanded {
 	
 	float: left;*/
 	position: relative !important;
-	border: 1px solid #000;
-	height: 600px;
+	/*height: 600px;*/
 }
 
 .cityStars{
@@ -286,7 +291,18 @@ div.popup.expanded {
 	padding: 0px 10px 10px 10px;
 	height: 505px;
 	float: right;*/
+	height: 400px;
 	overflow-y: auto;
+}
+
+.stars img{
+	vertical-align: text-top;
+}
+
+.stars span{
+	background: #ffffff;
+	padding: 3px;
+	font-size: 1em;
 }
 
 .returnButton{
