@@ -224,36 +224,30 @@
             "name": "Tokyo",
             "x": 480,
             "y": -290,
-            "marker": "city-star.png"
+            "marker": "city-star_small.png"
           },
           {
             "name": "Xian",
             "x": 230,
-            "y": -200,
+            "y": -225,
             "marker": "city-star_small.png"
           },
           {
             "name": "Beijing",
             "x": 275,
             "y": -275,
-            "marker": "city-star.png"
-          },
-          {
-            "name": "Beijing",
-            "x": 200,
-            "y": -150,
             "marker": "city-star_small.png"
           },
           {
             "name": "Shanghai",
-            "x": 250,
-            "y": -75,
+            "x": 310,
+            "y": -240,
             "marker": "city-star_small.png"
           },
           {
             "name": "Hong Kong",
-            "x": 175,
-            "y": -65,
+            "x": 300,
+            "y": -208,
             "marker": "city-star_small.png"
           }
       ]
