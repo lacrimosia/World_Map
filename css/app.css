@@ -212,8 +212,8 @@ div.popup {
 	/*width: 258px;*/
 	white-space: normal;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-	-webkit-transition: height .8s, width .8s;
-    transition:  height .8s, width .8s;
+	/*-webkit-transition: height .8s, width .8s;
+    transition:  height .8s, width .8s;*/
 	-ms-transform: translate(-50%, -140%);
 	-webkit-transform: translate(-50%, -140%);
 	transform: translate(-50%, -140%);
@@ -241,8 +241,8 @@ div.popup.expanded {
 	/*width: 1170px;*/
 	width: 100%;
 	height: auto;
-	-webkit-transition: height .8s, width .8s;
-    transition:  height .8s, width .8s;
+	/*-webkit-transition: height .8s, width .8s;
+    transition:  height .8s, width .8s;*/
     -ms-transform: none;
     -webkit-transform: none;
     transform: none;
