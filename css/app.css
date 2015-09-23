@@ -10,6 +10,9 @@ div.lightbox {
 
 .container{
 	width: 900px !important;
+	/*width: 100% !important;
+	min-width: 687px !important;
+	max-width: 900px !important;*/
 }
 
 div.lightbox-overlay {
@@ -291,7 +294,7 @@ div.popup.expanded {
 }
 
 .bubbleText2{
-	font-size: 130%;
+	font-size: 100%;
 	font-weight: bold !important;
 }
 

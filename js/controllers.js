@@ -42,7 +42,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
     $scope.openMe = function(size, myFullImage, titleName, info){
      $scope.ModelInstance = $modal.open({
-      animation: false,
+      animation: true,
       template: '<div class="modalBox"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
       size: size,
       scope: $scope

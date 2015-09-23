@@ -22,7 +22,7 @@
       <div class="popup" ng-class="{'expanded': thing.choiceMade}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
         <div> <!-- ng-if="!thing.choiceMade" -->
           <h4 ng-if="!thing.choiceMade" class="bubbleText visible-md visible-lg">{{thing.name}}</h4>
-          <h4 ng-if="!thing.choiceMade" class="bubbleText2 visible-sm visible-xs">{{thing.name}}</h4>
+          <h6 ng-if="!thing.choiceMade" class="bubbleText2 visible-sm visible-xs">{{thing.name}}</h6>
           <p>
             <!--<button class="pure-button encourage" ng-click="makeSelection(thing, 'Encourages')">Encourages</button>
             <button class="pure-button hinder" ng-click="makeSelection(thing, 'Hinders')">Hinders</button>-->
@@ -51,7 +51,7 @@
 
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
                   <!--default background-->
-                  <img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive thePast" ng-style="{'height':'100%', 'z-index': '10', 'position': 'absolute'}"/>
+                  <img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive thePast" ng-style="{'height': '100%', 'z-index': '10', 'position': 'absolute'}"/>
                   <!--country borders for present-->
                   <img ng-src="img/{{thing.zoomImages[1].link}}" class="img-responsive thePresent" ng-style="{'height':'100%', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
 
