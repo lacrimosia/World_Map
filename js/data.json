@@ -1,270 +1,284 @@
 {
-  "appTitle": "Eng 231 - Interactive Map",
-  "coursePrefix": "EGG",
-  "courseNumber": "231",
-  "intro": "Click on one of the regions to see a listing of books.",
-  "caseStudyLightbox": false,
-  "things": [
-    {
-    	"name": "Mesoamerica",
-    	"x": 28,
-    	"y": 43,
-    	"promptOpen": false,
-      "choiceMade": false,
-      "answer": "Hinders",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "mesoamerica.png",
-             "id": "1"
-           },
-           {
-             "link": "mesoamerica_lines.png",
-             "id": "2"
-           }
-      ],
-      "Books": [
-          {
-            "name": "Book about Mesoamerica",
-            "image": "placeholder.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget efficitur lacus. Aliquam vel odio at sapien faucibus faucibus ut id est. Vestibulum tristique aliquam pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nec velit quis risus pretium aliquet vel in libero. Maecenas placerat, nunc vel volutpat pellentesque, ligula mauris malesuada tortor, ac lobortis neque ante a augue. Curabitur lobortis, est at mollis posuere, ex orci finibus felis, sed fermentum nunc elit a justo. Vivamus vehicula aliquam tellus nec consequat."
-          },
-          {
-            "name": "Book about Mesoamerica 2",
-            "image": "placeholder.png",
-            "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
-          },
-          {
-            "name": "Book about Mesoamerica 3",
-            "image": "placeholder.png",
-            "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
-          }
-      ]
-    },
-    {
-    	"name": "Mediterranean",
-    	"x": 56,
-    	"y": 29,
-    	"promptOpen": false,
-      "choiceMade": false,
-      "answer": "Hinders",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "mediterranean.png",
-             "id": "1"
-           },
-           {
-             "link": "mesoamerica_lines.png",
-             "id": "2"
-           }
-      ],
-      "Books": [
-          {
-            "name": "Book about Mediterranean",
-            "image": "placeholder.png",
-            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
-          },
-          {
-            "name": "Book about Mediterranean 2",
-            "image": "placeholder.png",
-            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper."
-          }
-      ]
-    },
-    {
-    	"name": "Middle East",
-    	"x": 64,
-    	"y": 38,
-    	"promptOpen": false,
-      "choiceMade": false,
-      "answer": "Both",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "middle-east.png",
-             "id": "1"
-           },
-           {
-             "link": "middle-east_lines.png",
-             "id": "2"
-           }
-      ],
-      "Books": [
-          {
-            "name": "Book about Middle East",
-            "image": "placeholder.png",
-            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
-          },
-          {
-            "name": "Book about Middle East 2",
-            "image": "placeholder.png",
-            "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
-          }
-      ]
-    },
-    {
-      "name": "India",
-      "x": 73,
-      "y": 35,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Encourages",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "middle-east.png",
-             "id": "1"
-           },
-           {
-             "link": "middle-east_lines.png",
-             "id": "2"
-           }
-      ],
-      "Books": [
-          {
-            "name": "Book about India",
-            "image": "placeholder.png",
-            "description": "This is a book about India"
-          },
-          {
-            "name": "Book about India 2",
-            "image": "placeholder.png",
-            "description": "This is a book about India 2"
-          }
-      ]
-    },
-    {
-      "name": "Africa",
-      "x": 58,
-      "y": 53,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Hinders",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "africa.png",
-             "id": "1"
-           },
-           {
-             "link": "africa.png",
-             "id": "2"
-           }
-      ],
-      "Books": [
-          {
-            "name": "Book about Africa",
-            "image": "placeholder.png",
-            "description": "This is a book about Africa"
-          },
-          {
-            "name": "Book about Africa 2",
-            "image": "placeholder.png",
-            "description": "This is a book about Africa"
-          }
-      ]
-    },
-    {
-      "name": "East Asia",
-      "x": 82,
-      "y": 32,
-      "promptOpen": false,
-      "choiceMade": false,
-      "answer": "Encourages",
-      "feedback": "",
-      "zoomImages": [
-           {
-             "link": "east-asia.png",
-             "id": "1"
-           },
-           {
-             "link": "east-asia_lines.png",
-             "id": "2"
-           }
-      ],
-      "landmarks": [
-          {
-             "link": "east_asia/silk-road.png",
-             "top": 0,
-             "left": 15,
-             "fullSize": ""
-          },
-          {
-            "link": "east_asia/journey-to-the-west-path.svg",
-            "top": -115,
-            "left": 15,
-            "fullSize": "east_asia/journey-to-the-west-path_full.png"
-          }
-      ],
-      "Books": [
-          {
-            "name": "Book about East Asia",
-            "image": "placeholder.png",
-            "description": "This is a book about East Asia"
-          },
-          {
-            "name": "Book about East Asia 2",
-            "image": "placeholder.png",
-            "description": "This is a book about East Asia"
-          }
-      ],
-      "Cities": [
-          {
-            "name": "Nagasaki",
-            "x": 340,
-            "y": 275, 
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Hiroshima",
-            "x": 359,
-            "y": 244,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Kyoto",
-            "x": 410,
-            "y": 226,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Osaka",
-            "x": 405,
-            "y": 240,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Tokyo",
-            "x": 445,
-            "y": 200,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Xian",
-            "x": 175,
-            "y": 205,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Beijing",
-            "x": 230,
-            "y": 140,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Shanghai",
-            "x": 260,
-            "y": 218,
-            "marker": "city-star_small.png"
-          },
-          {
-            "name": "Hong Kong",
-            "x": 180,
-            "y": 307,
-            "marker": "city-star_small.png"
-          }
-      ]
-    }
-  ]
+    "appTitle": "Eng 231 - Interactive Map",
+    "coursePrefix": "EGG",
+    "courseNumber": "231",
+    "intro": "Click on one of the regions to see a listing of books.",
+    "caseStudyLightbox": false,
+    "things": [
+        {
+            "name": "Mesoamerica",
+            "x": 28,
+            "y": 43,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Hinders",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "mesoamerica.png",
+                    "id": "1"
+                },
+                {
+                    "link": "mesoamerica_lines.png",
+                    "id": "2"
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about Mesoamerica",
+                    "image": "placeholder.png",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget efficitur lacus. Aliquam vel odio at sapien faucibus faucibus ut id est. Vestibulum tristique aliquam pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nec velit quis risus pretium aliquet vel in libero. Maecenas placerat, nunc vel volutpat pellentesque, ligula mauris malesuada tortor, ac lobortis neque ante a augue. Curabitur lobortis, est at mollis posuere, ex orci finibus felis, sed fermentum nunc elit a justo. Vivamus vehicula aliquam tellus nec consequat."
+                },
+                {
+                    "name": "Book about Mesoamerica 2",
+                    "image": "placeholder.png",
+                    "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+                },
+                {
+                    "name": "Book about Mesoamerica 3",
+                    "image": "placeholder.png",
+                    "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+                }
+            ]
+        },
+        {
+            "name": "Mediterranean",
+            "x": 56,
+            "y": 29,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Hinders",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "mediterranean.png",
+                    "id": "1"
+                },
+                {
+                    "link": "mesoamerica_lines.png",
+                    "id": "2"
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about Mediterranean",
+                    "image": "placeholder.png",
+                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                },
+                {
+                    "name": "Book about Mediterranean 2",
+                    "image": "placeholder.png",
+                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper."
+                }
+            ]
+        },
+        {
+            "name": "Middle East",
+            "x": 64,
+            "y": 38,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Both",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "middle-east.png",
+                    "id": "1"
+                },
+                {
+                    "link": "middle-east_lines.png",
+                    "id": "2"
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about Middle East",
+                    "image": "placeholder.png",
+                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                },
+                {
+                    "name": "Book about Middle East 2",
+                    "image": "placeholder.png",
+                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                }
+            ]
+        },
+        {
+            "name": "India",
+            "x": 73,
+            "y": 35,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Encourages",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "middle-east.png",
+                    "id": "1"
+                },
+                {
+                    "link": "middle-east_lines.png",
+                    "id": "2"
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about India",
+                    "image": "placeholder.png",
+                    "description": "This is a book about India"
+                },
+                {
+                    "name": "Book about India 2",
+                    "image": "placeholder.png",
+                    "description": "This is a book about India 2"
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "x": 58,
+            "y": 53,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Hinders",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "africa.png",
+                    "id": "1"
+                },
+                {
+                    "link": "africa.png",
+                    "id": "2"
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about Africa",
+                    "image": "placeholder.png",
+                    "description": "This is a book about Africa"
+                },
+                {
+                    "name": "Book about Africa 2",
+                    "image": "placeholder.png",
+                    "description": "This is a book about Africa"
+                }
+            ]
+        },
+        {
+            "name": "East Asia",
+            "x": 82,
+            "y": 32,
+            "promptOpen": false,
+            "choiceMade": false,
+            "answer": "Encourages",
+            "feedback": "",
+            "zoomImages": [
+                {
+                    "link": "east-asia.png",
+                    "id": "1"
+                },
+                {
+                    "link": "east-asia_lines.png",
+                    "id": "2"
+                }
+            ],
+            "landmarks": [
+                {
+                    "link": "east_asia/silk-road.png",
+                    "top": 0,
+                    "left": 15,
+                    "fullSize": "east_asia/full-silk-road.png",
+                    "landmarkImage": {
+                        "title": "The Silk Road",
+                        "info": "Information about the Silk Road here.",
+                        "image": "city-star.png",
+                        "top": 200,
+                        "left": 50
+                    }
+                },
+                {
+                    "link": "east_asia/journey-to-the-west-path.svg",
+                    "top": 0,
+                    "left": 15,
+                    "fullSize": "east_asia/journey-to-the-west-path_full2.png",
+                    "landmarkImage": {
+                        "title": "Journey to the West Path",
+                        "info": "Information about Journey of the west goes here.",
+                        "image": "city-star.png",
+                        "top": 150,
+                        "left": 50
+                    }
+                }
+            ],
+            "Books": [
+                {
+                    "name": "Book about East Asia",
+                    "image": "placeholder.png",
+                    "description": "This is a book about East Asia"
+                },
+                {
+                    "name": "Book about East Asia 2",
+                    "image": "placeholder.png",
+                    "description": "This is a book about East Asia"
+                }
+            ],
+            "Cities": [
+                {
+                    "name": "Nagasaki",
+                    "x": 340,
+                    "y": 275,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Hiroshima",
+                    "x": 359,
+                    "y": 244,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Kyoto",
+                    "x": 410,
+                    "y": 226,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Osaka",
+                    "x": 405,
+                    "y": 240,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Tokyo",
+                    "x": 445,
+                    "y": 200,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Xian",
+                    "x": 175,
+                    "y": 205,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Beijing",
+                    "x": 230,
+                    "y": 140,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Shanghai",
+                    "x": 260,
+                    "y": 218,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Hong Kong",
+                    "x": 180,
+                    "y": 307,
+                    "marker": "city-star_small.png"
+                }
+            ]
+        }
+    ]
 }

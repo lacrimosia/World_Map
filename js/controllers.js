@@ -28,15 +28,30 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
   })
 
-  .controller('HomeCtrl', function($scope, $http) {
+  .controller('HomeCtrl', function($scope, $http, $modal) {
 
      $scope.oneAtATime = true;
      $scope.change = true;
      $scope.change1 = false;
+     $scope.theTitle = "";
+     $scope.theDescription = "";
 
     $scope.toggleLightbox = function() {
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
     }
+
+    $scope.openMe = function(size, myFullImage, titleName, info){
+     $scope.ModelInstance = $modal.open({
+      animation: false,
+      template: '<div class="modalBox"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive"/></div>',
+      size: size,
+      scope: $scope
+      });
+    };
+
+    $scope.ok = function () {
+        $scope.ModelInstance.close();
+    };
 
     $scope.prompt = function(index) {
       $scope.data.things.forEach(function(thing) {

@@ -277,6 +277,14 @@ div.popup.expanded {
 	color: #f1f1f1 !important;
 }
 
+.landmarksImage:hover{
+  opacity: 0.8;
+}
+
+.modalBox{
+	padding: 15px;
+}
+
 .twoButtons{
 
   z-index: 29;
@@ -359,8 +367,8 @@ div.popup.expanded {
 }
 
 .imageDesc{
-	min-height: 125px;
-	height: auto;
+	min-height: 40px;
+	height: 75px !important;
 }
 
 .area{

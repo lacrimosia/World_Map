@@ -45,6 +45,8 @@
       </div>
           </div>
 
+
+
          <!-- <div class="past col-md-8 col-sm-8 col-xs-8 col-lg-8" ng-style="{'background':'url(img/{{thing.zoomImages[1].link}}) no-repeat', 'background-size':'100% 100%', 'z-index': '3', 'position': 'relative !important', 'top': '500px'}"></div>-->
 
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
@@ -56,8 +58,12 @@
                   <!-- Landmarks for the places in the past -->
                   <img ng-src="img/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'100%', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px'}" ng-repeat="places in data.things[$parent.$index].landmarks" ng-if="change==false"/>
 
+                  <!--stars to click on for landmark images-->
+                   <img ng-src="img/{{marker.landmarkImage.image}}" class="landmarksImage" ng-style="{'z-index': '13', 'position': 'absolute', 'top': marker.landmarkImage.top+'px', 'left': marker.landmarkImage.left+'px'}" ng-repeat="marker in data.things[$parent.$index].landmarks" ng-if="change==false" ng-click="openMe('lg', marker.fullSize, marker.landmarkImage.title, marker.landmarkImage.info)" tooltip="{{marker.landmarkImage.title}}"/>
+
+
                 <div class="cityStars" ng-style="{'z-index': '15'}">
-                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15'}"><p><span>{{ city.name }}</span><img ng-src="img/{{city.marker}}" tooltip="{{city.name}}" /></p></div>
+                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15'}"><p><span>{{ city.name }}</span><img ng-src="img/{{city.marker}}" tooltip="{{city.name}}"/></p></div>
                   </div>
                   <div class="col-sm-6 twoButtons">
                     <div class="btn-group">
