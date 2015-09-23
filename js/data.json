@@ -183,6 +183,13 @@
              "id": "2"
            }
       ],
+      "landmarks": [
+          {
+             "link": "east_asia/silk-road.png",
+             "top": 0,
+             "left": 50
+          }
+      ],
       "Books": [
           {
             "name": "Book about East Asia",
