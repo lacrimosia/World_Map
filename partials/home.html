@@ -44,11 +44,22 @@
       <button class="btn btn-danger btn-sm pull-right visible-sm visible-xs hidden-md hidden-lg" ng-click="thing.choiceMade = false"><i class="fa fa-question"></i> Help</button>
       </div>
           </div>
-             <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8" ng-style="{'background':'url(img/{{thing.zoomImages[0].link}}) no-repeat', 'background-size':'100% 100%'}"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
+
+         <!-- <div class="past col-md-8 col-sm-8 col-xs-8 col-lg-8" ng-style="{'background':'url(img/{{thing.zoomImages[1].link}}) no-repeat', 'background-size':'100% 100%', 'z-index': '3', 'position': 'relative !important', 'top': '500px'}"></div>-->
+
+             <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
+                  <img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive" ng-style="{'height':'100%', 'z-index': '10', 'position': 'absolute'}"/>
+                  <img ng-src="img/{{thing.zoomImages[1].link}}" class="img-responsive" ng-style="{'height':'100%', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
+
                 <div class="cityStars">
-                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px'}"><p><span>{{ city.name }}</span><img ng-src="img/{{city.marker}}"  popover="HELLO" popover-title="HELLO" /></p></div>
+                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px'}"><p><span>{{ city.name }}</span><img ng-src="img/{{city.marker}}" tooltip="{{city.name}}" /></p></div>
                   </div>
-                  <div class="col-sm-4"></div>
+                  <div class="col-sm-6 twoButtons">
+                    <div class="btn-group">
+                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Past" ng-click="change1=true; change=false" ng-class="{'activeButton': change1==true, 'deactiveButton': change1==false}">Past</label>
+                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Present" ng-click="change=true; change1=false;" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}">Present</label>
+                     </div>
+                  </div>
              </div>
              <div class="Books col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <accordion close-others="oneAtATime" class="visible-md visible-lg">

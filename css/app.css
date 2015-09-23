@@ -265,6 +265,22 @@ div.popup.expanded {
   height: 10px;
 }
 
+.activeButton{
+	background: #FFC91E !important;
+	border: none !important;
+	color: #000 !important;
+}
+
+.deactiveButton{
+	background: #000 !important;
+	border: none !important;
+	color: #f1f1f1 !important;
+}
+
+.twoButtons{
+
+  z-index: 29;
+}
 
 .bubbleText2{
 	font-size: 130%;
@@ -284,8 +300,10 @@ div.popup.expanded {
 	height: 500px;
 }
 
+
 .cityStars{
 	position: relative;
+	z-index: 10;
 }
 
 .Books{

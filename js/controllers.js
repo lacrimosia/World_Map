@@ -31,6 +31,8 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
   .controller('HomeCtrl', function($scope, $http) {
 
      $scope.oneAtATime = true;
+     $scope.change = true;
+     $scope.change1 = false;
 
     $scope.toggleLightbox = function() {
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
