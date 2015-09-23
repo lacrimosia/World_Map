@@ -187,7 +187,14 @@
           {
              "link": "east_asia/silk-road.png",
              "top": 0,
-             "left": 50
+             "left": 15,
+             "fullSize": ""
+          },
+          {
+            "link": "east_asia/journey-to-the-west-path.svg",
+            "top": -115,
+            "left": 15,
+            "fullSize": "east_asia/journey-to-the-west-path_full.png"
           }
       ],
       "Books": [
