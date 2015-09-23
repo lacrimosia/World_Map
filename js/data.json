@@ -209,6 +209,32 @@
                         "top": 150,
                         "left": 50
                     }
+                },
+                {
+                    "link": "east_asia/yellow-river.svg",
+                    "top": -50,
+                    "left": 15,
+                    "fullSize": "No Image",
+                    "landmarkImage": {
+                        "title": "The Yellow River",
+                        "info": "Information about Journey of the Yellow River here.",
+                        "image": "city-star.png",
+                        "top": 85,
+                        "left": 290
+                    }
+                },
+                {
+                    "link": "east_asia/yangtze-river.png",
+                    "top": 0,
+                    "left": 15,
+                    "fullSize": "No Image",
+                    "landmarkImage": {
+                        "title": "The Yangtze River",
+                        "info": "Information about Journey of the Yangtze River here.",
+                        "image": "city-star.png",
+                        "top": 290,
+                        "left": 210
+                    }
                 }
             ],
             "Books": [
