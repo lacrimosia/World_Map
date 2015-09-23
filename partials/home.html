@@ -46,8 +46,9 @@
           </div>
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8" ng-style="{'background':'url(img/{{thing.zoomImages[0].link}}) no-repeat', 'background-size':'100% 100%'}"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
                 <div class="cityStars">
-                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px'}"><img ng-src="img/{{city.marker}}" tooltip="{{city.name}}" /><span>{{ city.name }}</span><p></p></div>
+                  <div class="stars" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px'}"><p><span>{{ city.name }}</span><img ng-src="img/{{city.marker}}"  popover="HELLO" popover-title="HELLO" /></p></div>
                   </div>
+                  <div class="col-sm-4"></div>
              </div>
              <div class="Books col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <accordion close-others="oneAtATime" class="visible-md visible-lg">

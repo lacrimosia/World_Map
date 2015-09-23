@@ -198,56 +198,56 @@
       "Cities": [
           {
             "name": "Nagasaki",
-            "x": 380,
-            "y": -180, 
+            "x": 340,
+            "y": 275, 
             "marker": "city-star_small.png"
           },
           {
             "name": "Hiroshima",
-            "x": 400,
-            "y": -200,
+            "x": 359,
+            "y": 244,
             "marker": "city-star_small.png"
           },
           {
             "name": "Kyoto",
-            "x": 455,
-            "y": -240,
+            "x": 410,
+            "y": 226,
             "marker": "city-star_small.png"
           },
           {
             "name": "Osaka",
-            "x": 430,
-            "y": -230,
+            "x": 405,
+            "y": 240,
             "marker": "city-star_small.png"
           },
           {
             "name": "Tokyo",
-            "x": 480,
-            "y": -290,
+            "x": 445,
+            "y": 200,
             "marker": "city-star_small.png"
           },
           {
             "name": "Xian",
-            "x": 230,
-            "y": -225,
+            "x": 175,
+            "y": 205,
             "marker": "city-star_small.png"
           },
           {
             "name": "Beijing",
-            "x": 275,
-            "y": -275,
+            "x": 230,
+            "y": 140,
             "marker": "city-star_small.png"
           },
           {
             "name": "Shanghai",
-            "x": 310,
-            "y": -240,
+            "x": 260,
+            "y": 218,
             "marker": "city-star_small.png"
           },
           {
             "name": "Hong Kong",
-            "x": 300,
-            "y": -208,
+            "x": 180,
+            "y": 307,
             "marker": "city-star_small.png"
           }
       ]
