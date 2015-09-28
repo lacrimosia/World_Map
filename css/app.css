@@ -2,6 +2,7 @@
 
 body{
 	margin-top: 50px !important;
+	background: #F7F7F7 !important;
 }
 
 div.lightbox {
@@ -323,7 +324,7 @@ div.popup.expanded {
 	padding: 0px 10px 10px 10px;
 	height: 505px;
 	float: right;*/
-	height: 400px;
+	height: 315px;
 	overflow-y: auto;
 }
 

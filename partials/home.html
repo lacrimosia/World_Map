@@ -19,7 +19,7 @@
   <div class="pure-g">
     <div class="pure-u-1 background">
       <div class="invisible-clear-button" ng-click="clearAll()"></div>
-      <div class="popup" ng-class="{'expanded': thing.choiceMade}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
+      <div class="popup" ng-class="{'expanded': thing.choiceMade, 'animated': clicked==true, 'fadeIn': clicked==true}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
         <div> <!-- ng-if="!thing.choiceMade" -->
           <h4 ng-if="!thing.choiceMade" class="bubbleText visible-md visible-lg">{{thing.name}}</h4>
           <h6 ng-if="!thing.choiceMade" class="bubbleText2 visible-sm visible-xs">{{thing.name}}</h6>
@@ -37,7 +37,7 @@
        <h1 class="pull-left visible-md visible-lg">{{thing.name}} - Region</h1>
        <h3 class="pull-left hidden-md hidden-lg">{{thing.name}} - Region</h3>
        <div class="form-inline">
-            <button class="btn btn-danger btn-md pull-right hidden-sm hidden-xs" ng-click="thing.choiceMade = false"><i class="fa fa-times"></i></button>
+            <button class="btn btn-danger btn-md pull-right hidden-sm hidden-xs" ng-click="thing.choiceMade = false; unCheck();"><i class="fa fa-times"></i></button>
             <button class="btn btn-danger btn-sm pull-right visible-sm" ng-click="thing.choiceMade = false"><i class="fa fa-times"></i></button>
             <!--thing.choiceMade = false-->
             <button class="btn btn-danger btn-md pull-right hidden-sm hidden-cs visible-md visible-lg" ng-click="thing.choiceMade = false"><i class="fa fa-question"></i> Help</button>
@@ -71,6 +71,9 @@
                       <label class="btn btn-default" ng-model="radioModel" btn-radio="Present" ng-click="change=true; change1=false;" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}">Present</label>
                      </div>
                   </div>
+             </div>
+             <div class="repImage col-md-4 col-sm-4 col-xs-4 col-lg-4">
+               <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
              </div>
              <div class="Books col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <accordion close-others="oneAtATime" class="visible-md visible-lg">

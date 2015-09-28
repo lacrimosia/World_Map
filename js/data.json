@@ -7,6 +7,7 @@
     "things": [
         {
             "name": "Mesoamerica",
+            "repImage": "",
             "x": 28,
             "y": 43,
             "promptOpen": false,
@@ -43,6 +44,7 @@
         },
         {
             "name": "Mediterranean",
+            "repImage": "",
             "x": 56,
             "y": 29,
             "promptOpen": false,
@@ -74,6 +76,7 @@
         },
         {
             "name": "Middle East",
+            "repImage": "",
             "x": 64,
             "y": 38,
             "promptOpen": false,
@@ -105,6 +108,7 @@
         },
         {
             "name": "India",
+            "repImage": "",
             "x": 73,
             "y": 35,
             "promptOpen": false,
@@ -136,6 +140,7 @@
         },
         {
             "name": "Africa",
+            "repImage": "",
             "x": 58,
             "y": 53,
             "promptOpen": false,
@@ -167,6 +172,7 @@
         },
         {
             "name": "East Asia",
+            "repImage": "buddha.png",
             "x": 82,
             "y": 32,
             "promptOpen": false,

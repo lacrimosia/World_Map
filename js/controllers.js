@@ -35,6 +35,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
      $scope.change1 = false;
      $scope.theTitle = "";
      $scope.theDescription = "";
+     $scope.clicked = false;
 
     $scope.toggleLightbox = function() {
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
@@ -51,6 +52,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
     $scope.ok = function () {
         $scope.ModelInstance.close();
+        $scope.clicked = true;
     };
 
     $scope.prompt = function(index) {
@@ -90,6 +92,13 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
     $scope.makeSelection = function(thing, selection) {
       thing.selection = selection;
       thing.choiceMade = true;
+      $scope.clicked = true;
+       console.log($scope.clicked);
     }
+
+    $scope.unCheck = function(){
+       $scope.clicked=false;
+       console.log($scope.clicked);
+    };
 
   });
