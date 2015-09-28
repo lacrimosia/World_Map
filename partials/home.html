@@ -53,10 +53,10 @@
                   <!--default background-->
                   <img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive thePast" ng-style="{'height': '100%', 'z-index': '10', 'position': 'absolute'}"/>
                   <!--country borders for present-->
-                  <img ng-src="img/{{thing.zoomImages[1].link}}" class="img-responsive thePresent" ng-style="{'height':'100%', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
+                  <img ng-src="img/country_borders/{{thing.zoomImages[1].link}}" class="img-responsive thePresent" ng-style="{'height':'100%', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
 
                   <!-- Landmarks for the places in the past -->
-                  <img ng-src="img/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'100%', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px'}" ng-repeat="places in data.things[$parent.$index].landmarks" ng-if="change==false"/>
+                  <img ng-src="img/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'100%', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height+'%'}" ng-repeat="places in data.things[$parent.$index].landmarks" ng-if="change==false"/>
 
                   <!--stars to click on for landmark images-->
                    <img ng-src="img/{{marker.landmarkImage.image}}" class="landmarksImage" ng-style="{'z-index': '13', 'position': 'absolute', 'top': marker.landmarkImage.top+'px', 'left': marker.landmarkImage.left+'px'}" ng-repeat="marker in data.things[$parent.$index].landmarks" ng-if="change==false" ng-click="openMe('lg', marker.fullSize, marker.landmarkImage.title, marker.landmarkImage.info)" tooltip="{{marker.landmarkImage.title}}" tooltip-placement="right"/>
@@ -67,8 +67,8 @@
                   </div>
                   <div class="col-sm-6 twoButtons">
                     <div class="btn-group">
-                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Past" ng-click="change1=true; change=false" ng-class="{'activeButton': change1==true, 'deactiveButton': change1==false}" tooltip="View the Past" tooltip-placement="top">Past</label>
-                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Present" ng-click="change=true; change1=false;" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}" tooltip="View the Present" tooltip-placement="top">Present</label>
+                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Past" ng-click="change1=true; change=false" ng-class="{'activeButton': change1==true, 'deactiveButton': change1==false}">Past</label>
+                      <label class="btn btn-default" ng-model="radioModel" btn-radio="Present" ng-click="change=true; change1=false;" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}">Present</label>
                      </div>
                   </div>
              </div>

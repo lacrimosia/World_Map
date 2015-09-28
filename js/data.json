@@ -179,7 +179,7 @@
                     "id": "1"
                 },
                 {
-                    "link": "east-asia_lines.png",
+                    "link": "east-asia_lines_2.png",
                     "id": "2"
                 }
             ],
@@ -188,52 +188,59 @@
                     "link": "east_asia/silk-road.png",
                     "top": 0,
                     "left": 15,
+                    "height": 100,
                     "fullSize": "east_asia/full-silk-road.png",
                     "landmarkImage": {
                         "title": "The Silk Road",
                         "info": "Information about the Silk Road here.",
-                        "image": "city-star.png",
+                        "image": "circle_button.svg",
                         "top": 200,
-                        "left": 50
+                        "left": 50, 
+                        "height": 100
                     }
                 },
                 {
                     "link": "east_asia/journey-to-the-west-path.svg",
                     "top": 0,
                     "left": 15,
+                    "height": 100,
                     "fullSize": "east_asia/journey-to-the-west-path_full2.png",
                     "landmarkImage": {
                         "title": "Journey to the West Path",
                         "info": "Information about Journey of the west goes here.",
-                        "image": "city-star.png",
-                        "top": 150,
-                        "left": 50
+                        "image": "circle_button.svg",
+                        "top": 165,
+                        "left": 50,
+                        "height": 100
                     }
                 },
                 {
                     "link": "east_asia/yellow-river.svg",
-                    "top": -50,
-                    "left": 15,
+                    "top": 201,
+                    "left": 119,
+                    "height": 14,
                     "fullSize": "No Image",
                     "landmarkImage": {
                         "title": "The Yellow River",
                         "info": "Information about Journey of the Yellow River here.",
-                        "image": "city-star.png",
-                        "top": 85,
-                        "left": 290
+                        "image": "circle_button.svg",
+                        "top": 200,
+                        "left": 205                    
                     }
                 },
                 {
                     "link": "east_asia/yangtze-river.png",
                     "top": 0,
                     "left": 15,
+                    "height": 100,
                     "fullSize": "No Image",
                     "landmarkImage": {
                         "title": "The Yangtze River",
                         "info": "Information about Journey of the Yangtze River here.",
-                        "image": "city-star.png",
-                        "top": 290,
-                        "left": 210
+                        "image": "circle_button.svg",
+                        "top": 303,
+                        "left": 210,
+                        "height": 100
                     }
                 }
             ],
@@ -252,55 +259,55 @@
             "Cities": [
                 {
                     "name": "Nagasaki",
-                    "x": 340,
+                    "x": 353,
                     "y": 275,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Hiroshima",
-                    "x": 359,
+                    "x": 368,
                     "y": 244,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Kyoto",
-                    "x": 410,
+                    "x": 428,
                     "y": 226,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Osaka",
-                    "x": 405,
+                    "x": 425,
                     "y": 240,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Tokyo",
-                    "x": 445,
+                    "x": 460,
                     "y": 200,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Xian",
-                    "x": 175,
+                    "x": 195,
                     "y": 205,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Beijing",
-                    "x": 230,
+                    "x": 245,
                     "y": 140,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Shanghai",
-                    "x": 260,
+                    "x": 275,
                     "y": 218,
                     "marker": "city-star_small.png"
                 },
                 {
                     "name": "Hong Kong",
-                    "x": 180,
+                    "x": 190,
                     "y": 307,
                     "marker": "city-star_small.png"
                 }
