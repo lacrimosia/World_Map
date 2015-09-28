@@ -260,6 +260,16 @@
                     "name": "Book about East Asia 2",
                     "image": "placeholder.png",
                     "description": "This is a book about East Asia"
+                },
+                {
+                    "name": "Book about East Asia 3",
+                    "image": "placeholder.png",
+                    "description": "This is a book about East Asia"
+                },
+                {
+                    "name": "Book about East Asia 4",
+                    "image": "placeholder.png",
+                    "description": "This is a book about East Asia"
                 }
             ],
             "Cities": [
