@@ -7,7 +7,7 @@
     "things": [
         {
             "name": "Mesoamerica",
-            "repImage": "",
+            "repImage": "mesoamerica/maya_calendar.png",
             "x": 28,
             "y": 43,
             "promptOpen": false,
@@ -39,6 +39,26 @@
                     "name": "Book about Mesoamerica 3",
                     "image": "placeholder.png",
                     "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+                }
+            ],
+            "Cities": [
+                {
+                    "name": "Mayapan",
+                    "x": 216,
+                    "y": 89,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Chichen Itza",
+                    "x": 210,
+                    "y": 65,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Tikal",
+                    "x": 220,
+                    "y": 136,
+                    "marker": "city-star_small.png"
                 }
             ]
         },
@@ -117,11 +137,11 @@
             "feedback": "",
             "zoomImages": [
                 {
-                    "link": "middle-east.png",
+                    "link": "south-asia.png",
                     "id": "1"
                 },
                 {
-                    "link": "middle-east_lines.png",
+                    "link": "south-asia_lines.png",
                     "id": "2"
                 }
             ],
@@ -153,7 +173,7 @@
                     "id": "1"
                 },
                 {
-                    "link": "africa.png",
+                    "link": "africa_lines.png",
                     "id": "2"
                 }
             ],
@@ -167,6 +187,20 @@
                     "name": "Book about Africa 2",
                     "image": "placeholder.png",
                     "description": "This is a book about Africa"
+                }
+            ],
+            "Cities": [
+                {
+                    "name": "Aksum",
+                    "x": 235,
+                    "y": 130,
+                    "marker": "city-star_small.png"
+                },
+                {
+                    "name": "Addis Ababa",
+                    "x": 210,
+                    "y": 250,
+                    "marker": "city-star_small.png"
                 }
             ]
         },
