@@ -28,7 +28,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
   })
 
-  .controller('HomeCtrl', function($scope, $http, $modal, Book, Data) {
+  .controller('HomeCtrl', function($scope, $http, $modal, Popup, Data, ModalBox, Position, GetMyLocation) {
      
 
      Data.success(function(data) {
@@ -41,23 +41,19 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
      $scope.theTitle = "";
      $scope.theDescription = "";
      $scope.clicked = false;
+     GetMyLocation.what();
 
     $scope.toggleLightbox = function() {
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
     }
 
-    $scope.openMe = function(size, myFullImage, titleName, info){
-     $scope.ModelInstance = $modal.open({
-      animation: true,
-      template: '<div class="modalBox"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
-      size: size,
-      scope: $scope
-      });
+    $scope.openMe = function(){
+       ModalBox.OpenDiv(size, myFullImage, titleName, info);
     };
 
     $scope.ok = function () {
         $scope.ModelInstance.close();
-        $scope.clicked = true;
+         Popup.CloseMe('$scope.clicked');
     };
 
     $scope.prompt = function(index) {
@@ -65,9 +61,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
         thing.promptOpen = true;
       });
       var thing = $scope.data.things[index];
-
-      // alert(thing.Books[index].name);
-      thing.promptOpen = true;
+      Popup.OpenMe('thing.promptOpen');
     }
 
     $scope.clearAll = function() {
@@ -78,7 +72,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
     $scope.closePopup = function(thing) {
       if (thing.choiceMade) {
-        thing.promptOpen = false;
+        Popup.CloseMe('thing.promptOpen');
       }
     }
 
@@ -86,25 +80,22 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
       if (thing.choiceMade) {
         return;
       } else {
-        return {'top': thing.y + '%', 'left': thing.x + '%'};
+        return {'top': Position.getY(thing.y) + '%', 'left': Position.getX(thing.x) + '%'};
       }
     }
 
     $scope.pointStyle = function(thing) {
-      return {'top': thing.y + '%', 'left': thing.x + '%'};
+      return {'top': Position.getY(thing.y) + '%', 'left': Position.getX(thing.x) + '%'};
     }
 
     $scope.makeSelection = function(thing, selection) {
       thing.selection = selection;
       thing.choiceMade = true;
       $scope.clicked = true;
-       console.log($scope.clicked);
-       console.log(Book.popUpTitle($scope.data));
     }
 
     $scope.unCheck = function(){
-       $scope.clicked=false;
-       console.log($scope.clicked);
+       Popup.CloseMe('$scope.clicked');
     };
 
   });

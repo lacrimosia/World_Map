@@ -8,14 +8,47 @@ angular.module('myApp.services', [])
 
   }])
 
-  .service('Book', function(){
+  .factory('Popup', function(){
+      return{
+          CloseMe: function(name){
+             name = false;
+          },
 
-  	     
-         this.regionName = function(names){
-  			      return names;
-  		         };
+          OpenMe: function(name){
+             name = true;
+          }
+      }  
+  })
 
-  		 this.popUpTitle = function(theText){
-  		   		return theText;
-  		   };
+  .factory('ModalBox', function(){
+     return{
+      openDiv: function(size, myFullImage, titleName, info){
+        $scope.ModelInstance = $modal.open({
+         animation: true,
+         template: '<div class="modalBox"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
+         size: size,
+        scope: $scope
+       });
+      }   
+     }
+  })
+
+  .factory('Position', function(){
+    return{
+      getX: function(xval){
+         return xval;
+      },
+      getY: function(yval){
+         return yval;
+      }
+    }
+  })
+
+  .factory('GetMyLocation', function($rootScope){
+     return{
+        what: function(){
+          console.log($rootScope);
+          return $rootScope;
+        }
+     }
   });
