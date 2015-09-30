@@ -3,17 +3,12 @@
     "coursePrefix": "ENG",
     "courseNumber": "231",
     "intro": "Click on one of the regions to see a listing of books.",
-    "caseStudyLightbox": false,
     "things": [
         {
             "name": "Mesoamerica",
-            "repImage": "",
-            "x": 28,
-            "y": 43,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Hinders",
-            "feedback": "",
+            "x": 220,
+            "y": 220,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "mesoamerica.png",
@@ -45,12 +40,9 @@
         {
             "name": "Mediterranean",
             "repImage": "",
-            "x": 56,
-            "y": 29,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Hinders",
-            "feedback": "",
+            "x": 550,
+            "y": 160,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "mediterranean.png",
@@ -77,12 +69,9 @@
         {
             "name": "Middle East",
             "repImage": "",
-            "x": 64,
-            "y": 38,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Both",
-            "feedback": "",
+            "x": 650,
+            "y": 200,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "middle-east.png",
@@ -109,12 +98,9 @@
         {
             "name": "India",
             "repImage": "",
-            "x": 73,
-            "y": 35,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Encourages",
-            "feedback": "",
+            "x": 790,
+            "y": 215,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "middle-east.png",
@@ -141,12 +127,9 @@
         {
             "name": "Africa",
             "repImage": "",
-            "x": 58,
-            "y": 53,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Hinders",
-            "feedback": "",
+            "x": 610,
+            "y": 250,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "africa.png",
@@ -173,12 +156,9 @@
         {
             "name": "East Asia",
             "repImage": "buddha.png",
-            "x": 82,
-            "y": 32,
-            "promptOpen": false,
-            "choiceMade": false,
-            "answer": "Encourages",
-            "feedback": "",
+            "x": 895,
+            "y": 195,
+            "opened": false,
             "zoomImages": [
                 {
                     "link": "east-asia.png",
