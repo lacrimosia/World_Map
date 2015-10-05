@@ -44,24 +44,24 @@
             "Cities": [
                 {
                     "name": "Mayapan",
-                    "x": 216,
-                    "y": 89,
+                    "x": 185,
+                    "y": 60,
                     "marker": "city-star_small.png",
                     "placement": "left"
                 },
                 {
                     "name": "Chichen Itza",
-                    "x": 210,
-                    "y": 65,
+                    "x": 198,
+                    "y": 30,
                     "marker": "city-star_small.png",
-                    "placement": "left"
+                    "placement": "right"
                 },
                 {
                     "name": "Tikal",
-                    "x": 220,
-                    "y": 136,
+                    "x": 175,
+                    "y": 60,
                     "marker": "city-star_small.png",
-                    "placement": "left"
+                    "placement": "right"
                 }
             ]
         },
