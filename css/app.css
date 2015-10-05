@@ -343,8 +343,12 @@ button.stars{
 
 }
 
-.popover.left, .popover.top, .popover.right, .popover.bottom{
+.popover.left, .popover.right{
 	margin: 0 !important;
+}
+
+.popover.top, .popover.bottom{
+	margin: 1 !important;
 }
 
 .fa-star, .fa-map-marker{
@@ -387,8 +391,15 @@ button.stars{
 }
 
 /*popover changes */
-.popover{
+.popover-content{
 	font-size: 11px !important;
+	padding: 3px 8px !important;
+	/*background: #000 !important;*/
+	color: #000 !important;
+}
+
+div.arrow{
+
 }
 
 .imageBox{

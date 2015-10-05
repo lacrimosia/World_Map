@@ -80,7 +80,7 @@
                     "id": "1"
                 },
                 {
-                    "link": "mesoamerica_lines.png",
+                    "link": "mediterranean_lines.png",
                     "id": "2"
                 }
             ],
@@ -328,7 +328,7 @@
                     "x": 322,
                     "y": 143,
                     "marker": "city-star_small.png",
-                    "placement": "top"
+                    "placement": "left"
                 },
                 {
                     "name": "Kyoto",
