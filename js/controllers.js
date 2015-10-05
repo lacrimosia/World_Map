@@ -37,6 +37,14 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
      $scope.theDescription = "";
      $scope.clicked = false;
 
+
+      $scope.dynamicPopover = {
+    content: 'Hello, World!',
+    templateUrl: 'myPopoverTemplate.html',
+    title: 'Title'
+  };
+
+
     $scope.toggleLightbox = function() {
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
     }

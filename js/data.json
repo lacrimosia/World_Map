@@ -64,7 +64,7 @@
         },
         {
             "name": "Mediterranean",
-            "repImage": "",
+            "repImage": "parthenon",
             "x": 56,
             "y": 29,
             "promptOpen": false,
@@ -160,7 +160,7 @@
         },
         {
             "name": "Africa",
-            "repImage": "",
+            "repImage": "kebra_nagast.png",
             "x": 58,
             "y": 53,
             "promptOpen": false,
@@ -309,57 +309,66 @@
             "Cities": [
                 {
                     "name": "Nagasaki",
-                    "x": 353,
-                    "y": 275,
-                    "marker": "city-star_small.png"
+                    "x": 250,
+                    "y": 175,
+                    "marker": "city-star_small.png",
+                    "placement": "left"
                 },
                 {
                     "name": "Hiroshima",
-                    "x": 368,
-                    "y": 244,
-                    "marker": "city-star_small.png"
+                    "x": 275,
+                    "y": 130,
+                    "marker": "city-star_small.png",
+                    "placement": "left"
                 },
                 {
                     "name": "Kyoto",
-                    "x": 428,
-                    "y": 226,
-                    "marker": "city-star_small.png"
+                    "x": 315,
+                    "y": 80,
+                    "marker": "city-star_small.png",
+                    "placement": "bottom"
                 },
                 {
                     "name": "Osaka",
-                    "x": 425,
-                    "y": 240,
-                    "marker": "city-star_small.png"
+                    "x": 310,
+                    "y": 60,
+                    "marker": "city-star_small.png",
+                    "placement": "top"
                 },
                 {
                     "name": "Tokyo",
-                    "x": 460,
-                    "y": 200,
-                    "marker": "city-star_small.png"
+                    "x": 335,
+                    "y": 35,
+                    "marker": "city-star_small.png",
+                    "placement": "right"
                 },
                 {
                     "name": "Xian",
-                    "x": 195,
-                    "y": 205,
-                    "marker": "city-star_small.png"
+                    "x": 138,
+                    "y": 0,
+                    "marker": "city-star_small.png",
+                    "placement": "top"
                 },
                 {
                     "name": "Beijing",
-                    "x": 245,
-                    "y": 140,
-                    "marker": "city-star_small.png"
+                    "x": 170,
+                    "y": -65,
+                    "marker": "city-star_small.png",
+                    "placement": "bottom"
                 },
                 {
                     "name": "Shanghai",
-                    "x": 275,
-                    "y": 218,
-                    "marker": "city-star_small.png"
+                    "x": 195,
+                    "y": -35,
+                    "marker": "city-star_small.png",
+                    "placement": "top"
                 },
                 {
                     "name": "Hong Kong",
-                    "x": 190,
-                    "y": 307,
-                    "marker": "city-star_small.png"
+                    "x": 140,
+                    "y": -15,
+                    "marker": "city-star_small.png",
+                    "placement": "left"
                 }
             ]
         }

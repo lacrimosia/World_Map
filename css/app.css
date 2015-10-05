@@ -1,7 +1,7 @@
 /* app styles */
 
 body{
-	margin-top: 50px !important;
+	margin-top: 10px !important;
 	background: #F7F7F7 !important;
 }
 
@@ -10,8 +10,8 @@ div.lightbox {
 }
 
 .container{
-	width: 900px !important;
-	/*width: 100% !important;
+	width: 687px !important;
+	/*width: auto !important;
 	min-width: 687px !important;
 	max-width: 900px !important;*/
 }
@@ -257,7 +257,7 @@ div.popup.expanded {
 }
 
 .bubbleText{
-	font-size: 160%;
+	font-size: 125%;
 	font-weight: bold !important;
 }
 
@@ -309,7 +309,7 @@ div.popup.expanded {
 	
 	float: left;*/
 	position: relative !important;
-	height: 500px;
+	/*height: 450px;*/
 }
 
 
@@ -324,12 +324,29 @@ div.popup.expanded {
 	padding: 0px 10px 10px 10px;
 	height: 505px;
 	float: right;*/
-	height: 315px;
+	height: 180px !important;
 	overflow-y: auto;
 }
+.panel-title{
+	font-size: 12px !important;
+}
 
-.stars img{
+button.stars img{
 	vertical-align: text-top;
+}
+
+button.stars{
+	background: none !important;
+	border: none !important;
+	width: 30px;
+	height: 20px;
+
+}
+
+.fa-star{
+	color: #FFC91E !important;
+	font-size: 2em;
+	text-shadow: 3px 3px  3px #333333;
 }
 
 .stars span{
@@ -359,6 +376,11 @@ div.popup.expanded {
 	border: 1px solid #000;
 }
 
+/*popover changes */
+.popover{
+	font-size: 11px !important;
+}
+
 .imageBox{
   /*float: left;
   width: 30%;*/
@@ -369,6 +391,7 @@ div.popup.expanded {
 	width: 70%;
 	padding: 0px 15px 15px 15px;
 	vertical-align: middle;*/
+	font-size: 12px !important;
 }
 
 .imageDesc{
