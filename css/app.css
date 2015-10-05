@@ -343,9 +343,19 @@ button.stars{
 
 }
 
-.fa-star{
+.popover.left, .popover.top, .popover.right, .popover.bottom{
+	margin: 0 !important;
+}
+
+.fa-star, .fa-map-marker{
 	color: #FFC91E !important;
 	font-size: 2em;
+	text-shadow: 3px 3px  3px #333333;
+}
+
+#markers2{
+	color: #FFC91E !important;
+	font-size: 1.5em;
 	text-shadow: 3px 3px  3px #333333;
 }
 
