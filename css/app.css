@@ -324,7 +324,7 @@ div.popup.expanded {
 	padding: 0px 10px 10px 10px;
 	height: 505px;
 	float: right;*/
-	height: 180px !important;
+	height: 162px !important;
 	overflow-y: auto;
 }
 .panel-title{
