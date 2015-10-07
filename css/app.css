@@ -401,7 +401,12 @@ button.stars{
 div.arrow{
 
 }
-
+.twoButtons{
+	position: absolute !important;
+	top: 1px;
+	left: 1px;
+	z-index: 20;
+}
 .imageBox{
   /*float: left;
   width: 30%;*/

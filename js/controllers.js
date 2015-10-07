@@ -32,7 +32,6 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
      $scope.oneAtATime = true;
      $scope.change = true;
-     $scope.change1 = false;
      $scope.theTitle = "";
      $scope.theDescription = "";
      $scope.clicked = false;
@@ -106,6 +105,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
     $scope.unCheck = function(){
        $scope.clicked=false;
+
        console.log($scope.clicked);
     };
 

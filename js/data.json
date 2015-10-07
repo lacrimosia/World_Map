@@ -7,23 +7,114 @@
     "things": [
         {
             "name": "Mesoamerica",
-            "repImage": "mesoamerica/maya_calendar.png",
+            "repImage": "maya_calendar.png",
             "x": 28,
             "y": 43,
             "promptOpen": false,
             "choiceMade": false,
             "answer": "Hinders",
             "feedback": "",
-            "zoomImages": [
-                {
-                    "link": "mesoamerica.png",
-                    "id": "1"
-                },
-                {
-                    "link": "mesoamerica_lines.png",
-                    "id": "2"
-                }
-            ],
+            "past": {
+                "Images": [
+                    {
+                        "link": "mesoamerica.png",
+                        "id": "1"
+                    }
+                ],
+                "Cities": [
+                    {
+                        "name": "Mayapan past",
+                        "x": 185,
+                        "y": 60,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Chichen Itza past",
+                        "x": 198,
+                        "y": 30,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Tikal past",
+                        "x": 175,
+                        "y": 60,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    }
+                ],
+                "landmarks": [
+                    {
+                        "link": "east_asia/silk-road.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/east_asia/full-silk-road.png",
+                        "landmarkImage": {
+                            "title": "The Silk Road",
+                            "info": "Information about the Silk Road here.",
+                            "image": "circle_button.svg",
+                            "top": 200,
+                            "left": 50,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "east_asia/journey-to-the-west-path.svg",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/east_asia/journey-to-the-west-path_full2.png",
+                        "landmarkImage": {
+                            "title": "Journey to the West Path",
+                            "info": "Information about Journey of the west goes here.",
+                            "image": "circle_button.svg",
+                            "top": 100,
+                            "left": 50,
+                            "height": 100
+                        }
+                    }
+                ]
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "mesoamerica.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mesoamerica_lines.png",
+                        "id": "2"
+                    }
+                ],
+                "Cities": [
+                    {
+                        "name": "Mayapan",
+                        "x": 185,
+                        "y": 60,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Chichen Itza",
+                        "x": 198,
+                        "y": 30,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Tikal",
+                        "x": 175,
+                        "y": 60,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    }
+                ],
+                "landmarks": [
+                   
+                ]
+            },
             "Books": [
                 {
                     "name": "Book about Mesoamerica",
@@ -39,29 +130,6 @@
                     "name": "Book about Mesoamerica 3",
                     "image": "placeholder.png",
                     "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
-                }
-            ],
-            "Cities": [
-                {
-                    "name": "Mayapan",
-                    "x": 185,
-                    "y": 60,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                },
-                {
-                    "name": "Chichen Itza",
-                    "x": 198,
-                    "y": 30,
-                    "marker": "city-star_small.png",
-                    "placement": "right"
-                },
-                {
-                    "name": "Tikal",
-                    "x": 175,
-                    "y": 60,
-                    "marker": "city-star_small.png",
-                    "placement": "right"
                 }
             ]
         },
@@ -240,7 +308,7 @@
                         "info": "Information about the Silk Road here.",
                         "image": "circle_button.svg",
                         "top": 200,
-                        "left": 50, 
+                        "left": 50,
                         "height": 100
                     }
                 },
@@ -270,7 +338,7 @@
                         "info": "Information about Journey of the Yellow River here.",
                         "image": "circle_button.svg",
                         "top": 120,
-                        "left": 175                    
+                        "left": 175
                     }
                 },
                 {

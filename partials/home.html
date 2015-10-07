@@ -9,10 +9,6 @@
     <div class="col-md-12">
       <h6 class="pull-left"><strong>{{data.appTitle}}</strong></h6>
       </div>
-      
-        <!--<div class="col-md-12"><p>{{data.intro}}</p></div>-->
-        <!-- <br>(<span class="toggle-lightbox" ng-click="toggleLightbox()">Click this link to review the case study</span>)-->
-      
     </div>
   </div>
   <div class="pure-g">
@@ -22,8 +18,6 @@
         <div> <!-- ng-if="!thing.choiceMade" -->
           <h4 ng-if="!thing.choiceMade" class="bubbleText">{{thing.name}}</h4>
           <p>
-            <!--<button class="pure-button encourage" ng-click="makeSelection(thing, 'Encourages')">Encourages</button>
-            <button class="pure-button hinder" ng-click="makeSelection(thing, 'Hinders')">Hinders</button>-->
           </p>
         </div>
         <!-- answer box-->
@@ -40,35 +34,43 @@
       </div>
           </div>
 
+             <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8">
 
+                <!--Load Images for the Past-->
+                <div class="pastInformation">
+                  <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" ng-if="change==false"/>
 
-         <!-- <div class="past col-md-8 col-sm-8 col-xs-8 col-lg-8" ng-style="{'background':'url(img/{{thing.zoomImages[1].link}}) no-repeat', 'background-size':'100% 100%', 'z-index': '3', 'position': 'relative !important', 'top': '500px'}"></div>-->
-
-             <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8"><!--<img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive"/>-->
-                  <!--default background-->
-                  <img ng-src="img/{{thing.zoomImages[0].link}}" class="img-responsive thePast" ng-style="{'height': 'auto', 'z-index': '10', 'position': 'absolute'}"/>
-                  <!--country borders for present-->
-                  <img ng-src="img/country_borders/{{thing.zoomImages[1].link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
-
-                  <!-- Landmarks for the places in the past -->
-                  <img ng-src="img/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'auto', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}" ng-repeat="places in data.things[$parent.$index].landmarks" ng-if="change==false"/>
-
-                  <!--stars to click on for landmark images-->
-                   <img ng-src="img/{{marker.landmarkImage.image}}" class="landmarksImage" ng-style="{'z-index': '13', 'position': 'absolute', 'top': marker.landmarkImage.top+'px', 'left': marker.landmarkImage.left+'px'}" ng-repeat="marker in data.things[$parent.$index].landmarks" ng-if="change==false" ng-click="openMe('lg', marker.fullSize, marker.landmarkImage.title, marker.landmarkImage.info)" tooltip="{{marker.landmarkImage.title}}" tooltip-placement="right"/>
-
-
-                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}">
-                  <button class="stars img-responsive" ng-repeat="city in data.things[$parent.$index].Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><!--<p><span>{{ city.name }}</span></p><img ng-src="img/{{city.marker}}" />--><i class="fa fa-map-marker"></i></button>
+                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}" ng-if="change==false">
+                  <button class="stars img-responsive" ng-repeat="city in thing.past.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
                   </div>
+
+                  <!-- Landmarks for the places in the past-->
+                  <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'auto', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}" ng-repeat="places in thing.past.landmarks" ng-if="change==false"/>
+
+                   <!--stars to click on for landmark images in the past-->
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-if="change==false" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map-marker landmarkMarker"></i></button>
+
+                </div>
+
+                  <!--Load Images for the Present-->
+                <div class="presentInformation">
+                  <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
+
+                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}" ng-if="change==true">
+                  <button class="stars img-responsive" ng-repeat="city in thing.present.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
+                  </div>
+                </div>
 
 
                   <div class="col-sm-6 twoButtons">
                     <div class="btn-group">
-                      <label class="btn btn-default btn-sm" ng-model="radioModel" btn-radio="Past" ng-click="change1=true; change=false" ng-class="{'activeButton': change1==true, 'deactiveButton': change1==false}">Past</label>
-                      <label class="btn btn-default btn-sm" ng-model="radioModel" btn-radio="Present" ng-click="change=true; change1=false;" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}">Present</label>
+                      <label class="btn btn-default btn-sm" ng-model="radioModel" btn-radio="Past" ng-click="change=false" ng-class="{'activeButton': change==false, 'deactiveButton': change==true}">Past</label>
+                      <label class="btn btn-default btn-sm" ng-model="radioModel" btn-radio="Present" ng-click="change=true" ng-class="{'activeButton': change==true, 'deactiveButton': change==false}">Present</label>
                      </div>
                   </div>
              </div>
+
+             
              <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
