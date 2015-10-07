@@ -38,21 +38,21 @@
                     }
                 ],
                 "landmarks": [
-                {
-                    "link": "east_asia/silk-road.png",
-                    "top": 0,
-                    "left": 15,
-                    "height": "auto",
-                    "fullSize": "east_asia/full-silk-road.png",
-                    "landmarkImage": {
-                        "title": "The Silk Road",
-                        "info": "Information about the Silk Road here.",
-                        "image": "circle_button.svg",
-                        "top": 200,
-                        "left": 50,
-                        "height": 100
+                    {
+                        "link": "east_asia/silk-road.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "east_asia/full-silk-road.png",
+                        "landmarkImage": {
+                            "title": "The Silk Road",
+                            "info": "Information about the Silk Road here.",
+                            "image": "circle_button.svg",
+                            "top": 200,
+                            "left": 50,
+                            "height": 100
+                        }
                     }
-                }
                 ]
             },
             "present": {
@@ -89,9 +89,7 @@
                         "placement": "right"
                     }
                 ],
-                "landmarks": [
-                   
-                ]
+                "landmarks": []
             },
             "Books": [
                 {
@@ -120,30 +118,30 @@
             "choiceMade": false,
             "answer": "Hinders",
             "feedback": "",
-            "past":{
+            "past": {
                 "Images": [
                     {
-                    "link": "mediterranean.png",
-                    "id": "1"
-                }
-            ],
-            "Cities":[],
-            "landmarks": []
-                },
-            "present": {
-                "Images": [
-                    {
-                    "link": "mediterranean.png",
-                    "id": "1"
-                },
-                {
-                    "link": "mediterranean_lines.png",
-                    "id": "2"
-                }
+                        "link": "mediterranean.png",
+                        "id": "1"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "mediterranean.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mediterranean_lines.png",
+                        "id": "2"
+                    }
+                ],
+                "Cities": [],
+                "landmarks": []
+            },
             "Books": [
                 {
                     "name": "Book about Mediterranean",
@@ -167,29 +165,29 @@
             "answer": "Both",
             "feedback": "",
             "past": {
-                "Images":[
-                 {
-                    "link": "middle-east.png",
-                    "id": "1"
-                }
+                "Images": [
+                    {
+                        "link": "middle-east.png",
+                        "id": "1"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
+            },
             "present": {
-                "Images":[
-                {
-                    "link": "middle-east.png",
-                    "id": "1"
-                },
-                {
-                    "link": "middle-east_lines.png",
-                    "id": "2"
-                }
+                "Images": [
+                    {
+                        "link": "middle-east.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "middle-east_lines.png",
+                        "id": "2"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
+            },
             "Books": [
                 {
                     "name": "Book about Middle East",
@@ -214,28 +212,28 @@
             "feedback": "",
             "past": {
                 "Images": [
-                {
-                    "link": "south-asia.png",
-                    "id": "1"
-                }
+                    {
+                        "link": "south-asia.png",
+                        "id": "1"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
+            },
             "present": {
                 "Images": [
-                {
-                    "link": "south-asia.png",
-                    "id": "1"
-                },
-                {
-                    "link": "south-asia_lines.png",
-                    "id": "2"
-                }
+                    {
+                        "link": "south-asia.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "south-asia_lines.png",
+                        "id": "2"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
+            },
             "Books": [
                 {
                     "name": "Book about India",
@@ -268,45 +266,45 @@
                     "id": "2"
                 }
             ],
-            "past":{
-                "Images":[
-                {
-                    "link": "africa.png",
-                    "id": "1"
-                }
+            "past": {
+                "Images": [
+                    {
+                        "link": "africa.png",
+                        "id": "1"
+                    }
                 ],
                 "Cities": [],
                 "landmarks": []
-                },
-            "present":{
-                "Images":[
-                {
-                    "link": "africa.png",
-                    "id": "1"
-                },
-                {
-                    "link": "africa_lines.png",
-                    "id": "2"
-                }
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "africa.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "africa_lines.png",
+                        "id": "2"
+                    }
                 ],
                 "Cities": [
-                {
-                    "name": "Aksum",
-                    "x": 235,
-                    "y": 130,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                },
-                {
-                    "name": "Addis Ababa",
-                    "x": 210,
-                    "y": 250,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                }
+                    {
+                        "name": "Aksum",
+                        "x": 235,
+                        "y": 130,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Addis Ababa",
+                        "x": 210,
+                        "y": 250,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    }
                 ],
                 "landmarks": []
-                },
+            },
             "Books": [
                 {
                     "name": "Book about Africa",
@@ -329,79 +327,204 @@
             "choiceMade": false,
             "answer": "Encourages",
             "feedback": "",
-            "past": {},
-            "present":{},
-            "zoomImages": [
-                {
-                    "link": "east-asia.png",
-                    "id": "1"
-                },
-                {
-                    "link": "east-asia_lines_2.png",
-                    "id": "2"
-                }
-            ],
-            "landmarks": [
-                {
-                    "link": "east_asia/silk-road.png",
-                    "top": 0,
-                    "left": 15,
-                    "height": "auto",
-                    "fullSize": "east_asia/full-silk-road.png",
-                    "landmarkImage": {
-                        "title": "The Silk Road",
-                        "info": "Information about the Silk Road here.",
-                        "image": "circle_button.svg",
-                        "top": 200,
-                        "left": 50,
-                        "height": 100
+            "past": {
+                "Images": [
+                    {
+                        "link": "east-asia.png",
+                        "id": "1"
                     }
-                },
-                {
-                    "link": "east_asia/journey-to-the-west-path.svg",
-                    "top": 0,
-                    "left": 15,
-                    "height": "auto",
-                    "fullSize": "east_asia/journey-to-the-west-path_full2.png",
-                    "landmarkImage": {
-                        "title": "Journey to the West Path",
-                        "info": "Information about Journey of the west goes here.",
-                        "image": "circle_button.svg",
-                        "top": 100,
-                        "left": 50,
-                        "height": 100
+                ],
+                "Cities": [
+                    {
+                        "name": "Heian-kyo",
+                        "x": 350,
+                        "y": 150,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Osaka",
+                        "x": 350,
+                        "y": 145,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Edo",
+                        "x": 380,
+                        "y": 100,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Chang'an",
+                        "x": 168,
+                        "y": 105,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Beijing",
+                        "x": 212,
+                        "y": 45,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Shanghai",
+                        "x": 242,
+                        "y": 83,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Hong Kong",
+                        "x": 186,
+                        "y": 128,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
                     }
-                },
-                {
-                    "link": "east_asia/yellow-river.svg",
-                    "top": 130,
-                    "left": 119,
-                    "height": "100%",
-                    "fullSize": "No Image",
-                    "landmarkImage": {
-                        "title": "The Yellow River",
-                        "info": "Information about Journey of the Yellow River here.",
-                        "image": "circle_button.svg",
-                        "top": 120,
-                        "left": 175
+                ],
+                "landmarks": [
+                    {
+                        "link": "east_asia/silk-road.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/east_asia/full-silk-road.png",
+                        "landmarkImage": {
+                            "title": "The Silk Road",
+                            "info": "Information about the Silk Road here.",
+                            "image": "circle_button.svg",
+                            "top": 150,
+                            "left": 50,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "east_asia/journey-to-the-west-path.svg",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/east_asia/journey-to-the-west-path_full2.png",
+                        "landmarkImage": {
+                            "title": "Journey to the West Path",
+                            "info": "Information about Journey of the west goes here.",
+                            "image": "circle_button.svg",
+                            "top": 60,
+                            "left": 30,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "east_asia/yellow-river.svg",
+                        "top": 130,
+                        "left": 92,
+                        "height": "60%",
+                        "fullSize": "No Image",
+                        "landmarkImage": {
+                            "title": "The Yellow River",
+                            "info": "Information about Journey of the Yellow River here.",
+                            "image": "circle_button.svg",
+                            "top": 65,
+                            "left": 150
+                        }
+                    },
+                    {
+                        "link": "east_asia/yangtze-river.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "100%",
+                        "fullSize": "No Image",
+                        "landmarkImage": {
+                            "title": "The Yangtze River",
+                            "info": "Information about Journey of the Yangtze River here.",
+                            "image": "circle_button.svg",
+                            "top": 143,
+                            "left": 210,
+                            "height": 100
+                        }
                     }
-                },
-                {
-                    "link": "east_asia/yangtze-river.png",
-                    "top": 0,
-                    "left": 15,
-                    "height": "100%",
-                    "fullSize": "No Image",
-                    "landmarkImage": {
-                        "title": "The Yangtze River",
-                        "info": "Information about Journey of the Yangtze River here.",
-                        "image": "circle_button.svg",
-                        "top": 143,
-                        "left": 210,
-                        "height": 100
+                ]
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "east-asia.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "east-asia_lines.png",
+                        "id": "2"
                     }
-                }
-            ],
+                ],
+                "Cities": [
+                    {
+                        "name": "Nagasaki",
+                        "x": 299,
+                        "y": 175,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Hiroshima",
+                        "x": 322,
+                        "y": 143,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Kyoto",
+                        "x": 350,
+                        "y": 115,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Osaka",
+                        "x": 350,
+                        "y": 113,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Tokyo",
+                        "x": 380,
+                        "y": 60,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Xian",
+                        "x": 168,
+                        "y": 65,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Peking",
+                        "x": 212,
+                        "y": 11,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Shanghai",
+                        "x": 242,
+                        "y": 40,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Hong Kong",
+                        "x": 186,
+                        "y": 90,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    }
+                ],
+                "landmarks": []
+            },
             "Books": [
                 {
                     "name": "The Philosophy of the Daodejing",
@@ -426,71 +549,6 @@
                     "image": "placeholder.png",
                     "description": "Introduction to the art of Bunraku, Japanese puppet theater. Includes performed excerpts from the play Sonezaki Shinju (The Love Suicides at Sonezaki) by the 18th century writer Chikamatsu Monzaemon.",
                     "link": "http://search.alexanderstreet.com/view/work/658002"
-                }
-            ],
-            "Cities": [
-                {
-                    "name": "Nagasaki",
-                    "x": 299,
-                    "y": 175,
-                    "marker": "city-star_small.png",
-                    "placement": "bottom"
-                },
-                {
-                    "name": "Hiroshima",
-                    "x": 322,
-                    "y": 143,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                },
-                {
-                    "name": "Kyoto",
-                    "x": 350,
-                    "y": 115,
-                    "marker": "city-star_small.png",
-                    "placement": "top"
-                },
-                {
-                    "name": "Osaka",
-                    "x": 350,
-                    "y": 113,
-                    "marker": "city-star_small.png",
-                    "placement": "bottom"
-                },
-                {
-                    "name": "Tokyo",
-                    "x": 380,
-                    "y": 60,
-                    "marker": "city-star_small.png",
-                    "placement": "bottom"
-                },
-                {
-                    "name": "Xian",
-                    "x": 168,
-                    "y": 65,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                },
-                {
-                    "name": "Beijing",
-                    "x": 212,
-                    "y": 11,
-                    "marker": "city-star_small.png",
-                    "placement": "top"
-                },
-                {
-                    "name": "Shanghai",
-                    "x": 242,
-                    "y": 40,
-                    "marker": "city-star_small.png",
-                    "placement": "left"
-                },
-                {
-                    "name": "Hong Kong",
-                    "x": 186,
-                    "y": 90,
-                    "marker": "city-star_small.png",
-                    "placement": "right"
                 }
             ]
         }

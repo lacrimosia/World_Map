@@ -37,26 +37,27 @@
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8">
 
                 <!--Load Images for the Past-->
-                <div class="pastInformation">
-                  <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" ng-if="change==false"/>
+                <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false">
+                  <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" />
 
-                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}" ng-if="change==false">
+                  <!-- cities-->
+                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}">
                   <button class="stars img-responsive" ng-repeat="city in thing.past.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
                   </div>
 
                   <!-- Landmarks for the places in the past-->
-                  <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'auto', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}" ng-repeat="places in thing.past.landmarks" ng-if="change==false"/>
+                  <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.past.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
                    <!--button markers to click on for landmark images in the past-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-if="change==false" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map-pin landmarkMarker"></i>{{open}}</button>
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map-pin landmarkMarker"></i>{{open}}</button>
 
                 </div>
 
                   <!--Load Images for the Present-->
-                <div class="presentInformation">
-                  <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}" ng-if="change==true"/>
+                <div class="presentInformation" ng-style="{'z-index': 13}" ng-if="change==true">
+                  <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
-                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}" ng-if="change==true">
+                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}">
                   <button class="stars img-responsive" ng-repeat="city in thing.present.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
                   </div>
                 </div>

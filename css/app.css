@@ -435,6 +435,18 @@ div.arrow{
 	height: auto !important;
 }
 
+.pastInformation, .presentInformation {
+  /*-moz-animation-duration: 2s;
+  -moz-animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -ms-animation-duration: 2s;
+  -ms-animation-delay: 0s;
+  -o-animation-duration: 2s;
+  -o-animation-delay: 0s;
+  animation-duration: 2s;
+  animation-delay: 0s;*/
+}
 
 /*  -- original
 div.popup.expanded {
