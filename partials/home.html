@@ -47,8 +47,8 @@
                   <!-- Landmarks for the places in the past-->
                   <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-style="{'height':'auto', 'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}" ng-repeat="places in thing.past.landmarks" ng-if="change==false"/>
 
-                   <!--stars to click on for landmark images in the past-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-if="change==false" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map-marker landmarkMarker"></i></button>
+                   <!--button markers to click on for landmark images in the past-->
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-if="change==false" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map-pin landmarkMarker"></i>{{open}}</button>
 
                 </div>
 
@@ -70,7 +70,7 @@
                   </div>
              </div>
 
-             
+
              <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>

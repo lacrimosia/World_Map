@@ -357,6 +357,12 @@ button.stars{
 	text-shadow: 3px 3px  3px #333333;
 }
 
+.fa-map-pin{
+	color: #49F446 !important;
+	font-size: 3.8em;
+	text-shadow: 3px 3px  3px #333333;
+}
+
 #markers2{
 	color: #FFC91E !important;
 	font-size: 1.5em;

@@ -35,46 +35,24 @@
                         "y": 30,
                         "marker": "city-star_small.png",
                         "placement": "right"
-                    },
-                    {
-                        "name": "Tikal past",
-                        "x": 175,
-                        "y": 60,
-                        "marker": "city-star_small.png",
-                        "placement": "right"
                     }
                 ],
                 "landmarks": [
-                    {
-                        "link": "east_asia/silk-road.png",
-                        "top": 0,
-                        "left": 15,
-                        "height": "auto",
-                        "fullSize": "past/east_asia/full-silk-road.png",
-                        "landmarkImage": {
-                            "title": "The Silk Road",
-                            "info": "Information about the Silk Road here.",
-                            "image": "circle_button.svg",
-                            "top": 200,
-                            "left": 50,
-                            "height": 100
-                        }
-                    },
-                    {
-                        "link": "east_asia/journey-to-the-west-path.svg",
-                        "top": 0,
-                        "left": 15,
-                        "height": "auto",
-                        "fullSize": "past/east_asia/journey-to-the-west-path_full2.png",
-                        "landmarkImage": {
-                            "title": "Journey to the West Path",
-                            "info": "Information about Journey of the west goes here.",
-                            "image": "circle_button.svg",
-                            "top": 100,
-                            "left": 50,
-                            "height": 100
-                        }
+                {
+                    "link": "east_asia/silk-road.png",
+                    "top": 0,
+                    "left": 15,
+                    "height": "auto",
+                    "fullSize": "east_asia/full-silk-road.png",
+                    "landmarkImage": {
+                        "title": "The Silk Road",
+                        "info": "Information about the Silk Road here.",
+                        "image": "circle_button.svg",
+                        "top": 200,
+                        "left": 50,
+                        "height": 100
                     }
+                }
                 ]
             },
             "present": {
@@ -142,8 +120,19 @@
             "choiceMade": false,
             "answer": "Hinders",
             "feedback": "",
-            "zoomImages": [
-                {
+            "past":{
+                "Images": [
+                    {
+                    "link": "mediterranean.png",
+                    "id": "1"
+                }
+            ],
+            "Cities":[],
+            "landmarks": []
+                },
+            "present": {
+                "Images": [
+                    {
                     "link": "mediterranean.png",
                     "id": "1"
                 },
@@ -151,7 +140,10 @@
                     "link": "mediterranean_lines.png",
                     "id": "2"
                 }
-            ],
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
             "Books": [
                 {
                     "name": "Book about Mediterranean",
@@ -174,7 +166,18 @@
             "choiceMade": false,
             "answer": "Both",
             "feedback": "",
-            "zoomImages": [
+            "past": {
+                "Images":[
+                 {
+                    "link": "middle-east.png",
+                    "id": "1"
+                }
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
+            "present": {
+                "Images":[
                 {
                     "link": "middle-east.png",
                     "id": "1"
@@ -183,7 +186,10 @@
                     "link": "middle-east_lines.png",
                     "id": "2"
                 }
-            ],
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
             "Books": [
                 {
                     "name": "Book about Middle East",
@@ -206,7 +212,18 @@
             "choiceMade": false,
             "answer": "Encourages",
             "feedback": "",
-            "zoomImages": [
+            "past": {
+                "Images": [
+                {
+                    "link": "south-asia.png",
+                    "id": "1"
+                }
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
+            "present": {
+                "Images": [
                 {
                     "link": "south-asia.png",
                     "id": "1"
@@ -215,7 +232,10 @@
                     "link": "south-asia_lines.png",
                     "id": "2"
                 }
-            ],
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
             "Books": [
                 {
                     "name": "Book about India",
@@ -248,19 +268,28 @@
                     "id": "2"
                 }
             ],
-            "Books": [
+            "past":{
+                "Images":[
                 {
-                    "name": "Book about Africa",
-                    "image": "placeholder.png",
-                    "description": "This is a book about Africa"
+                    "link": "africa.png",
+                    "id": "1"
+                }
+                ],
+                "Cities": [],
+                "landmarks": []
+                },
+            "present":{
+                "Images":[
+                {
+                    "link": "africa.png",
+                    "id": "1"
                 },
                 {
-                    "name": "Book about Africa 2",
-                    "image": "placeholder.png",
-                    "description": "This is a book about Africa"
+                    "link": "africa_lines.png",
+                    "id": "2"
                 }
-            ],
-            "Cities": [
+                ],
+                "Cities": [
                 {
                     "name": "Aksum",
                     "x": 235,
@@ -275,6 +304,20 @@
                     "marker": "city-star_small.png",
                     "placement": "left"
                 }
+                ],
+                "landmarks": []
+                },
+            "Books": [
+                {
+                    "name": "Book about Africa",
+                    "image": "placeholder.png",
+                    "description": "This is a book about Africa"
+                },
+                {
+                    "name": "Book about Africa 2",
+                    "image": "placeholder.png",
+                    "description": "This is a book about Africa"
+                }
             ]
         },
         {
@@ -286,6 +329,8 @@
             "choiceMade": false,
             "answer": "Encourages",
             "feedback": "",
+            "past": {},
+            "present":{},
             "zoomImages": [
                 {
                     "link": "east-asia.png",
