@@ -35,6 +35,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
      $scope.theTitle = "";
      $scope.theDescription = "";
      $scope.clicked = false;
+     $scope.close = false;
 
   // The popover
    $scope.dynamicPopover = {

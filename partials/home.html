@@ -11,7 +11,7 @@
   <div class="pure-g">
     <div class="pure-u-1 background">
       <div class="invisible-clear-button" ng-click="clearAll()"></div>
-      <div class="popup" ng-class="{'expanded': thing.choiceMade, 'animated': clicked==true, 'fadeIn': clicked==true}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
+      <div class="popup" ng-class="{'expanded': thing.choiceMade, 'animated': clicked==true, 'fadeIn': clicked==true, 'fadeOut':close==true}" ng-repeat="thing in data.things" ng-style="popupStyle(thing)">
         <div> <!-- ng-if="!thing.choiceMade" -->
           <h4 ng-if="!thing.choiceMade" class="bubbleText">{{thing.name}}</h4>
           <p>
@@ -25,7 +25,7 @@
        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 returns">
        <h3 class="pull-left"><i id="markers2" class="fa fa-map-marker"></i> <strong> {{thing.name}} - Region</strong></h3>
        <div class="form-inline">
-            <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = false; unCheck();" tooltip="Close" tooltip-placement="top"><i class="fa fa-times"></i> Close</button>
+            <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = false; unCheck(); close=true;" tooltip="Close" tooltip-placement="top"><i class="fa fa-times"></i> Close</button>
             <!--thing.choiceMade = false-->
             <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = false" ng-style="{'margin-right':'10px'}" tooltip="Help" tooltip-placement="top"><i class="fa fa-question"></i> Help</button>
       </div>
