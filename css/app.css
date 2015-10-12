@@ -313,8 +313,8 @@ div.popup.expanded {
 
 
 .cityStars{
-	position: relative;
-	z-index: 10;
+	z-index: 15 !important, 
+	position: relative !important
 }
 
 .Books{

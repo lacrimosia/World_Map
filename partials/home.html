@@ -34,11 +34,11 @@
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8 animated fadeIn">
 
                 <!--Load Images for the Past-->
-                <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false">
+                <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false" ng-class="{'animated': change==false, 'fadeIn':change==false}">
                   <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
                   <!-- cities-->
-                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}">
+                  <div class="cityStars">
                   <button class="stars img-responsive" ng-repeat="city in thing.past.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
                   </div>
 
@@ -51,10 +51,10 @@
                 </div>
 
                   <!--Load Images for the Present-->
-                <div class="presentInformation" ng-style="{'z-index': 13}" ng-if="change==true">
+                <div class="presentInformation" ng-style="{'z-index': 13}" ng-if="change==true" ng-class="{'animated': change==true, 'fadeIn':change==true}">
                   <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
-                  <div class="cityStars" ng-style="{'z-index': '15', 'position': 'relative'}">
+                  <div class="cityStars">
                   <button class="stars img-responsive" ng-repeat="city in thing.present.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" popover="{{city.name}}" popover-is-open="False" popover-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
                   </div>
                 </div>
