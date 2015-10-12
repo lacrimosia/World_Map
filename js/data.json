@@ -62,6 +62,10 @@
                         "id": "1"
                     },
                     {
+                        "link": "mesoamerica_present.png",
+                        "id": "1"
+                    },
+                    {
                         "link": "mesoamerica_lines.png",
                         "id": "2"
                     }
@@ -86,7 +90,7 @@
                         "x": 175,
                         "y": 60,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     }
                 ],
                 "landmarks": []
@@ -157,7 +161,7 @@
         },
         {
             "name": "Middle East",
-            "repImage": "",
+            "repImage": "lamassu.png",
             "x": 64,
             "y": 38,
             "promptOpen": false,
@@ -203,7 +207,7 @@
         },
         {
             "name": "India",
-            "repImage": "",
+            "repImage": "ganesh.png",
             "x": 73,
             "y": 35,
             "promptOpen": false,
@@ -224,6 +228,10 @@
                 "Images": [
                     {
                         "link": "south-asia.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "south-asia_present.png",
                         "id": "1"
                     },
                     {
@@ -256,16 +264,6 @@
             "choiceMade": false,
             "answer": "Hinders",
             "feedback": "",
-            "zoomImages": [
-                {
-                    "link": "africa.png",
-                    "id": "1"
-                },
-                {
-                    "link": "africa_lines.png",
-                    "id": "2"
-                }
-            ],
             "past": {
                 "Images": [
                     {
@@ -281,6 +279,10 @@
                     {
                         "link": "africa.png",
                         "id": "1"
+                    },
+                    {
+                        "link": "africa_present.png",
+                        "id": "2"
                     },
                     {
                         "link": "africa_lines.png",
@@ -451,6 +453,10 @@
                 "Images": [
                     {
                         "link": "east-asia.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "east-asia_present.png",
                         "id": "1"
                     },
                     {
