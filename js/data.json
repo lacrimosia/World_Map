@@ -485,14 +485,14 @@
                         "x": 322,
                         "y": 143,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "top"
                     },
                     {
                         "name": "Kyoto",
                         "x": 350,
                         "y": 115,
                         "marker": "city-star_small.png",
-                        "placement": "top"
+                        "placement": "right"
                     },
                     {
                         "name": "Osaka",
@@ -506,7 +506,7 @@
                         "x": 380,
                         "y": 60,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "top"
                     },
                     {
                         "name": "Xian",

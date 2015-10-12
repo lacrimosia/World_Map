@@ -269,9 +269,9 @@ div.popup.expanded {
 }
 
 .activeButton{
-	background: #FFC91E !important;
+	background: #ED3828 !important;
 	border: none !important;
-	color: #000 !important;
+	color: #fff !important;
 }
 
 .deactiveButton{
@@ -314,7 +314,7 @@ div.popup.expanded {
 
 .cityStars{
 	z-index: 15 !important, 
-	position: relative !important
+	position: absolute !important
 }
 
 .Books{
@@ -344,15 +344,16 @@ button.stars{
 
 .popover.left, .popover.right{
 	margin: 0 !important;
+	background-color: #000 !important;
 }
 
 .popover.top, .popover.bottom{
 	margin: 1 !important;
 }
 
-.fa-star, .fa-map-marker{
-	color: #FFC91E !important;
-	font-size: 2em;
+.fa-map-marker{
+	color: #ED3828 !important;
+	font-size: 2.8em;
 	text-shadow: 3px 3px  3px #333333;
 }
 
@@ -362,8 +363,14 @@ button.stars{
 	text-shadow: 3px 3px  3px #333333;
 }
 
+.fa-star{
+	color: #FEC81E !important;
+	font-size: 3.8em;
+	text-shadow: 3px 3px  3px #333333;
+}
+
 #markers2{
-	color: #FFC91E !important;
+	color: #ED3828 !important;
 	font-size: 1.5em;
 	text-shadow: 3px 3px  3px #333333;
 }
@@ -397,15 +404,39 @@ button.stars{
 
 /*popover changes */
 .popover-content{
-	font-size: 11px !important;
-	padding: 3px 8px !important;
-	/*background: #000 !important;*/
-	color: #000 !important;
+	font-size: 12px !important;
+	text-shadow: 3px 3px 2px #333333 !important;
+	/*padding: 3px 8px !important;*/
+	padding: 1px 2px 1px 2px !important;
+	background: #000 !important;
+	color: #fff !important;
+	border: none !important;
+}
+
+.popover{
+	background-color: #000000 !important;
 }
 
 div.arrow{
 
 }
+
+.popover.right>.arrow:after{
+  border-right-color: #000 !important;
+}
+
+.popover.left>.arrow:after{
+  border-left-color: #000 !important;
+}
+
+.popover.top>.arrow:after{
+  border-top-color: #000 !important;
+}
+
+.popover.bottom>.arrow:after{
+  border-bottom-color: #000 !important;
+}
+
 .twoButtons{
 	position: absolute !important;
 	top: 1px;
