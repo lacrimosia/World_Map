@@ -189,8 +189,12 @@
                         "id": "1"
                     },
                     {
-                        "link": "middle-east_lines.png",
+                        "link": "middle-east_present.png",
                         "id": "2"
+                    },
+                    {
+                        "link": "middle-east_lines.png",
+                        "id": "3"
                     }
                 ],
                 "Cities": [],

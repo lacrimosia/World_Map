@@ -34,7 +34,7 @@
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8 animated fadeIn">
 
                 <!--Load Images for the Past-->
-                <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false" ng-class="{'animated': change==false, 'fadeIn':change==false}">
+                <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false">
                   <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
                   <!-- cities-->
@@ -51,7 +51,7 @@
                 </div>
 
                   <!--Load Images for the Present-->
-                <div class="presentInformation" ng-style="{'z-index': 13}" ng-if="change==true" ng-class="{'animated': change==true, 'fadeIn':change==true}">
+                <div class="presentInformation" ng-style="{'z-index': 13}" ng-if="change==true">
                   <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
                   <div class="cityStars">
