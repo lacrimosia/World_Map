@@ -88,7 +88,8 @@
 <div class="col-md-12">
       <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': !thing.promptOpen, 'complete': thing.choiceMade}" ng-init="prompt($index)" ng-click="makeSelection(thing, 'Encourages')">
         <div class="pulse"></div>
-        <button ng-click=""></button>
+        <button ng-click=""><i class="fa fa-map-marker main_Marker"></i></button>
+        
       </div>
       <img src="img/main_map.jpg" class="img-responsive">
   </div>
