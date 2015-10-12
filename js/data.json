@@ -530,7 +530,7 @@
                         "x": 186,
                         "y": 90,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     }
                 ],
                 "landmarks": []
