@@ -330,14 +330,6 @@ div.popup.expanded {
 	float: right;*/
 	height: 162px !important;
 	overflow-y: auto;
-	z-index: 20;
-}
-
-.openBook{
-position: absolute;
-top: 0px;
-left: 0px;
-width: 600px;
 }
 
 .panel-title{

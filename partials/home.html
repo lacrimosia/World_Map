@@ -32,7 +32,7 @@
           </div>
 
              <div class="zoomedIn col-md-8 col-sm-8 col-xs-8 col-lg-8 animated fadeIn">
-
+          
                 <!--Load Images for the Past-->
                 <div class="pastInformation" ng-style="{'z-index': 12}" ng-if="change==false">
                   <img ng-repeat="d in thing.past.Images" ng-src="img/past/{{d.link}}" class="img-responsive thePast animated fadeIn" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
@@ -83,17 +83,11 @@
              <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
-               <div class="Books" ng-class="{'animated': openBook==true, 'zoomIn': openBook==true, 'openBook': openBook==true}">
-                <accordion close-others="oneAtATime">
-                   <accordion-group heading="{{book.name}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="book in data.things[$parent.$index].Books" class="lables" ng-click="openBook==true">
-                      <!-- <div class="imageBox col-md-6"><img ng-src="img/{{book.image}}" class="imageDesc img-responsive"/></div>-->
-                       <div class="desc col-sm-12"><p>{{book.description }}</p></div>
-                       <div class="desc col-sm-12"><i class="fa fa-link"></i> <a ng-href="{{ book.link }}">Read more</a></div>
-                    </accordion-group>
-                </accordion>
+               <div class="Books">
+                       <a ng-repeat="book in thing.Books" class="desc col-sm-12" ng-click="openBook=!openBook" popover-placement="left" popover-title="{{book.name}}" popover="{{book.description}}"  href="#">{{book.name}}</a>
                 </div>
              </div>
-        </div>      
+        </div>    
    </div>
 <div class="col-md-12">
       <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': !thing.promptOpen, 'complete': thing.choiceMade}" ng-init="prompt($index)" ng-click="makeSelection(thing, 'Encourages')">
