@@ -83,9 +83,9 @@
              <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
-               <div class="Books">
+               <div class="Books" ng-class="{'animated': openBook==true, 'zoomIn': openBook==true, 'openBook': openBook==true}">
                 <accordion close-others="oneAtATime">
-                   <accordion-group heading="{{book.name}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="book in data.things[$parent.$index].Books" class="lables">
+                   <accordion-group heading="{{book.name}}" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled" ng-repeat="book in data.things[$parent.$index].Books" class="lables" ng-click="openBook==true">
                       <!-- <div class="imageBox col-md-6"><img ng-src="img/{{book.image}}" class="imageDesc img-responsive"/></div>-->
                        <div class="desc col-sm-12"><p>{{book.description }}</p></div>
                        <div class="desc col-sm-12"><i class="fa fa-link"></i> <a ng-href="{{ book.link }}">Read more</a></div>

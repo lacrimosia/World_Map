@@ -330,7 +330,16 @@ div.popup.expanded {
 	float: right;*/
 	height: 162px !important;
 	overflow-y: auto;
+	z-index: 20;
 }
+
+.openBook{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 600px;
+}
+
 .panel-title{
 	font-size: 12px !important;
 }
@@ -379,6 +388,7 @@ button.stars{
 	font-size: 1.5em;
 	text-shadow: 3px 3px  3px #333333;
 }
+
 
 .stars span{
 	/*background: #ffffff;
