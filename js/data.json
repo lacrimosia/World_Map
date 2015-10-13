@@ -115,7 +115,7 @@
         },
         {
             "name": "Mediterranean",
-            "repImage": "parthenon",
+            "repImage": "parthenon.png",
             "x": 56,
             "y": 29,
             "promptOpen": false,
@@ -147,8 +147,67 @@
                         "id": "2"
                     }
                 ],
-                "Cities": [],
-                "landmarks": []
+                "Cities": [
+                    {
+                        "name": "Florence",
+                        "x": 160,
+                        "y": 110,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Rome",
+                        "x": 178,
+                        "y": 113,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Thebes",
+                        "x": 287,
+                        "y": 130,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Corinth",
+                        "x": 275,
+                        "y": 120,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Athens",
+                        "x": 290,
+                        "y": 103,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Lesbos",
+                        "x": 315,
+                        "y": 65,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    }
+                ],
+                "landmarks": [
+                       {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "",
+                        "landmarkImage": {
+                            "title": "Mount Olympus",
+                            "info": "Information about Mount Olympus.",
+                            "image": "circle_button.svg",
+                            "top": 140,
+                            "left": 275,
+                            "height": 100
+                        }
+                    }
+                ]
             },
             "Books": [
                 {
@@ -300,15 +359,15 @@
                 "Cities": [
                     {
                         "name": "Aksum",
-                        "x": 235,
-                        "y": 130,
+                        "x": 205,
+                        "y": 95,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Addis Ababa",
-                        "x": 210,
-                        "y": 250,
+                        "x": 195,
+                        "y": 130,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     }
@@ -374,7 +433,7 @@
                         "placement": "bottom"
                     },
                     {
-                        "name": "Beijing",
+                        "name": "Peking",
                         "x": 212,
                         "y": 45,
                         "marker": "city-star_small.png",
@@ -516,7 +575,7 @@
                         "placement": "left"
                     },
                     {
-                        "name": "Peking",
+                        "name": "Beijing",
                         "x": 212,
                         "y": 11,
                         "marker": "city-star_small.png",

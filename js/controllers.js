@@ -63,6 +63,20 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
         $scope.clicked = true;
     };
 
+    $scope.openHelpMenu = function(size){
+      $scope.HelpModal = $modal.open({
+      animation: true,
+      templateUrl: 'partials/help.html',
+      size: size,
+      scope: $scope
+      });
+    };
+
+    $scope.closeHelpMenu = function(){
+      $scope.HelpModal.close();
+      $scope.clicked = true;
+    };
+
     $scope.prompt = function(index) {
       $scope.data.things.forEach(function(thing) {
         thing.promptOpen = true;
