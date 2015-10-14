@@ -53,9 +53,11 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
     $scope.openMe = function(size, myFullImage, titleName, info){
      $scope.ModelInstance = $modal.open({
       animation: true,
-      template: '<div class="modalBox"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
+      windowClass: 'animated zoomIn',
+      template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
       size: size,
-      scope: $scope
+      scope: $scope, 
+      keyboard: true
       });
     };
 
@@ -69,12 +71,29 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
       animation: true,
       templateUrl: 'partials/help.html',
       size: size,
-      scope: $scope
+      scope: $scope,
+      keyboard: true
+      });
+    };
+
+    $scope.openBook = function(size, title, description){
+      $scope.BookModal = $modal.open({
+      animation: true,
+      windowClass: 'animated flipInX',
+      template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="closeBookModal()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><button class="btn btn-danger pull-right" type="button" tooltip="Close"><i class="fa fa-times"></i></button></div></div>',
+      size: size,
+      scope: $scope,
+      keyboard: true
       });
     };
 
     $scope.closeHelpMenu = function(){
       $scope.HelpModal.close();
+      $scope.clicked = true;
+    };
+
+    $scope.closeBookModal = function(){
+      $scope.BookModal.close();
       $scope.clicked = true;
     };
 

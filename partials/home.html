@@ -84,7 +84,9 @@
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
                <div class="Books">
-                       <a ng-repeat="book in thing.Books" class="desc col-sm-12" ng-click="openBook=!openBook" popover-placement="left" popover-title="{{book.name}}" popover="{{book.description}}"  href="#">{{book.name}}</a>
+                      <ul>
+                        <li ng-repeat="book in thing.Books" class="list-unstyled"><a ng-click="openBook('md', book.name, book.description)" href="#"><h6>{{book.name}}</h6></a></li>
+                       </ul>
                 </div>
              </div>
         </div>    
