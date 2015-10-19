@@ -15,33 +15,51 @@ angular.module('myApp.services', ['ui.bootstrap'])
 
   .factory('modalService', ['$uibModal', function($uibModal){
   	return {
-        openMenuModal: function(templateLink, titles, desc) {
-            var modalObj = $uibModal.open({
-            templateUrl: templateLink,
-            backdrop: 'static',
-            controller: function($scope,$modalInstance){
-              $scope.ok = function(id){
-                //Process Close Button Click
-                 $modalInstance.close(); 
-              },
-               $scope.cancel = function(){
-                $modalInstance.dismiss('cancel');
-              }
+      openMenuModal: function(templateLink, titles, desc) {
+        var modalObj = $uibModal.open({
+          templateUrl: templateLink,
+          backdrop: 'static',
+          controller: function($scope,$modalInstance){
+            $scope.ok = function(id){
+              //Process Close Button Click
+               $modalInstance.close(); 
             },
-            size: 'md',
-            keyboard: true,
-            resolve: {
-              name: function () {
-                return titles;
-              },
-              description: function () {
-                console.log(desc);
-                return desc;
-              }
+             $scope.cancel = function(){
+              $modalInstance.dismiss('cancel');
+            }
+          },
+          size: 'md',
+          keyboard: true,
+          resolve: {
+            name: function () {
+              return titles;
+            },
+            description: function () {
+              console.log(desc);
+              return desc;
+            }
           }
         });
-        }
-
+      },
+      johnsOpenModal: function(templateLink, title, description) {
+        var modalObj = $uibModal.open({
+          templateUrl: templateLink,
+          backdrop: 'static',
+          controller: function($scope, $modalInstance){
+            $scope.title = title;
+            $scope.description = description;
+            $scope.ok = function(id){
+              //Process Close Button Click
+              $modalInstance.close(); 
+            }
+            $scope.cancel = function(){
+              $modalInstance.dismiss('cancel');
+            }
+          },
+          size: 'md',
+          keyboard: true
+        });
+      }
         /*
         myData: function(){
             appData.success(function(data) {

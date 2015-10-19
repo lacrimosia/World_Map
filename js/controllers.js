@@ -28,7 +28,13 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
 
   })
 
-  .controller('HomeCtrl', ['$scope', '$http', '$uibModal', 'modalService', 'Data', function($scope, $http, $uibModal, modalService, Data) {
+  .controller('HomeCtrl', [
+    '$scope',
+    '$http',
+    '$uibModal',
+    'modalService',
+    'Data',
+    function($scope, $http, $uibModal, modalService, Data) {
 
      $scope.oneAtATime = true;
      $scope.change = true;
@@ -61,10 +67,10 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
       });
     };
 
-    $scope.ok = function () {
-        $scope.ModelInstance.close();
-        $scope.clicked = true;
-    };
+    // $scope.ok = function () {
+    //     $scope.ModelInstance.close();
+    //     $scope.clicked = true;
+    // };
 
     $scope.openHelpMenu = function(size){
       $scope.HelpModal = $uibModal.open({
@@ -78,14 +84,15 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
     };
 
     $scope.openBook = function(size, title, description){
-      $scope.BookModal = $uibModal.open({
-      animation: true,
-      backdrop: 'static',
-      template: '<div class="modalBox animated fadeIn"><button class="btn btn-primary pull-right" type="button" ng-click="closeBookModal()" uib-tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><div class="modal-footer"><button class="btn btn-primary pull-right" type="button" uib-tooltip="Read more"><i class="fa fa-book"></i> Read more</button></div></div></div>',
-      size: size,
-      scope: $scope,
-      keyboard: true
-      });
+      modalService.johnsOpenModal('partials/modal.html', title, description);
+      // $scope.BookModal = $uibModal.open({
+      // animation: true,
+      // backdrop: 'static',
+      // template: '<div class="modalBox animated fadeIn"><button class="btn btn-primary pull-right" type="button" ng-click="closeBookModal()" uib-tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><div class="modal-footer"><button class="btn btn-primary pull-right" type="button" uib-tooltip="Read more"><i class="fa fa-book"></i> Read more</button></div></div></div>',
+      // size: size,
+      // scope: $scope,
+      // keyboard: true
+      // });
     };
 
     $scope.closeHelpMenu = function(){
