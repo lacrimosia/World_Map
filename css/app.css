@@ -2,6 +2,7 @@
 
 body{
 	background: #F7F7F7 !important;
+	margin-top: 5px !important;
 }
 
 div.lightbox {
@@ -13,6 +14,10 @@ div.lightbox {
 	/*width: auto !important;
 	min-width: 687px !important;
 	max-width: 900px !important;*/
+}
+
+.largeTitle{
+	font-size: 1.4em !important;
 }
 
 div.lightbox-overlay {

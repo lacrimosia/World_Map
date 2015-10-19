@@ -53,7 +53,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
     $scope.openMe = function(size, myFullImage, titleName, info){
      $scope.ModelInstance = $modal.open({
       animation: true,
-      windowClass: 'animated zoomIn',
+      backdrop: 'static',
       template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
       size: size,
       scope: $scope, 
@@ -69,6 +69,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
     $scope.openHelpMenu = function(size){
       $scope.HelpModal = $modal.open({
       animation: true,
+      backdrop: 'static',
       templateUrl: 'partials/help.html',
       size: size,
       scope: $scope,
@@ -79,8 +80,8 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
     $scope.openBook = function(size, title, description){
       $scope.BookModal = $modal.open({
       animation: true,
-      windowClass: 'animated flipInX',
-      template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="closeBookModal()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><button class="btn btn-danger pull-right" type="button" tooltip="Close"><i class="fa fa-times"></i></button></div></div>',
+      backdrop: 'static',
+      template: '<div class="modalBox animated fadeIn"><button class="btn btn-primary pull-right" type="button" ng-click="closeBookModal()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><div class="modal-footer"><button class="btn btn-primary pull-right" type="button" tooltip="Read more"><i class="fa fa-book"></i> Read more</button></div></div></div>',
       size: size,
       scope: $scope,
       keyboard: true

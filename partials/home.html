@@ -84,9 +84,9 @@
                 <img ng-src="img/{{thing.repImage}}" class="img-responsive" alt="{{book.repImage}}" />
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
                <div class="Books">
-                      <ul>
-                        <li ng-repeat="book in thing.Books" class="list-unstyled"><a ng-click="openBook('md', book.name, book.description)" href="#"><h6>{{book.name}}</h6></a></li>
-                       </ul>
+                       <ul class="list-group">
+                          <li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="openBook('md', book.name, book.description)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>
+                      </ul>
                 </div>
              </div>
         </div>    

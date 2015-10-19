@@ -127,24 +127,10 @@
                     {
                         "link": "mediterranean.png",
                         "id": "1"
-                    }
-                ],
-                "Cities": [],
-                "landmarks": []
-            },
-            "present": {
-                "Images": [
-                    {
-                        "link": "mediterranean.png",
-                        "id": "1"
                     },
                     {
-                        "link": "mediterranean_present.png",
+                        "link": "mediterranean/odyssey.png",
                         "id": "1"
-                    },
-                    {
-                        "link": "mediterranean_lines.png",
-                        "id": "2"
                     }
                 ],
                 "Cities": [
@@ -189,6 +175,69 @@
                         "y": 65,
                         "marker": "city-star_small.png",
                         "placement": "top"
+                    }
+                ],
+                "landmarks": [
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "",
+                        "landmarkImage": {
+                            "title": "Odyssey",
+                            "info": "Information about the Odyssey.",
+                            "image": "circle_button.svg",
+                            "top": 179,
+                            "left": 230,
+                            "height": 100
+                        }
+                    }
+                ]
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "mediterranean.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mediterranean_present.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mediterranean_lines.png",
+                        "id": "2"
+                    }
+                ],
+                "Cities": [
+                    {
+                        "name": "Florence",
+                        "x": 160,
+                        "y": 110,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Rome",
+                        "x": 178,
+                        "y": 113,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Corinth",
+                        "x": 275,
+                        "y": 120,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Athens",
+                        "x": 290,
+                        "y": 103,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
                     }
                 ],
                 "landmarks": [
@@ -238,7 +287,43 @@
                         "id": "1"
                     }
                 ],
-                "Cities": [],
+                "Cities": [
+                    {
+                        "name": "Ninevah",
+                        "x": 175,
+                        "y": 30,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Babylon",
+                        "x": 180,
+                        "y": 45,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Uruk",
+                        "x": 200,
+                        "y": 40,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Ur",
+                        "x": 210,
+                        "y": 35,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Jerusalem",
+                        "x": 70,
+                        "y": 1,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    }
+                ],
                 "landmarks": []
             },
             "present": {
@@ -256,7 +341,29 @@
                         "id": "3"
                     }
                 ],
-                "Cities": [],
+                "Cities": [
+                    {
+                        "name": "Medina",
+                        "x": 205,
+                        "y": 95,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Mecca",
+                        "x": 195,
+                        "y": 130,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Jerusalem",
+                        "x": 70,
+                        "y": 1,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    }
+                ],
                 "landmarks": []
             },
             "Books": [
@@ -288,8 +395,61 @@
                         "id": "1"
                     }
                 ],
-                "Cities": [],
-                "landmarks": []
+                "Cities": [
+                    {
+                        "name": "Ayodhya",
+                        "x": 255,
+                        "y": 95,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "New Delhi",
+                        "x": 197,
+                        "y": 52,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Mumbai",
+                        "x": 155,
+                        "y": 135,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    }
+                ],
+                "landmarks": [
+                    {
+                        "link": "india/Ramayana-path.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/india/Ramayana-path.png",
+                        "landmarkImage": {
+                            "title": "The Ramayana Path",
+                            "info": "Information about the Ramayana Path.",
+                            "image": "circle_button.svg",
+                            "top": 125,
+                            "left": 205,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "india/ganges-river.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/india/ganges-river.png",
+                        "landmarkImage": {
+                            "title": "The Ganges River",
+                            "info": "Information about the Ganges River.",
+                            "image": "circle_button.svg",
+                            "top": 70,
+                            "left": 300,
+                            "height": 100
+                        }
+                    }
+                ]
             },
             "present": {
                 "Images": [
@@ -306,8 +466,46 @@
                         "id": "2"
                     }
                 ],
-                "Cities": [],
-                "landmarks": []
+                "Cities": [
+                    {
+                        "name": "Ayodhya",
+                        "x": 255,
+                        "y": 95,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "New Delhi",
+                        "x": 197,
+                        "y": 52,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Mumbai",
+                        "x": 155,
+                        "y": 135,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    }
+                ],
+                "landmarks": [
+                    {
+                        "link": "india/ganges-river.png",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "present/india/ganges-river.png",
+                        "landmarkImage": {
+                            "title": "The Ganges River",
+                            "info": "Information about the Ganges River.",
+                            "image": "circle_button.svg",
+                            "top": 90,
+                            "left": 300,
+                            "height": 100
+                        }
+                    }
+                ]
             },
             "Books": [
                 {
