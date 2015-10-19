@@ -28,7 +28,7 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
 
   })
 
-  .controller('HomeCtrl', ['$scope', '$http', '$modal', 'modalService', 'Data', function($scope, $http, $modal, modalService, Data) {
+  .controller('HomeCtrl', ['$scope', '$http', '$uibModal', 'modalService', 'Data', function($scope, $http, $uibModal, modalService, Data) {
 
      $scope.oneAtATime = true;
      $scope.change = true;
@@ -51,10 +51,10 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
     }
 
     $scope.openMe = function(size, myFullImage, titleName, info){
-     $scope.ModelInstance = $modal.open({
+     $scope.ModelInstance = $uibModal.open({
       animation: true,
       backdrop: 'static',
-      template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
+      template: '<div class="modalBox animated fadeIn"><button class="btn btn-danger pull-right" type="button" ng-click="ok()" uib-tooltip="Close"><i class="fa fa-times"></i></button><h1>'+titleName+'</h1><p>'+info+'<img src="img/'+myFullImage+'" class="img-responsive" alt="'+myFullImage+'" /></div>',
       size: size,
       scope: $scope, 
       keyboard: true
@@ -67,7 +67,7 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
     };
 
     $scope.openHelpMenu = function(size){
-      $scope.HelpModal = $modal.open({
+      $scope.HelpModal = $uibModal.open({
       animation: true,
       backdrop: 'static',
       templateUrl: 'partials/help.html',
@@ -78,10 +78,10 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
     };
 
     $scope.openBook = function(size, title, description){
-      $scope.BookModal = $modal.open({
+      $scope.BookModal = $uibModal.open({
       animation: true,
       backdrop: 'static',
-      template: '<div class="modalBox animated fadeIn"><button class="btn btn-primary pull-right" type="button" ng-click="closeBookModal()" tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><div class="modal-footer"><button class="btn btn-primary pull-right" type="button" tooltip="Read more"><i class="fa fa-book"></i> Read more</button></div></div></div>',
+      template: '<div class="modalBox animated fadeIn"><button class="btn btn-primary pull-right" type="button" ng-click="closeBookModal()" uib-tooltip="Close"><i class="fa fa-times"></i></button><h1>'+title+'</h1><p>'+description+'</p><div class="next"><div class="modal-footer"><button class="btn btn-primary pull-right" type="button" uib-tooltip="Read more"><i class="fa fa-book"></i> Read more</button></div></div></div>',
       size: size,
       scope: $scope,
       keyboard: true
@@ -145,10 +145,12 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
        console.log($scope.clicked);
     };
 
+    /*
+    service call
 
-    modalService.myData().success(function(res) {
-      console.log(res);
-    });
-    // console.log('data from service', $scope.testing);
+    $scope.opens = function(titles, desc){
+      modalService.openMenuModal('partials/modal.html', titles, desc);
+    };*/
+
 
   }]);
