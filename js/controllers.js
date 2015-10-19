@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
+angular.module('myApp.controllers', ['ui.bootstrap'])
 
   .controller('AppCtrl', function($scope, $http, Data) {
 
@@ -28,7 +28,7 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
 
   })
 
-  .controller('HomeCtrl', function($scope, $http, $modal) {
+  .controller('HomeCtrl', ['$scope', '$http', '$modal', 'modalService', 'Data', function($scope, $http, $modal, modalService, Data) {
 
      $scope.oneAtATime = true;
      $scope.change = true;
@@ -145,4 +145,10 @@ angular.module('myApp.controllers', ['ui.bootstrap', 'ngAnimate'])
        console.log($scope.clicked);
     };
 
-  });
+
+    modalService.myData().success(function(res) {
+      console.log(res);
+    });
+    // console.log('data from service', $scope.testing);
+
+  }]);

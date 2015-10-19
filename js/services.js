@@ -1,20 +1,26 @@
 'use strict';
 
-angular.module('myApp.services', [])
+angular.module('myApp.services', ['ui.bootstrap'])
 
   .factory('Data', ['$http', function($http) {
 
 		return $http.get('js/data.json');
+    // return {
+    //   getData: function() {
+    //     return $http.get('js/data.json');
+    //   }
+    // }
 
   }])
 
-  .factory('modalService', function($scope){
+  .factory('modalService', ['Data', function(Data){
+    var appData = Data;
+
   	return {
-        openMenuModal: function(templateLink, windowAnimation) {
+        openMenuModal: function(templateLink) {
             var modalInstance = $modal.open({
                 templateUrl: templateLink,
                 backdrop: 'static',
-                windowClass: windowAnimation,
                 controller: function($scope, $modalInstance) {
                     $scope.close = function() {
                         $modalInstance.close();
@@ -25,7 +31,10 @@ angular.module('myApp.services', [])
       			keyboard: true
             });
 
+        },
+        myData: function(){
+          return appData;
         }
     };
 
-  });
+  }]);
