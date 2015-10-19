@@ -49,6 +49,9 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
       $scope.data.caseStudyLightbox = !$scope.data.caseStudyLightbox;
     }
 
+
+    // Modal calls 
+
     $scope.openMe = function(title, description, myFullImage){
       modalService.openMenuModal('partials/FullSizeModal.html', title, description, myFullImage);
     };
