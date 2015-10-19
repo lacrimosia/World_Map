@@ -27,7 +27,7 @@
        <div class="form-inline">
             <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = false; unCheck(); close=true;" uib-tooltip="Close" tooltip-placement="top"><i class="fa fa-times"></i> Close</button>
             <!--thing.choiceMade = false-->
-            <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = true; openHelpMenu('md');" ng-style="{'margin-right':'10px'}" uib-tooltip="Help" tooltip-placement="top"><i class="fa fa-question"></i> Help</button>
+            <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = true; openHelpMenu()" ng-style="{'margin-right':'10px'}" uib-tooltip="Help" tooltip-placement="top"><i class="fa fa-question"></i> Help</button>
       </div>
           </div>
 
@@ -46,7 +46,7 @@
                   <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.past.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
                    <!--button markers to click on for landmark images in the past-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-star landmarkMarker"></i></button>
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe(landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-star landmarkMarker"></i></button>
 
                 </div>
 
@@ -63,7 +63,7 @@
                   <img ng-src="img/present/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.present.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
                   <!--button markers to click on for landmark images in the past-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.present.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe('lg', landmark.fullSize, landmark.landmarkImage.title, landmark.landmarkImage.info)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-certificate landmarkMarker"></i></button>
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.present.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe(landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-certificate landmarkMarker"></i></button>
                 </div>
 
 

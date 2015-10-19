@@ -11,43 +11,28 @@ angular.module('myApp.services', ['ui.bootstrap'])
     //   }
     // }
 
+     /*
+        myData: function(){
+            appData.success(function(data) {
+              console.log('data', data);
+              return data;
+            });
+        }*/
+
   }])
 
+// Modal Service for all the popups
   .factory('modalService', ['$uibModal', function($uibModal){
   	return {
-      openMenuModal: function(templateLink, titles, desc) {
-        var modalObj = $uibModal.open({
-          templateUrl: templateLink,
-          backdrop: 'static',
-          controller: function($scope,$modalInstance){
-            $scope.ok = function(id){
-              //Process Close Button Click
-               $modalInstance.close(); 
-            },
-             $scope.cancel = function(){
-              $modalInstance.dismiss('cancel');
-            }
-          },
-          size: 'md',
-          keyboard: true,
-          resolve: {
-            name: function () {
-              return titles;
-            },
-            description: function () {
-              console.log(desc);
-              return desc;
-            }
-          }
-        });
-      },
-      johnsOpenModal: function(templateLink, title, description) {
+      openMenuModal: function(templateLink, title, description, myFullImage, Link) {
         var modalObj = $uibModal.open({
           templateUrl: templateLink,
           backdrop: 'static',
           controller: function($scope, $modalInstance){
             $scope.title = title;
             $scope.description = description;
+            $scope.myFullImage = myFullImage;
+            $scope.Link = Link;
             $scope.ok = function(id){
               //Process Close Button Click
               $modalInstance.close(); 
@@ -60,13 +45,9 @@ angular.module('myApp.services', ['ui.bootstrap'])
           keyboard: true
         });
       }
-        /*
-        myData: function(){
-            appData.success(function(data) {
-              console.log('data', data);
-              return data;
-            });
-        }*/
     };
 
   }]);
+
+
+         
