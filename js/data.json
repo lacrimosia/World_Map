@@ -22,56 +22,7 @@
                     }
                 ],
                 "Cities": [
-                    {
-                        "name": "Mayapan past",
-                        "x": 185,
-                        "y": 60,
-                        "marker": "city-star_small.png",
-                        "placement": "left"
-                    },
-                    {
-                        "name": "Chichen Itza past",
-                        "x": 198,
-                        "y": 30,
-                        "marker": "city-star_small.png",
-                        "placement": "right"
-                    }
-                ],
-                "landmarks": [
-                    {
-                        "link": "east_asia/silk-road.png",
-                        "top": 0,
-                        "left": 15,
-                        "height": "auto",
-                        "fullSize": "east_asia/full-silk-road.png",
-                        "landmarkImage": {
-                            "title": "The Silk Road",
-                            "info": "Information about the Silk Road here.",
-                            "image": "circle_button.svg",
-                            "top": 200,
-                            "left": 50,
-                            "height": 100
-                        }
-                    }
-                ]
-            },
-            "present": {
-                "Images": [
-                    {
-                        "link": "mesoamerica.png",
-                        "id": "1"
-                    },
-                    {
-                        "link": "mesoamerica_present.png",
-                        "id": "1"
-                    },
-                    {
-                        "link": "mesoamerica_lines.png",
-                        "id": "2"
-                    }
-                ],
-                "Cities": [
-                    {
+                     {
                         "name": "Mayapan",
                         "x": 185,
                         "y": 60,
@@ -92,6 +43,27 @@
                         "marker": "city-star_small.png",
                         "placement": "left"
                     }
+                ],
+                "landmarks": [
+                ]
+            },
+            "present": {
+                "Images": [
+                    {
+                        "link": "mesoamerica.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mesoamerica_present.png",
+                        "id": "1"
+                    },
+                    {
+                        "link": "mesoamerica_lines.png",
+                        "id": "2"
+                    }
+                ],
+                "Cities": [
+                   
                 ],
                 "landmarks": []
             },
@@ -260,14 +232,28 @@
             },
             "Books": [
                 {
-                    "name": "Book about Mediterranean",
-                    "image": "placeholder.png",
-                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                    "name": "Odyssey",
+                    "image": "Odyssey.jpg",
+                    "description": "Odyssey is generally considered to be the sequel to the Iliad. Unlike many sequels in the modern era, however, the Odyssey actually seems to be an improvement, in some respects, on the original and is quite capable of standing as an independent work. Odysseia, which has been this poem's name in Greek since Herodotus called it that in the fifth century bce, means simply the story of Odysseus. That story refers to the ten-year-long return trip of Odysseus from Troy to his island home of Ithaca, off the west coast of Greece. Because the epic pertains to this long journey, the term odyssey has since come to mean any significant and difficult journey.",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|H1430007439&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=215348cd0600739aff639db8455029a2"
                 },
                 {
-                    "name": "Book about Mediterranean 2",
-                    "image": "placeholder.png",
-                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper."
+                    "name": "Oedipus the King",
+                    "image": "oedipus.jpg",
+                    "description": "Sophocles often won the leading prize at the Dionysia, the principal dramatic festival of Athens; but Oedipus the King was a runner-up, winner of the second prize. Posterity, however, considers the play second to none. The play tells the beginning of the Oedipus saga, setting the stage and creating the characters who will continue the story to its conclusion in Antigone. With Michael Pennington, John Gielgud, and Claire Bloom.",
+                    "Link": "http://digital.films.com/PortalViewVideo.aspx?xtid=1318"
+                },
+                {
+                    "name": "Aesop",
+                    "image": "aesop.jpg",
+                    "description": "Examining the figure of Aesop and the traditions surrounding him, Aesopic Conversations offers a portrait of what Greek popular culture might have looked like in the ancient world. What has survived from the literary record of antiquity is almost entirely the product of an elite of birth, wealth, and education, limiting our access to a fuller range of voices from the ancient past. This book, however, explores the anonymous Life of Aesop and offers a different set of perspectives.",
+                    "Link": "http://site.ebrary.com/lib/unlv/detail.action?docID=10467759"
+                },
+                {
+                    "name": "Sappho",
+                    "image": "sappho.jpg",
+                    "description": "",
+                    "Link": ""
                 }
             ]
         },
@@ -368,14 +354,16 @@
             },
             "Books": [
                 {
-                    "name": "Book about Middle East",
-                    "image": "placeholder.png",
-                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                    "name": "Epic of Gilgamesh",
+                    "image": "gilgamesh.jpg",
+                    "description": "The Epic of Gilgamesh is one of the oldest known literary works. This Babylonian epic is believed to have taken its present form between approximately 1200 and 1000 B.C., but it has Sumerian roots that may stretch back an additional fifteen hundred years. Critically acclaimed as the most accomplished and engaging pre-Homeric narrative, the story tells of the deeds and adventures of a legendary hero-king and his wild-man friend, Enkidu. Historians note that there was an historical Sumerian King Gilgamesh of Uruk who lived around 2650 B.C., but it is impossible to determine to what extent the story is based on his actual exploits and where myth intervenes. The Epic of Gilgamesh is also an important resource for comparative religion scholars because its narrative of a great flood predates the account in the Bible.",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|H1410001398&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=5d80820dfbdd89ec1e7bf95a8bcc82e7"
                 },
                 {
-                    "name": "Book about Middle East 2",
-                    "image": "placeholder.png",
-                    "description": "Curabitur accumsan ipsum eu odio placerat, eget tempus mi ullamcorper. Curabitur et ullamcorper ligula. Aliquam a dignissim odio, varius iaculis magna. Sed quis lorem accumsan, accumsan purus nec, tempor nulla. Vivamus sit amet leo egestas, varius metus a, laoreet elit. In facilisis mi vitae volutpat suscipit. Morbi id sapien tincidunt, pharetra neque vitae, pharetra augue. Duis nec urna vel ex fermentum suscipit. "
+                    "name": "Hebrew Bible",
+                    "image": "hebrew.jpg",
+                    "description": "Includes the creation of the world and humankind; the expulsion of Adam and Eve from the Garden of Eden; the first murder of Abel by Cain; the story of the Ark of Noah; the Tower of Babel; and stories of the Patriarchs—Abraham, Isaac, and Jacob.",
+                    "Link": "http://search.credoreference.com/content/entry/sharpejft/the_hebrew_bible/0"
                 }
             ]
         },
@@ -408,7 +396,7 @@
                         "x": 197,
                         "y": 52,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "top"
                     },
                     {
                         "name": "Mumbai",
@@ -479,7 +467,7 @@
                         "x": 197,
                         "y": 52,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "top"
                     },
                     {
                         "name": "Mumbai",
@@ -791,7 +779,7 @@
                         "x": 186,
                         "y": 90,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "right"
                     }
                 ],
                 "landmarks": []

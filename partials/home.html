@@ -39,7 +39,7 @@
 
                   <!-- cities-->
                   <div class="cityStars">
-                  <button class="stars img-responsive animated fadeIn" ng-repeat="city in thing.past.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" uib-tooltip="{{city.name}}" tooltip-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
+                  <button class="stars img-responsive animated fadeIn" ng-repeat="city in thing.past.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" uib-popover="{{city.name}}" popover-placement="{{city.placement}}" popover-is-open="true"><i class="fa fa-map-marker"></i></button>
                   </div>
 
                   <!-- Landmarks for the places in the past-->
@@ -55,14 +55,14 @@
                   <img ng-repeat="x in thing.present.Images" ng-src="img/present/{{x.link}}" class="img-responsive thePresent" ng-style="{'height':'auto', 'z-index': '11', 'position': 'absolute'}"/>
 
                   <div class="cityStars">
-                  <button class="stars img-responsive" ng-repeat="city in thing.present.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" uib-tooltip="{{city.name}}" tooltip-placement="{{city.placement}}"><i class="fa fa-map-marker"></i></button>
+                  <button class="stars img-responsive" ng-repeat="city in thing.present.Cities" ng-style="{'top': city.y+'px', 'left': city.x+'px', 'z-index': '15', 'position': 'absolute'}" uib-popover="{{city.name}}" popover-placement="{{city.placement}}" popover-is-open="true"><i class="fa fa-map-marker"></i></button>
                   </div>
 
 
                   <!-- Landmarks for the places in the past-->
                   <img ng-src="img/present/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.present.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
-                  <!--button markers to click on for landmark images in the past-->
+                  <!--button markers to click on for landmark images in the present-->
                    <button class="stars img-responsive" ng-repeat="landmark in thing.present.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="right" ng-click="openMe(landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-certificate landmarkMarker"></i></button>
                 </div>
 
@@ -85,7 +85,7 @@
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
                <div class="Books">
                        <ul class="list-group">
-                          <li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="openBook('md', book.name, book.description)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>
+                          <li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="openBook('md', book.name, book.description, '', book.Link, book.image)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>
                           <!--<li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="opens(book.name, book.description)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>-->
                       </ul>
                 </div>
