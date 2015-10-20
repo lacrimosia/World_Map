@@ -5,6 +5,7 @@
 	<div class="modal-header"><h1>{{title}}</h1></div>
 	<div class="col-md-4"><img ng-src="img/books/{{thumb}}" class="img-responsive center-block" /></div>
 	<div class="col-md-8"><p>{{description}}</p></div>
+	<a role="button" class="btn btn-primary" uib-tooltip="Next" ng-click="thing.Books[index + 1]">{{index}}  Next</a>
 <div class="modal-footer">
  <a role="button" class="btn btn-primary pull-right" ng-href="{{Link}}" uib-tooltip="Visit site"><i class="fa fa-book"></i> Read more</a>
  </div>

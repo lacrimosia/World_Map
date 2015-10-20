@@ -85,7 +85,7 @@
                <h6 class="text-left" ng-style="{'margin-left': '15px'}"><strong>{{thing.name}} Selections</strong> <span class="label label-default pull-right">{{thing.Books.length}}</span></h6>
                <div class="Books">
                        <ul class="list-group">
-                          <li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="openBook('md', book.name, book.description, '', book.Link, book.image)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>
+                          <li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="openBook('md', book.name, book.description, '', book.Link, book.image, $index)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>
                           <!--<li class="list-group-item" ng-repeat="book in thing.Books"><a ng-click="opens(book.name, book.description)" href="#"><span class="largeTitle"><i class="fa fa-book"></i> {{book.name}}</span></a></li>-->
                       </ul>
                 </div>

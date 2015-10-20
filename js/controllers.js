@@ -60,8 +60,8 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
       modalService.openMenuModal('partials/help.html');
     };
 
-    $scope.openBook = function(templateLink, title, description, myFullImage, Link, theImage){
-      modalService.openMenuModal('partials/modal.html', title, description, myFullImage, Link, theImage);
+    $scope.openBook = function(templateLink, title, description, myFullImage, Link, theImage, index){
+      modalService.openMenuModal('partials/modal.html', title, description, myFullImage, Link, theImage, index);
     };
 
     $scope.prompt = function(index) {
