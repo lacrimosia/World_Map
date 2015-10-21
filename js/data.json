@@ -254,6 +254,48 @@
                     "image": "sappho.jpg",
                     "description": "Sappho was a Greek lyric poet, born on the island of Lesbos. The Alexandrians included her in the list of nine lyric poets. She was born sometime between 630 and 612 BCE, and it is said that she died around 570 BCE, but little is known for certain about her life. The bulk of her poetry, which was well-known and greatly admired through much of antiquity, has been lost; however, her immense reputation has endured through surviving fragments.",
                     "Link": "http://go.galegroup.com/ps/i.do?id=GALE|TDBGBU054423645&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=0d5b10fcd4eb7b097e5b5fafaebe289b"
+                },
+                {
+                    "name": "Introduction to Catullus",
+                    "image": "Catullus.jpg",
+                    "description": "The poems of Catullus might have suffered the same fate as those of Archilochos and Sappho but for a single manuscript which made its way to Verona, the poet's home town, early in the 14th century. Since Catullus is generally thought to have lived between 84 and 54 B. C. E., this manuscript was a copy of a copy of a copy... going back for some 1400 years--though nothing is known about those earlier manuscripts. In fact, the text of Catullus that we use today, while it derives ultimately from this single manuscript, is based on copies, and on copies of copies, of that one, since the manuscript itself is long gone.",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|OFYAKL024045937&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=3dccae60a522107175b083fb9737a2dd"
+                },
+                {
+                    "name": "Introduction to Vergil",
+                    "image": "Vergil.jpg",
+                    "description": "When Roman armies conquered the remnants of Alexander's empire in 168 BCE, they also conquered the Greek city states. The Romans soon realized the uniqueness of what they had overcome. 'Captured Greece captured its fierce conqueror,' wrote the Roman poet, Horace. His point was that Romans recognized something in Greek culture that was more impressive than anything Rome itself had achieved, in spite of Rome's unprecedented military success. The result is that Roman culture adapted itself to the model of Greece, at least in art, religion, and literature. Roman statues, temples, and public buildings were rebuilt in imitation of those in Greece. Greek stories of the gods were retold with Roman names in place of Greek. Roman thinkers adapted the philosophical ideas of the Athenian academy to their situation in the Roman republic and especially in the Roman empire.",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|ENXYHL695056952&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=987ea473633e13639d5943132e9854f6"
+                },
+                {
+                    "name": "Introduction to Ovid",
+                    "image": "Ovid.jpg",
+                    "description": "By the time Ovid sat down to write The Metamorphoses in around the year 2 A.D., he had already established himself as one of Rome's most popular poets. Ovid's path to stardom paralleled that of many popular musicians, writers, and filmmakers today: he picked a genre – in his case, love poetry – and stuck to it, working at it and working at it until it was like putty in his hands. There's no question that the books Ovid wrote during this period are pretty amazing (we especially recommend the Heroides, a series of poems presented as letters from jilted mythological ladies to their deadbeat boyfriends and husbands).",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|ONUZMG772572414&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=d13d49707996d8912e2688a9aed1fc41"
+                },
+                {
+                    "name": "Dante: Visions of the Inferno",
+                    "image": "Inferno.jpg",
+                    "description": "Drawing upon the insights of numerous international scholars—and illustrating crucial passages with stunning animation sequences—this program guides viewers through the Inferno of Dante’s Divine Comedy. With detailed analysis of the poet’s descent into hell and navigation through its various levels, the program interprets Dante’s motives for embarking on such a journey, explains his relationship and interaction with both Virgil and Beatrice, and describes the complex mixture of morality and humanism within the work—embodied in Dante’s attitude toward those who inhabit the realms of the dead.",
+                    "Link": "http://digital.films.com/PortalViewVideo.aspx?xtid=35994"
+                },
+                {
+                    "name": "Heroic Identity in the World of Beowulf",
+                    "image": "Beowulf.jpg",
+                    "description": "Readers of Beowulf have noted inconsistencies in Beowulf's depiction, as either heroic or reckless. Heroic Identity in the World of Beowulf resolves this tension by emphasizing Beowulf's identity as a foreign fighter seeking glory abroad. Such men resemble wreccan, 'exiles' compelled to leave their homelands due to excessive violence. Beowulf may be potentially arrogant, therefore, but he learns prudence. This native wisdom highlights a king's duty to his warband, in expectation of Beowulf's future rule. The dragon fight later raises the same question of incompatible identities, hero versus king. In frequent reference to Greek epic and Icelandic saga, this revisionist approach to Beowulf offers new interpretations of flyting rhetoric, the custom of men dying with their lord, and the poem's digressions.",
+                    "Link": "http://site.ebrary.com/lib/unlv/detail.action?docID=10349228"
+                },
+                {
+                    "name": "The Book of Dede Korkut",
+                    "image": "Korkut.png",
+                    "description": "The most famous among the epic stories of the Oghuz Turks (also known as Turkmens or Turcomans) The stories carry morals and values significant to the social lifestyle of the nomadic Turks and their pre-Islamic beliefs. The book's mythic narrative is part of the cultural heritage of Turkic states, including Turkey, Azerbaijan, Turkmenistan, Kazakhstan and to a lesser degree Kyrgyzstan.",
+                    "Link": "http://www.dieweltdertuerken.org/index.php/ZfWT/article/view/312/ozarslan"
+                },
+                {
+                    "name": "El Lazarillo de Tormes",
+                    "image": "Tormes.jpg",
+                    "description": "Published in 1554, The Life of Lazarillo of Tormes introduced a new genre of writing, the picaresque. This classic, award-winning adaptation of the anonymous masterpiece tells the story of the young and constantly hungry protagonist, Lazaro, whose worldly education on the road through a series of masters presents a sly, often comical critique of 16th-century Spain. (Spanish, 107 minutes)",
+                    "Link": "http://digital.films.com/PortalViewVideo.aspx?xtid=29157"
                 }
             ]
         },
@@ -364,6 +406,12 @@
                     "image": "hebrew.jpg",
                     "description": "Includes the creation of the world and humankind; the expulsion of Adam and Eve from the Garden of Eden; the first murder of Abel by Cain; the story of the Ark of Noah; the Tower of Babel; and stories of the Patriarchs—Abraham, Isaac, and Jacob.",
                     "Link": "http://search.credoreference.com/content/entry/sharpejft/the_hebrew_bible/0"
+                },
+                {
+                    "name": "An Introduction to Alf Layla wa-Layla (The Arabian Nights)",
+                    "image": "Alf.jpg",
+                    "description": "The Thousand and One Nights (alf layla wa layla) or The Arabian Nights, as they came to be known, owes its origins to three distinct cultures and storytelling traditions: that of India, Persia and the Arab world. The Arabian Nights first appeared in its Arabic form around 850 AD and it has been considered a remarkable mystery in Classical Arabic Literature. Although many scholars deny its literary importance, The Arabian Nights can be viewed as a valuable source of Middle Eastern social history, being composed of the most extensive and intimate recordings of the medieval Islamic period. Generations of Arabic readers have appreciated the versatile and imaginative use of Arabic and the mixture of the classical and colloquial language in many of the stories, a style which helped diversify the characters from the narrative.",
+                    "Link": "http://go.galegroup.com/ps/i.do?id=WQEEKX085745411&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=18d127fac84a7e03e839de1a7e5f8e7c"
                 }
             ]
         },
@@ -497,14 +545,22 @@
             },
             "Books": [
                 {
-                    "name": "Book about India",
-                    "image": "placeholder.png",
-                    "description": "This is a book about India"
+                    "name": "An Introduction to Ramayana",
+                    "image": "Ramayana.jpg",
+                    "description": "The Ramayana is one of the most well-known stories in the world, but many people in the United States have never heard about it, or know only small bits of the plot. The epic is widely known and loved in South and Southeast Asia. There it is considered first as an exciting adventure tale about a banished prince who wanders for years in the wilderness separated from his beloved wife. In this way it is comparable to the Odyssey tale of ancient Greece, which continues to entrance the Euro-American world. (India’s other great ancient epic, the Mahabharata, is a battle tale compared in turn with Homer’s Iliad.)", 
+                    "Link": "http://go.galegroup.com/ps/i.do?id=WBIXFT429452377&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=c6ef89e93a1271572eb5e8ceed2101a6"
                 },
                 {
-                    "name": "Book about India 2",
-                    "image": "placeholder.png",
-                    "description": "This is a book about India 2"
+                    "name": "Introduction to Kabir",
+                    "image": "Kabir.jpg",
+                    "description": "Six hundred years ago Kabir was born in India in 1398 AD. He lived for 120 years and is said to have relinquished his body in 1518. This period is also said to be the beginning of Bhakti Movement in India. A weaver by profession, Kabir ranks among the world's greatest poets. Back home in India, he is perhaps the most quoted author. The Holy Guru Granth Sahib contains over 500 verses by Kabir. The Sikh community in particular and others who follow the Holy Granth, hold Kabir in the same reverence as the other ten Gurus.", 
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|KFQWAX885759836&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=44d3e00fa2ab43810678f6d890fd48d3"
+                },
+                {
+                    "name": "An Introduction to Mirabai",
+                    "image": "Mirabai.jpg",
+                    "description": "Mirabai (also known as Meerabai, Mira, Meera) is the most well known of the women bhakti (Hindu devotional) saints of India. According to tradition, this 16th-century royal devotee of Krishna was born in Merta in Rajasthan in the kingdom of Marwar and dedicated to Krishna from childhood, but married into the royal family of Mewar in Chittor, most say against her will. She refused to behave as a woman of her caste and class was required to do and instead fearlessly danced and sang for her Lord in the public space of the temple and kept company with holy men and people from all walks of life. The rana, the ruler of Mewar (identified variously as her husband, her father-in-law, or her brother-in-law), tried to stop her, in many accounts repeatedly trying to kill her for these transgressions. Most famously, he sent her a cup of poison in the guise of holy water, but she remained unharmed and undeterred. Ultimately, she departed to become a wandering religious leader, reportedly traveling to holy places associated with Krishna, including Vrindavan (the land of his youthful incarnation) and Dwarka (the capital of the mature Krishna’s kingdom), where she ultimately merged with his image. Though admired by devotees of many different branches of devotional Hinduism, she remains formally unaffiliated and is explicitly rejected by the followers of Vallabhacarya. If she is said to have a guru at all, she is most often associated with the untouchable leatherworker saint, Raidas (also known as Ravidas, Rohidas). She is known not only for her story but also the devotional songs of love and longing she is said to have composed. A multitude of stories have circulated about her as her fame spread across India, and an immense body of songs are attributed to her, with those that might have been composed by this individual woman inseparable from those composed by others in subsequent centuries in her name and style. She has come to inspire many, her popularity crossing the borders of caste, language, religion, culture, and time.", 
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|KHONNV180383508&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=d999315ac6a37e0c255b2ce7ea5fdb79"
                 }
             ]
         },
@@ -562,14 +618,28 @@
             },
             "Books": [
                 {
-                    "name": "Book about Africa",
-                    "image": "placeholder.png",
-                    "description": "This is a book about Africa"
+                    "name": "Sunjata",
+                    "image": "Sunjata.jpg",
+                    "description": "A pillar of the West African oral tradition for centuries, this epic traces the adventures and achievements of the Mande hero, Sunjata, as he liberates his people from Sumaworo Kante, the sorcerer king of Soso, and establishes the great medieval empire of Mali. David Conrad conveys the strong narrative thrust of the Sunjata epic in his presentation of substantial excerpts from his translation of a performance by Djanka Tassey Conde. Readers approaching the epic for the first time will appreciate the translation's highly readable, poetic English as well as Conrad's informative Introduction and notes. Scholars will find the familiar heroes and heroines taking on new dimensions, secondary characters gaining increased prominence, and previously unknown figures emerging from obscurity.",
+                    "Link": "http://site.ebrary.com/lib/unlv/detail.action?docID=10642254"
                 },
                 {
-                    "name": "Book about Africa 2",
-                    "image": "placeholder.png",
-                    "description": "This is a book about Africa"
+                    "name": "Nigeria in Countries and their Cultures",
+                    "image": "Nigeria.jpg",
+                    "description": "Though there is archaeological evidence that societies have been living in Nigeria formore than twenty-five hundred years, the bordersof modern Nigeria were not created until the British consolidated their colonial power over the area in 1914. The name Nigeria was suggested by British journalist Flora Shaw in the 1890s. She referred to the area as Nigeria, after the Niger River, which dominates much of the country’s landscape. The word niger is Latin for black.",
+                    "Link": "http://web.b.ebscohost.com/ehost/ebookviewer/ebook?sid=21e8b1b5-6a94-4c88-b8be-8474211af54a%40sessionmgr110&crlhashurl=login.aspx%253fdirect%253dtrue%2526db%253dnlebk%2526AN%253d73077%2526site%253dehost-live%2526ebv%253dEB%2526ppid%253dpp_III_1624&hid=102&format=EB&ppid=pp_III_1624&vid=0"
+                },
+                {
+                    "name": "African Religions",
+                    "image": "African.jpg",
+                    "description": "By Ahmed Chanfi and Andreas Heuser.",
+                    "Link": "http://religion-compass.com/sections/african-religions/"
+                },
+                {
+                    "name": "The Kebra Nagast",
+                    "image": "Nagast.jpg",
+                    "description": " This is a translation of the Kebra Nagast, a tremendous collection of Ethiopian Biblical folklore. The Kebra Nagast tells the legend of the Queen of Sheba's son by King Solomon, Menyelek (also known herein as Bayna-Lehkem and David II). Menyelek engineers a plot to take the Tabernacle of the Law of God (i.e., the Ark of the Covenant) to Ethiopia. This is done at the behest of an Angel of God who predicts the downfall of the kingdom of Solomon. Comitted to writing in the fourteenth century, the Kebra Nagast was derived from Ethiopian oral traditions of the Queen of Sheba and her state marriage with Solomon. The Kebra Nagast has been cited as one of the sources of the Rastafarian movement because of its support of Ethiopian theocracy. ",
+                    "Link": "http://www.sacred-texts.com/afr/kn/"
                 }
             ]
         },
@@ -787,27 +857,27 @@
             "Books": [
                 {
                     "name": "The Philosophy of the Daodejing",
-                    "image": "placeholder.png",
+                    "image": "Daodejing.jpg",
                     "description": "Hans-Georg Moeller explores the recurring images and ideas that shape the work and offers a variety of useful approaches to understanding and appreciating this canonical text. Moeller expounds on the core philosophical issues addressed in the Daodejing, clarifying such crucial concepts as Yin and Yang and Dao and De. He explains its teachings on a variety of subjects, including sexuality, ethics, desire, cosmology, human nature, the emotions, time, death, and the death penalty. The Daodejing also offers a distinctive ideal of social order and political leadership and presents a philosophy of war and peace.",
-                    "link": "http://go.galegroup.com/ps/i.do?id=GALE|SDOFGY827201063&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=7cbf6133958889e8cb0ec8710771d5e7"
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|SDOFGY827201063&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=7cbf6133958889e8cb0ec8710771d5e7"
                 },
                 {
                     "name": "Confucius",
-                    "image": "placeholder.png",
+                    "image": "Confucius.jpg",
                     "description": "Hans-Georg Moeller explores the recurring images and ideas that shape the work and offers a variety of useful approaches to understanding and appreciating this canonical text. Moeller expounds on the core philosophical issues addressed in the Daodejing, clarifying such crucial concepts as Yin and Yang and Dao and De. He explains its teachings on a variety of subjects, including sexuality, ethics, desire, cosmology, human nature, the emotions, time, death, and the death penalty. The Daodejing also offers a distinctive ideal of social order and political leadership and presents a philosophy of war and peace.",
-                    "link": "http://go.galegroup.com/ps/i.do?id=GALE|SDOFGY827201063&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=7cbf6133958889e8cb0ec8710771d5e7"
+                    "Link": "http://go.galegroup.com/ps/i.do?id=GALE|SDOFGY827201063&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=7cbf6133958889e8cb0ec8710771d5e7"
                 },
                 {
                     "name": "Shinjū ten no Amijima - Double suicide",
-                    "image": "placeholder.png",
+                    "image": "Amijima.jpg",
                     "description": "In this stylized dramatization of the puppet theater play, Jihei abandons business, family and self respect for a passionate love affair with a geisha whose freedom he cannot afford. As the world closes in upon him, he finds his only course of action to be death together with the lover he is unable to obtain in life.",
-                    "link": "http://webpac.library.unlv.edu/search~S1?/cPN1995.9.F67+S545+2000/cpn+1995.9+f67+s545+2000/-3%2C-1%2C0%2CE/frameset&FF=cpn+1995.9+f67+s545+2000&1%2C1%2C"
+                    "Link": "http://webpac.library.unlv.edu/search~S1?/cPN1995.9.F67+S545+2000/cpn+1995.9+f67+s545+2000/-3%2C-1%2C0%2CE/frameset&FF=cpn+1995.9+f67+s545+2000&1%2C1%2C"
                 },
                 {
                     "name": "Bunraku - the classical puppets of Japan",
-                    "image": "placeholder.png",
+                    "image": "Bunraku.jpg",
                     "description": "Introduction to the art of Bunraku, Japanese puppet theater. Includes performed excerpts from the play Sonezaki Shinju (The Love Suicides at Sonezaki) by the 18th century writer Chikamatsu Monzaemon.",
-                    "link": "http://search.alexanderstreet.com/view/work/658002"
+                    "Link": "http://search.alexanderstreet.com/view/work/658002"
                 }
             ]
         }
