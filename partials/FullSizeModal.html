@@ -1,8 +1,9 @@
 <div ng-controller="HomeCtrl">
 <div class="modalBox animated fadeIn">
-	<button class="btn btn-primary pull-right" type="button" ng-click="ok()" uib-tooltip="Close"><i class="fa fa-times"></i></button>
+	<button class="btn btn-primary pull-right" type="button" ng-click="ok()" uib-tooltip="Close" tooltip-placement="left"><i class="fa fa-times"></i></button>
 		<h1> {{title}} </h1>
+		<img ng-src="img/{{myFullImage}}" class="img-responsive center-block" alt="{{myFullImage}}" /><br/>
 			<p>{{description}}</p>
-				<img ng-src="img/{{myFullImage}}" class="img-responsive" alt="{{myFullImage}}" />
+				
 </div>
 </div>
