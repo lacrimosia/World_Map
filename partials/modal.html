@@ -2,9 +2,12 @@
 <div class="modalBox animated fadeIn">
 	<button class="btn btn-primary pull-right" type="button" ng-click="ok()" uib-tooltip="Close"><i class="fa fa-times"></i></button>
 
-	<div class="modal-header"><h1>{{title}}</h1></div>
-	<div class="col-md-4"><img ng-src="img/books/{{thumb}}" class="img-responsive center-block" /></div>
-	<div class="col-md-8"><p>{{description}}</p></div>
+	<div class="modal-header animated fadeIn"><h1>{{title}}</h1></div>
+	<div class="col-md-4 animated fadeIn"><img ng-src="img/books/{{thumb}}" class="img-responsive center-block" /></div>
+	<div class="col-md-8 animated fadeIn"><p>{{description}}</p></div>
+	<p></p>
+	<button class="btn btn-primary pull-left" ng-click="Prev(index)" uib-tooltip="Previous" ng-if="index>0"><i class="fa fa-arrow-left"></i></button>
+	<button class="btn btn-primary pull-right" ng-click="Next(index)" uib-tooltip="Next" ng-if="index!=Array.length-1"><i class="fa fa-arrow-right"></i></button>
 	<!--<div class="modal-header"><h4>Selections</h4></div>
 	<p></p>
 	<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">

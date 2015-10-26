@@ -37,6 +37,7 @@ angular.module('myApp.services', ['ui.bootstrap'])
             $scope.thumb = theImage;
             $scope.index = index;
             $scope.Array = array;
+            $scope.show = false;
             $scope.ok = function(id){
               //Process Close Button Click
               $modalInstance.close(); 
@@ -44,6 +45,33 @@ angular.module('myApp.services', ['ui.bootstrap'])
             $scope.cancel = function(){
               $modalInstance.dismiss('cancel');
             }
+
+            // go to next selection on click
+            $scope.Next = function(){
+              $scope.theArray = $scope.Array;
+              $scope.Items = $scope.Array[++$scope.index];
+              if($scope.Items === undefined){
+                return;
+              }else{
+               $scope.title = $scope.Items.name;
+                $scope.description = $scope.Items.description;  
+                $scope.thumb = $scope.Items.image;
+              }            
+            };
+
+            // go to Previous selection on click
+            $scope.Prev = function(){
+              $scope.theArray = $scope.Array;
+              $scope.Items = $scope.Array[--$scope.index];
+              if($scope.Items === undefined){
+                return;
+              }else{
+               $scope.title = $scope.Items.name;
+                $scope.description = $scope.Items.description;  
+                $scope.thumb = $scope.Items.image;
+              }            
+            };
+
           },
           size: 'md',
           keyboard: true
