@@ -2,12 +2,17 @@
 <div class="modalBox modalResize animated fadeIn">
 	<button class="btn btn-primary pull-right" type="button" ng-click="ok()" uib-tooltip="Close" tooltip-placement="left"><i class="fa fa-times"></i></button>
 <h3><strong>{{title}}</strong></h3>
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 animated fadeIn"><img ng-src="img/books/{{thumb}}" class="img-responsive center-block thumbnails" />
+
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 animated fadeIn"><br/><img ng-src="img/books/{{thumb}}" class="img-responsive center-block thumbnails" />
 	</div>
-	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 animated fadeIn"><p class="mDesc">{{description}}</p></div>	
+
+	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 animated fadeIn"><br/><p class="mDesc">{{description}}</p></div>	
 		<div class="modal-footer">
-		<button class="btn btn-default pull-left Prev" ng-click="Prev(index)" uib-tooltip="Previous" ng-if="index>0"><i class="fa fa-arrow-left"></i></button>
-<button class="btn btn-default pull-left Next" ng-click="Next(index)" uib-tooltip="Next" ng-if="index!=Array.length-1"><i class="fa fa-arrow-right"></i></button>
+		
+<div class="btn-group pull-left" role="group" aria-label="...">
+  <button type="button" class="btn btn-default Prev" ng-click="Prev(index)" ng-if="index>0"><i class="fa fa-arrow-left"></i> Prev</button>
+<button type="button" class="btn btn-default Next" ng-click="Next(index)"  ng-if="index!=Array.length-1"><i class="fa fa-arrow-right"></i> Next</button>
+</div>
 			<a role="button" class="btn btn-primary pull-right" ng-href="{{Link}}" uib-tooltip="Visit site"><i class="fa fa-book"></i> Read more</a>
  		</div>
 </div>
