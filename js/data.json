@@ -69,19 +69,10 @@
             },
             "Books": [
                 {
-                    "name": "Book about Mesoamerica",
-                    "image": "placeholder.png",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget efficitur lacus. Aliquam vel odio at sapien faucibus faucibus ut id est. Vestibulum tristique aliquam pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nec velit quis risus pretium aliquet vel in libero. Maecenas placerat, nunc vel volutpat pellentesque, ligula mauris malesuada tortor, ac lobortis neque ante a augue. Curabitur lobortis, est at mollis posuere, ex orci finibus felis, sed fermentum nunc elit a justo. Vivamus vehicula aliquam tellus nec consequat."
-                },
-                {
-                    "name": "Book about Mesoamerica 2",
-                    "image": "placeholder.png",
-                    "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
-                },
-                {
-                    "name": "Book about Mesoamerica 3",
-                    "image": "placeholder.png",
-                    "description": "Morbi pharetra bibendum fermentum. Nulla viverra justo dolor. Proin luctus dignissim faucibus. Suspendisse ultricies nisi nisl, pretium facilisis mi dictum non. Maecenas nec ultrices lacus. Suspendisse ac sapien a risus suscipit tincidunt. Nulla tellus est, posuere sed massa ut, rhoncus sollicitudin est. Ut turpis tortor, tempor bibendum sem sit amet, sollicitudin viverra erat. Suspendisse non porttitor risus. Donec euismod pretium velit interdum aliquet. Morbi ut lacus ligula."
+                    "name": "Goblin with a Gauge: Teaching Emily Dickinson",
+                    "image": "Dickinson.jpg",
+                    "description": "For the past several years, I have had the privilege of teaching seminars on Dickinson's poetry in her house, the Emily Dickinson Homestead. The seminars are open to the community, and my students have included computer programmers, English teachers, social workers, novelists, Homestead guides, a mathematician, a neurolinguistics researcher, and a number of people who identify themselves by saying they are taking the class because they are tired of being embarrassed when out-of-town friends say, 'You live in Amherst, you must know all about Emily Dickinson.' When I started teaching these seminars, I had two modest goals: to lead my students, many of whom had read little or no Dickinson before, through close readings of her poems; and to see what intelligent non-critics would make of the poetic peculiarities that have long bedeviled Dickinson scholars. As a poet and long-time student of American poetry, I felt quite comfortable with Dickinson's erratic punctuation, incomplete sentences, willful word choices and dizzying shifts of perspective. I never expected my students to confront me with problems that would require me to find a new approach to Dickinson's work.",
+                    "Link": "http://muse.jhu.edu/journals/emily_dickinson_journal/v009/9.2ladin.html"
                 }
             ]
         },
@@ -296,6 +287,54 @@
                     "image": "Tormes.jpg",
                     "description": "Published in 1554, The Life of Lazarillo of Tormes introduced a new genre of writing, the picaresque. This classic, award-winning adaptation of the anonymous masterpiece tells the story of the young and constantly hungry protagonist, Lazaro, whose worldly education on the road through a series of masters presents a sly, often comical critique of 16th-century Spain. (Spanish, 107 minutes)",
                     "Link": "http://digital.films.com/PortalViewVideo.aspx?xtid=29157"
+                },
+                {
+                    "name": "Candide",
+                    "image": "Candide.jpg",
+                    "description": "Candide is a French satire first published in 1759 by Voltaire, a philosopher of the Age of Enlightenment. Candide is characterised by its sarcastic tone as well as by its erratic, fantastical and fast-moving plot. A picaresque novel with a story similar to that of a more serious Bildungsroman, it parodies many adventure and romance clichés, the struggles of which are caricatured in a tone that is mordantly matter-of-fact. Still, the events discussed are often based on historical happenings, such as the Seven Years' War and the 1755 Lisbon earthquake. As philosophers of Voltaire's day contended with the problem of evil, so too does Candide in this short novel, albeit more directly and humorously. Voltaire ridicules religion, theologians, governments, armies, philosophies, and philosophers through allegory; most conspicuously, he assaults Leibniz and his optimism.",
+                    "Link": "http://web.b.ebscohost.com/ehost/detail/detail?sid=7634d58c-2ca3-437f-854a-79dca19f5a0a%40sessionmgr112&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d10551&hid=123&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=10551&db=nlebk"
+                },
+                {
+                    "name": "Tartuffe",
+                    "image": "Tartuffe.jpg",
+                    "description": "Written by Molière, 1622-1673; directed by Kirk Browning, 1921-2008 and Stephen Porter, 1925-; performed by Donald Moffat, 1930-, Stefan Gierasch, 1926-, Tammy Grimes, 1934-, Patricia Elliott, 1942-, Ray Wise, 1947-, Victor Garber, 1949-, Johanna Leister, fl. 1956-2008, Peter Coffield, 1945-1983 and Geraldine Fitzgerald, 1913-2005 (Broadway Theatre Archive, 1978), 1 hour.",
+                    "Link": "http://search.alexanderstreet.com/ativ/view/work/854724"
+                },
+                {
+                    "name": "Wordsworth",
+                    "image": "Wordsworth.jpg",
+                    "description": "Wordsworth was a major English Romantic poet who, with Samuel Taylor Coleridge, helped to launch the Romantic Age in English literature with their joint publication Lyrical Ballads (1798). Wordsworth's magnum opus is generally considered to be The Prelude, a semiautobiographical poem of his early years that he revised and expanded a number of times. It was posthumously titled and published, before which it was generally known as 'the poem to Coleridge'. Wordsworth was Britain's Poet Laureate from 1843 until his death in 1850.",
+                    "Link": "http://webpac.library.unlv.edu/search~S1/?searchtype=.&searcharg=b1556544"
+                },
+                {
+                    "name": "Ibsen: A Doll's House",
+                    "image": "Ibsen.jpg",
+                    "description": "Nora is sheltered first by her father and then by her husband. All her life, she has been protected like a fragile possession ... like a doll in a doll's house. After she marries, Nora becomes frustrated, realizes that under the dominance of her husband she will never have an identity of her own, and leaves to find a new life for herself.",
+                    "Link": "http://webpac.library.unlv.edu/search~S1?/cPT8861+.A362+2003/cpt+8861+a362+2003/-3%2C-1%2C0%2CE/frameset&FF=cpt+8861+a362+2003&1%2C1%2C"
+                }, 
+                {
+                    "name": "Dostoevsky",
+                    "image": "Dostoevsky.jpg",
+                    "description": "Dostoevsky was born in Moscow, as the second son of a former army doctor. He was educated at home and at a private school. Shortly after the death of his mother in 1837 he was sent to St. Petersburg, where he entered the Army Engineering College. In 1839 Dostoevsky's father died probably of apoplexy but there were strong rumors that he was murdered by his own serfs. Dostoevsky graduated as a military engineer, but resigned in 1844 to devote himself to writing. His first novel, Poor Folk appeared in 1846. It was followed by The Double, which depicted a man who was haunted by a look-alike who eventually usurps his position.",
+                    "Link": "http://search.proquest.com/pao/docview/1297408500"
+                },
+                {
+                    "name": "The Death of Ivan Ilyich",
+                    "image": "Tolstoy.jpg",
+                    "description": "The Death of Ivan Ilych begins at the chronological end of the story. A group of judges are gathered together in a private room of the courthouse when Peter Ivanovich, a judge and close friend of Ivan Ilych, announces that Ivan has died. Consoled by the thought that it is Ivan who has died and not them, the men in the room cannot help but think of the promotions and transfers that Ivan's death will occasion. That evening, Peter drives to Ivan's house to attend his funeral. But while looking at Ivan's corpse, Peter is bothered by an expression of disapproval and warning on Ivan's face. Ivan's wife Praskovya quizzes Peter about possible strategies to maximize her dead husband's government pension. On his way out, Peter encounters Gerasim, Ivan's sick nurse. Peter mentions that Ivan's death and funeral are a sad affair, and Gerasim surprises Peter with the observation that everyone dies some day.",
+                    "Link": "http://webpac.library.unlv.edu/search~S1?/cPG2985+.M36+1994/cpg+2985+m36+1994/-3%2C-1%2C0%2CE/frameset&FF=cpg+2985+m36+1994&1%2C1%2C"
+                },
+                {
+                    "name": "Anna Akhmatova: Requiem",
+                    "image": "Akhmatova.jpg",
+                    "description": "Anna Akhmatova (1889–1966), one of twentieth-century Russia’s greatest poets, was viewed as a dangerous element by post-Revolution authorities. One of the few unrepentant poets to survive the Bolshevik revolution and subsequent Stalinist purges, she set for herself the artistic task of preserving the memory of pre-Revolutionary cultural heritage and of those who had been silenced. This book presents Nancy K. Anderson’s superb translations of three of Akhmatova’s most important poems: Requiem, a commemoration of the victims of Stalin’s Terror; The Way of All the Earth, a work to which the poet returned repeatedly over the last quarter-century of her life and which combines Old Russian motifs with the modernist search for a lost past; and Poem Without a Hero, widely admired as the poet’s magnum opus.",
+                    "Link": "http://site.ebrary.com/lib/unlv/detail.action?docID=10170007"
+                },
+                {
+                    "name": "Paul Celan: Death Fugue",
+                    "image": "Celan.jpg",
+                    "description": "Paul Celan's poem about his postwar conversations with Nelly Sachs begins with a similar admission, 'Our talk was of Too Much, of / Too Little.' Either too much or too little, the very long and very short poems in the decidedly transnational canon of poetry after Auschwitz reflect a deep ambivalence about the efficacy of signification in general, artistry in particular. If stirring expressions—in speeches, songs, and slogans, in scholarly and imaginative books—facilitated or failed to derail the Nazis' final solution; if language was therefore itself an instrument and casualty of the disaster, then literary artists confronted a confounding perplexity about their own medium, as Adorno knew they would.",
+                    "Link": "http://www.jstor.org/stable/20057848?seq=1#page_scan_tab_contents"
                 }
             ]
         },
@@ -408,7 +447,7 @@
                     "Link": "http://search.credoreference.com/content/entry/sharpejft/the_hebrew_bible/0"
                 },
                 {
-                    "name": "An Introduction to Alf Layla wa-Layla (The Arabian Nights)",
+                    "name": "Introduction to Alf Layla wa-Layla (The Arabian Nights)",
                     "image": "Alf.jpg",
                     "description": "The Thousand and One Nights (alf layla wa layla) or The Arabian Nights, as they came to be known, owes its origins to three distinct cultures and storytelling traditions: that of India, Persia and the Arab world. The Arabian Nights first appeared in its Arabic form around 850 AD and it has been considered a remarkable mystery in Classical Arabic Literature. Although many scholars deny its literary importance, The Arabian Nights can be viewed as a valuable source of Middle Eastern social history, being composed of the most extensive and intimate recordings of the medieval Islamic period. Generations of Arabic readers have appreciated the versatile and imaginative use of Arabic and the mixture of the classical and colloquial language in many of the stories, a style which helped diversify the characters from the narrative.",
                     "Link": "http://go.galegroup.com/ps/i.do?id=WQEEKX085745411&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=18d127fac84a7e03e839de1a7e5f8e7c"
@@ -654,8 +693,14 @@
                 {
                     "name": "The Kebra Nagast",
                     "image": "Nagast.jpg",
-                    "description": " This is a translation of the Kebra Nagast, a tremendous collection of Ethiopian Biblical folklore. The Kebra Nagast tells the legend of the Queen of Sheba's son by King Solomon, Menyelek (also known herein as Bayna-Lehkem and David II). Menyelek engineers a plot to take the Tabernacle of the Law of God (i.e., the Ark of the Covenant) to Ethiopia. This is done at the behest of an Angel of God who predicts the downfall of the kingdom of Solomon. Comitted to writing in the fourteenth century, the Kebra Nagast was derived from Ethiopian oral traditions of the Queen of Sheba and her state marriage with Solomon. The Kebra Nagast has been cited as one of the sources of the Rastafarian movement because of its support of Ethiopian theocracy. ",
+                    "description": " This is a translation of the Kebra Nagast, a tremendous collection of Ethiopian Biblical folklore. The Kebra Nagast tells the legend of the Queen of Sheba's son by King Solomon, Menyelek (also known herein as Bayna-Lehkem and David II). Menyelek engineers a plot to take the Tabernacle of the Law of God (i.e., the Ark of the Covenant) to Ethiopia. This is done at the behest of an Angel of God who predicts the downfall of the kingdom of Solomon. Comitted to writing in the fourteenth century, the Kebra Nagast was derived from Ethiopian oral traditions of the Queen of Sheba and her state marriage with Solomon. The Kebra Nagast has been cited as one of the sources of the Rastafarian movement because of its support of Ethiopian theocracy.",
                     "Link": "http://www.sacred-texts.com/afr/kn/"
+                },
+                {
+                    "name": "Achebe: Things Fall Apart",
+                    "image": "Achebe.jpg",
+                    "description": "Okonkwo is a wealthy and respected warrior of the Umuofia clan, a lower Nigerian tribe that is part of a consortium of nine connected villages. He is haunted by the actions of Unoka, his cowardly and spendthrift father, who died in disrepute, leaving many village debts unsettled. In response, Okonkwo became a clansman, warrior, farmer, and family provider extraordinaire. He has a twelve-year-old son named Nwoye whom he finds lazy; Okonkwo worries that Nwoye will end up a failure like Unoka.",
+                    "Link": "http://www.jstor.org/stable/25112519?seq=1#page_scan_tab_contents"
                 }
             ]
         },
@@ -894,6 +939,18 @@
                     "image": "Bunraku.jpg",
                     "description": "Introduction to the art of Bunraku, Japanese puppet theater. Includes performed excerpts from the play Sonezaki Shinju (The Love Suicides at Sonezaki) by the 18th century writer Chikamatsu Monzaemon.",
                     "Link": "http://search.alexanderstreet.com/view/work/658002"
+                },
+                {
+                    "name": "A to Z World Religion - China",
+                    "image": "China.jpg",
+                    "description": "A to Z World Religion : 175 Countries : Religions of the Country, Basic Tenets, Religious Conflict, Secularism, Superstitions, Religious Clerics, State Regulations, Religion and Public Life, Holidays and Ceremonies, Government, Persecution, Tolerance.",
+                    "Link": "http://site.ebrary.com/lib/unlv/reader.action?ppg=63&docID=10305890&tm=1439322378135"
+                },
+                {
+                    "name": "Basho",
+                    "image": "Basho.jpg",
+                    "description": "'Each day is a journey, and the journey itself home,' the poet Matsuo Basho wrote more than 300 years ago in the first entry of his masterpiece, Oku no Hosomichi, or Narrow Road to a Far Province. The words are on my mind as I prepare to walk in the footsteps of this revered poet, along his narrow road—the 1,200-mile route he followed through Japan in 1689. I confess that even to imagine doing so is a bit daunting. My late friend Helen Tanizaki, a linguist born and raised in Kyoto, told me, “Everyone I went to school with could recite at least one of Basho’s poems by heart. He was the first writer we read in any exciting or serious way. Today thousands of people pilgrimage to Basho’s birthplace and burial shrine and travel parts of Basho’s Trail. After three centuries his Narrow Road, in print in English and many other languages, still speaks to readers around the world.",
+                    "Link": "http://ngm.nationalgeographic.com/2008/02/bashos-trail/howard-norman-text"
                 }
             ]
         }
