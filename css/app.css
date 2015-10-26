@@ -294,8 +294,22 @@ div.popup.expanded {
   opacity: 0.8;
 }
 
+.modalResize{
+	padding: 15px;
+	height: 425px !important;
+}
+
 .modalBox{
 	padding: 15px;
+}
+
+.mDesc{
+	height: 250px;
+	overflow-y: auto;
+}
+
+.thumbnails{
+	max-width: 80% !important;
 }
 
 .twoButtons{
@@ -405,6 +419,24 @@ button.stars{
     text-shadow: 2px 2px #000000;
 }
 
+/*.Prev, .Next{
+	position: relative;
+	top: -200px !important;
+
+}
+
+.Prev{
+	left: -35px;
+}
+
+.Next{
+	right: -35px;
+}*/
+
+.modal-backdrop{
+	background: #333 !important;
+}
+
 .returnButton{
 	margin-top: 5px;
 	padding: 5px;
@@ -423,10 +455,14 @@ button.stars{
 	background: #000 !important;
 	color: #fff !important;
 	border: none !important;
+	width: 70px !important;
+	max-width: 85px !important;
+	text-align: center !important;
 }
 
 .popover{
 	background-color: #000000 !important;
+	max-width: 300px !important;
 }
 
 div.arrow{
@@ -475,6 +511,18 @@ div.arrow{
 
 .area{
 	height: auto !important;
+}
+
+.mainImage{
+	cursor: default !important;
+}
+
+.popover{
+	cursor: default !important;
+}
+
+img{
+	cursor: default !important;
 }
 
 .pastInformation, .presentInformation {

@@ -2,7 +2,7 @@
     "appTitle": "Eng 231 - Interactive Map",
     "coursePrefix": "ENG",
     "courseNumber": "231",
-    "intro": "Click on one of the regions to see a listing of books.",
+    "intro": "To use this interactive map, click the red marker and it will open the selected region. Once the selected area is opened, click the yellow stars to view each historical site.",
     "caseStudyLightbox": false,
     "things": [
         {
@@ -233,7 +233,7 @@
             "Books": [
                 {
                     "name": "Odyssey",
-                    "image": "Odyssey.jpg",
+                    "image": "odyssey.jpg",
                     "description": "Odyssey is generally considered to be the sequel to the Iliad. Unlike many sequels in the modern era, however, the Odyssey actually seems to be an improvement, in some respects, on the original and is quite capable of standing as an independent work. Odysseia, which has been this poem's name in Greek since Herodotus called it that in the fifth century bce, means simply the story of Odysseus. That story refers to the ten-year-long return trip of Odysseus from Troy to his island home of Ithaca, off the west coast of Greece. Because the epic pertains to this long journey, the term odyssey has since come to mean any significant and difficult journey.",
                     "Link": "http://go.galegroup.com/ps/i.do?id=GALE|H1430007439&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=215348cd0600739aff639db8455029a2"
                 },
@@ -580,7 +580,23 @@
                         "id": "1"
                     }
                 ],
-                "Cities": [],
+                "Cities": [
+                    {
+                        "name": "Aksum",
+                        "x": 205,
+                        "y": 95,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Addis Ababa",
+                        "x": 195,
+                        "y": 130,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    }
+
+                ],
                 "landmarks": []
             },
             "present": {
@@ -611,7 +627,7 @@
                         "x": 195,
                         "y": 130,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "right"
                     }
                 ],
                 "landmarks": []
@@ -807,7 +823,7 @@
                         "x": 350,
                         "y": 115,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     },
                     {
                         "name": "Osaka",
