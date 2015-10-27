@@ -911,7 +911,7 @@
                         "link": "east_asia/journey-to-the-west-path.svg",
                         "top": 0,
                         "left": 15,
-                        "height": "auto",
+                        "height": "300px",
                         "fullSize": "past/east_asia/journey-to-the-west-path_full2.png",
                         "landmarkImage": {
                             "title": "Journey to the West Path",
