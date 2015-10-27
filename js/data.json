@@ -416,13 +416,13 @@
                         "top": 0,
                         "left": 15,
                         "height": "auto",
-                        "fullSize": "past/middle_east/nile.jpg",
+                        "fullSize": "present/middle_east/nile.jpg",
                         "landmarkImage": {
                             "title": "The Nile river",
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "circle_button.svg",
-                            "top": 12,
-                            "left": 135,
+                            "top": 105,
+                            "left": 30,
                             "height": 100
                         }
                     },
@@ -465,15 +465,15 @@
                 "Cities": [
                     {
                         "name": "Medina",
-                        "x": 205,
-                        "y": 95,
+                        "x": 120,
+                        "y": 155,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "top"
                     },
                     {
                         "name": "Mecca",
-                        "x": 195,
-                        "y": 130,
+                        "x": 135,
+                        "y": 175,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
@@ -482,7 +482,7 @@
                         "x": 60,
                         "y": 50,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "top"
                     }
                 ],
                 "landmarks": [
@@ -511,8 +511,8 @@
                             "title": "The Nile river",
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "circle_button.svg",
-                            "top": 12,
-                            "left": 135,
+                            "top": 105,
+                            "left": 30,
                             "height": 100
                         }
                     },
