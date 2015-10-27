@@ -219,7 +219,8 @@ div.background {
 div.popup {
 	position: absolute;
 	background: #fff;
-	padding: 0 1.5rem;
+	/*padding: 0 1.5rem;*/
+	padding: 2px;
 	border-radius: 2px;
 	z-index: 3;
 	height: auto;
@@ -232,6 +233,7 @@ div.popup {
 	-webkit-transform: translate(-50%, -140%);
 	transform: translate(-50%, -140%);
 	font-size: 60%;
+	height: 6%;
 }
 
 
@@ -241,7 +243,7 @@ div.popup:after {
     z-index: 4;
     bottom: -14px;
     left: 50%;
-    border-width: 16px 16px 0;
+    border-width: 16px 9px 0;
     border-style: solid;
     border-color: #fff transparent;
     display: block;
@@ -269,6 +271,8 @@ div.popup.expanded {
 .bubbleText{
 	font-size: 125%;
 	font-weight: bold !important;
+	position: relative;
+	top: -7px;
 }
 
 .cityStars, .stars{
