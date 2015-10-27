@@ -1,4 +1,4 @@
-'use strict';
+
 
 angular.module('myApp.services', ['ui.bootstrap'])
 
