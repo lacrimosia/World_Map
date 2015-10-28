@@ -254,10 +254,10 @@
                     },
                     {
                         "name": "Cyprus",
-                        "x": 355,
-                        "y": 35,
+                        "x": 398,
+                        "y": 76,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     }
                 ],
                 "landmarks": [
