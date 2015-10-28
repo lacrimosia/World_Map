@@ -12,6 +12,7 @@
             "y": 38,
             "promptOpen": false,
             "choiceMade": false,
+            "faded": false,
             "answer": "Hinders",
             "feedback": "",
             "past": {
@@ -83,6 +84,7 @@
             "y": 18,
             "promptOpen": false,
             "choiceMade": false,
+            "faded": false,
             "answer": "Hinders",
             "feedback": "",
             "past": {
@@ -345,6 +347,7 @@
             "y": 30,
             "promptOpen": false,
             "choiceMade": false,
+            "faded": false,
             "answer": "Both",
             "feedback": "",
             "past": {
@@ -561,6 +564,7 @@
             "y": 33,
             "promptOpen": false,
             "choiceMade": false,
+            "faded": false,
             "answer": "Encourages",
             "feedback": "",
             "past": {
@@ -708,6 +712,7 @@
             "repImage": "kebra_nagast.png",
             "x": 56,
             "y": 42,
+            "faded": false,
             "promptOpen": false,
             "choiceMade": false,
             "answer": "Hinders",
@@ -831,6 +836,7 @@
             "y": 30,
             "promptOpen": false,
             "choiceMade": false,
+            "faded": false,
             "answer": "Encourages",
             "feedback": "",
             "past": {
@@ -1096,6 +1102,7 @@
             "x": 20,
             "y": 26,
             "picture": "unlv2.jpg",
+            "faded": false,
             "desc": "The University of Nevada, Las Vegas is a public research institution committed to rigorous educational programs and the highest standards of a liberal education. We produce accomplished graduates who are well prepared to enter the work force or to continue their education in graduate and professional programs. Our faculty, students, and staff enthusiastically confront the challenges of economic and cultural diversification, urban growth, social justice, and sustainability. Our commitment to our dynamic region and State centrally influences our research and educational programs, which improves our local communities.",
             "link": "http://www.unlv.edu/about"
         }

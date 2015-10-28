@@ -20,7 +20,6 @@
         <!-- answer box-->
        
       
-
        <div class="" ng-if="thing.choiceMade"><!--animated fadeIn-->
        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 returns">
        <h3 class="pull-left"><i id="markers2" class="fa fa-map-marker"></i> <strong> {{thing.name}} - Region <span ng-if="thing.name=='UNLV'">: {{thing.subTitle}}</span></strong></h3>
@@ -101,7 +100,7 @@
 
    </div>
 <div class="col-md-12">
-      <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': !thing.promptOpen, 'complete': thing.choiceMade}" ng-init="prompt($index)" ng-click="makeSelection(thing, 'Encourages')">
+      <div class="point" ng-repeat="thing in data.things" ng-style="pointStyle(thing)" ng-class="{'active': !thing.promptOpen, 'complete': thing.choiceMade, 'larger': thing.faded==true, 'larger': thing.faded==true}" ng-init="prompt($index)" ng-click="makeSelection(thing, 'Encourages')" ng-mouseenter="thing.faded = !thing.faded" ng-mouseleave="thing.faded = !thing.faded">
         <div class="pulse"></div>
         <button ng-click=""><i class="fa fa-map-marker main_Marker"></i></button>
         
