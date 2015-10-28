@@ -23,7 +23,7 @@
 
        <div class="" ng-if="thing.choiceMade"><!--animated fadeIn-->
        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 returns">
-       <h3 class="pull-left"><i id="markers2" class="fa fa-map-marker"></i> <strong> {{thing.name}} <!--Region --></strong></h3>
+       <h3 class="pull-left"><i id="markers2" class="fa fa-map-marker"></i> <strong> {{thing.name}} - Region <span ng-if="thing.name=='UNLV'">: {{thing.subTitle}}</span></strong></h3>
 
        <div class="form-inline">
             <button class="btn btn-primary btn-sm pull-right" ng-click="thing.choiceMade = false; unCheck(); close=true;" uib-tooltip="Close" tooltip-placement="bottom"><i class="fa fa-times"></i> Close</button>
@@ -34,7 +34,6 @@
 
           <!-- unlv popup stuff-->
           <div class="unlv" ng-if="thing.name=='UNLV'" ng-style="{'padding': '15px'}">
-          <h4>{{thing.subTitle}}</h4>
             <img ng-src="img/{{thing.picture}}" alt="{{thing.picture}}" class="img-responsive center-block"d/>
             <br/>
             <p class="unlvText"> {{thing.desc}}</p>
