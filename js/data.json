@@ -64,7 +64,20 @@
                     }
                 ],
                 "Cities": [
-                   
+                    {
+                        "name": "Mexico City",
+                        "x": 27,
+                        "y": 72,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Guatemala City",
+                        "x": 175,
+                        "y": 125,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    }
                 ],
                 "landmarks": []
             },
@@ -181,7 +194,7 @@
                         "x": 160,
                         "y": 110,
                         "marker": "city-star_small.png",
-                        "placement": "top"
+                        "placement": "right"
                     },
                     {
                         "name": "Rome",
@@ -195,14 +208,56 @@
                         "x": 275,
                         "y": 120,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "bottom"
                     },
                     {
                         "name": "Athens",
                         "x": 290,
                         "y": 103,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "right"
+                    },
+                    {
+                        "name": "London",
+                        "x": 60,
+                        "y": 10,
+                        "marker": "city-star_small.png",
+                        "placement": "top"
+                    },
+                    {
+                        "name": "Paris",
+                        "x": 75,
+                        "y": 15,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Madrid",
+                        "x": 35,
+                        "y": 80,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Berlin",
+                        "x": 195,
+                        "y": -59,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Istanbul",
+                        "x": 355,
+                        "y": 35,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Cyprus",
+                        "x": 355,
+                        "y": 35,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
                     }
                 ],
                 "landmarks": [
@@ -780,18 +835,25 @@
                 ],
                 "Cities": [
                     {
-                        "name": "Aksum",
-                        "x": 205,
-                        "y": 95,
-                        "marker": "city-star_small.png",
-                        "placement": "left"
-                    },
-                    {
-                        "name": "Addis Ababa",
-                        "x": 195,
-                        "y": 130,
+                        "name": "Khartoum",
+                        "x": 113,
+                        "y": 55,
                         "marker": "city-star_small.png",
                         "placement": "right"
+                    },
+                    {
+                        "name": "Juba",
+                        "x": 98,
+                        "y": 218,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Mogadishu",
+                        "x": 325,
+                        "y": 245,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
                     }
                 ],
                 "landmarks": []
