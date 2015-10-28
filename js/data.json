@@ -258,6 +258,13 @@
                         "y": 76,
                         "marker": "city-star_small.png",
                         "placement": "left"
+                    },
+                    {
+                        "name": "Alexandria",
+                        "x": 365,
+                        "y": 100,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
                     }
                 ],
                 "landmarks": [
