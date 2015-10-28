@@ -236,6 +236,10 @@ div.popup {
 	height: 6%;
 }
 
+.unlvText{
+	font-size: 1.8em !important;
+}
+
 
 div.popup:after {
     content: "";

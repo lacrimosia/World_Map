@@ -64,6 +64,10 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
       modalService.openMenuModal('partials/modal.html', title, description, myFullImage, Link, theImage, index, array);
     };
 
+    $scope.openUNLV = function(templateLink, title, description, myFullImage, Link, theImage, index, array){
+      modalService.openMenuModal('partials/unlv.html', title, description, myFullImage, Link, theImage, index, array);
+    };
+
     $scope.prompt = function(index) {
       $scope.data.things.forEach(function(thing) {
         thing.promptOpen = true;

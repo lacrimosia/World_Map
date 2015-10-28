@@ -1089,6 +1089,15 @@
                     "Link": "http://ngm.nationalgeographic.com/2008/02/bashos-trail/howard-norman-text"
                 }
             ]
+        },
+        {
+            "name": "UNLV",
+            "subTitle": "You are here.",
+            "x": 20,
+            "y": 26,
+            "picture": "unlv2.jpg",
+            "desc": "The University of Nevada, Las Vegas is a public research institution committed to rigorous educational programs and the highest standards of a liberal education. We produce accomplished graduates who are well prepared to enter the work force or to continue their education in graduate and professional programs. Our faculty, students, and staff enthusiastically confront the challenges of economic and cultural diversification, urban growth, social justice, and sustainability. Our commitment to our dynamic region and State centrally influences our research and educational programs, which improves our local communities.",
+            "link": "http://www.unlv.edu/about"
         }
     ]
 }
