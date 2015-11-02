@@ -425,7 +425,7 @@
                 ],
                 "Cities": [
                     {
-                        "name": "Ninevah",
+                        "name": "Nineveh",
                         "x": 175,
                         "y": 30,
                         "marker": "city-star_small.png",
@@ -533,7 +533,7 @@
                         "x": 120,
                         "y": 155,
                         "marker": "city-star_small.png",
-                        "placement": "top"
+                        "placement": "right"
                     },
                     {
                         "name": "Mecca",
@@ -547,7 +547,49 @@
                         "x": 60,
                         "y": 50,
                         "marker": "city-star_small.png",
-                        "placement": "top"
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Cairo",
+                        "x": 31,
+                        "y": 45,
+                        "marker": "city-star_small.png",
+                        "placement": "bottom"
+                    },
+                    {
+                        "name": "Cyprus",
+                        "x": 55,
+                        "y": -35,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "Amman",
+                        "x": 100,
+                        "y": -35,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Damascus",
+                        "x": 100,
+                        "y": -79,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Riyadh",
+                        "x": 225,
+                        "y": 28,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
+                    },
+                    {
+                        "name": "Baghdad",
+                        "x": 200,
+                        "y": -98,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
                     }
                 ],
                 "landmarks": [
@@ -561,8 +603,8 @@
                             "title": "The Euphrates river",
                             "info": "The Euphrates river begins at the place where the Karasu and Murat join in northeastern Turkey. It is the longest watercourse in Southwest Asia. The distance from the source of the Murat to where it joins with the Tigris (near Basra, Iraq) is 3,000 kilometers (1,864 miles). The waterway provided the water that led to the first flowering of civilization in Sumer dating from about the 4th millennium B.C. Many important ancient cities were located on or near it including Nippur, Shuruppak, Uruk, Eridu, and Ur (where Abraham was born). For several centuries, it was the eastern limit of effective Egyptian and Roman empire control.",
                             "image": "circle_button.svg",
-                            "top": 15,
-                            "left": 110,
+                            "top": 10,
+                            "left": 118,
                             "height": 100
                         }
                     },
@@ -576,8 +618,8 @@
                             "title": "The Nile river",
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "circle_button.svg",
-                            "top": 105,
-                            "left": 30,
+                            "top": 140,
+                            "left": 50,
                             "height": 100
                         }
                     },
@@ -591,8 +633,8 @@
                             "title": "The Tigris river",
                             "info": "The great river system of Southwest Asia, comprising the Tigris and Euphrates rivers, which have their sources within 50 miles (80 km) of each other in eastern Turkey and travel southeast through northern Syria and Iraq to the head of the Persian Gulf.",
                             "image": "circle_button.svg",
-                            "top": -10,
-                            "left": 173,
+                            "top": -30,
+                            "left": 169,
                             "height": 100
                         }
                     }
@@ -657,6 +699,13 @@
                         "y": 135,
                         "marker": "city-star_small.png",
                         "placement": "top"
+                    },
+                    {
+                        "name": "Sri Lanka",
+                        "x": 250,
+                        "y": 250,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
                     }
                 ],
                 "landmarks": [
@@ -741,7 +790,7 @@
                             "title": "The Ganges River",
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "circle_button.svg",
-                            "top": 70,
+                            "top": 95,
                             "left": 300,
                             "height": 100
                         }

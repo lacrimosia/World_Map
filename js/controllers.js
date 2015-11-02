@@ -43,6 +43,7 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
      $scope.clicked = false;
      $scope.close = false;
      $scope.openBook = false;
+     $scope.slide = false;
 
 
     $scope.toggleLightbox = function() {
