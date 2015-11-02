@@ -20,6 +20,10 @@
                     {
                         "link": "mesoamerica.png",
                         "id": "1"
+                    },
+                    {
+                        "link": "mesoamerica/columbus-path-edge.png",
+                        "id": "1"
                     }
                 ],
                 "Cities": [
@@ -46,6 +50,21 @@
                     }
                 ],
                 "landmarks": [
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/mesoamerica/columbus-paths2.png",
+                        "landmarkImage": {
+                            "title": "Columbus Paths",
+                            "info": "In his 1492 transatlantic maritime expedition, Christopher Columbus became the first Christian European to make landfall in the Americas. Columbus, an Italian navigator sailing for the Spanish Crown, sought a westward route to Asia, which led him to coin the misnomer West Indies for the Antilles, where he made landfall. The newly discovered landmass came to be known in Europe as the New World. Ultimately, the two continents and collection of islands of the Western Hemisphere became known as the Americas, after Amerigo Vespucci. The indigenous people in the New World, however, came to be called Indians, and are still today often referred to as Indians, because Columbus and others original idea that they could travel to the Indies by sailing directly west across the the Atlantic Ocean",
+                            "image": "circle_button.svg",
+                            "top": 10,
+                            "left": 405,
+                            "height": 100
+                        }
+                    }
                 ]
             },
             "present": {
@@ -1138,7 +1157,7 @@
                         "x": 350,
                         "y": 113,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "right"
                     },
                     {
                         "name": "Tokyo",
