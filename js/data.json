@@ -166,7 +166,7 @@
                             "title": "Odyssey",
                             "info": " The Story Begins. The Odyssey opens with Odysseus stranded on Ogygia, the island home of the enchantress Calypso. Almost ten years had passed since the end of the Trojan War. All the other Greek heroes were either dead or safely back in their homelands. Only Odysseus had yet to return home. Calypso was holding the hero captive, hoping that her beauty and offer of immortality would make him forget his wife, Penelope, and marry her. Finally the gods took pity on Odysseus. Athena encouraged his son Telemachus to go on a quest in search of his father. The young man traveled to Pylos and then to Sparta, where he met Helen and Menelaus. Telemachus was proud when he learned of his father's fame. Meanwhile Zeus* sent Hermes* to command Calypso to let the hero leave. She reluctantly agreed, and Odysseus sailed from the island on a raft. While the hero was at sea, Poseidon sent a great storm that destroyed the raft. Saved by a sea goddess, Odysseus finally reached the land of the Phaeacians. The Phaeacians welcomed the stranger and treated him as an honored guest. In return, Odysseus revealed his name and told the Phaeacians about the adventures he had had since leaving Troy many years before.",
                             "image": "circle_button.svg",
-                            "top": 165,
+                            "top": 175,
                             "left": 150,
                             "height": 100
                         }
@@ -419,6 +419,10 @@
                         "id": "1"
                     },
                     {
+                        "link": "middle_east/fertile-crescent.png",
+                        "id": "3"
+                    },
+                    {
                         "link": "middle_east/rivers.png",
                         "id": "3"
                     }
@@ -503,6 +507,21 @@
                             "image": "circle_button.svg",
                             "top": -10,
                             "left": 173,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/middle_east/fertile-crescent.jpg",
+                        "landmarkImage": {
+                            "title": "The Fertile Crescent",
+                            "info": "The Fertile Crescent (also known as the Cradle of Civilization) is a crescent-shaped region containing the comparatively moist and fertile land of otherwise arid and semi-arid Western Asia, the Nile Valley and Nile Delta of northeast Africa. It includes parts of Asia Minor, also known as Anatolia.",
+                            "image": "circle_button.svg",
+                            "top": 45,
+                            "left": 286,
                             "height": 100
                         }
                     }
