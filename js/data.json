@@ -27,7 +27,7 @@
                     }
                 ],
                 "Cities": [
-                     {
+                    {
                         "name": "Mayapan",
                         "x": 185,
                         "y": 60,
@@ -287,7 +287,7 @@
                     }
                 ],
                 "landmarks": [
-                       {
+                    {
                         "link": "",
                         "top": 0,
                         "left": 15,
@@ -394,7 +394,7 @@
                     "image": "Ibsen.jpg",
                     "description": "Nora is sheltered first by her father and then by her husband. All her life, she has been protected like a fragile possession ... like a doll in a doll's house. After she marries, Nora becomes frustrated, realizes that under the dominance of her husband she will never have an identity of her own, and leaves to find a new life for herself.",
                     "Link": "http://webpac.library.unlv.edu/search~S1?/cPT8861+.A362+2003/cpt+8861+a362+2003/-3%2C-1%2C0%2CE/frameset&FF=cpt+8861+a362+2003&1%2C1%2C"
-                }, 
+                },
                 {
                     "name": "Dostoevsky",
                     "image": "Dostoevsky.jpg",
@@ -563,7 +563,7 @@
                     {
                         "link": "middle-east_lines.png",
                         "id": "3"
-                    }                   
+                    }
                 ],
                 "Cities": [
                     {
@@ -839,19 +839,19 @@
                 {
                     "name": "An Introduction to Ramayana",
                     "image": "Ramayana.jpg",
-                    "description": "The Ramayana is one of the most well-known stories in the world, but many people in the United States have never heard about it, or know only small bits of the plot. The epic is widely known and loved in South and Southeast Asia. There it is considered first as an exciting adventure tale about a banished prince who wanders for years in the wilderness separated from his beloved wife. In this way it is comparable to the Odyssey tale of ancient Greece, which continues to entrance the Euro-American world. (India’s other great ancient epic, the Mahabharata, is a battle tale compared in turn with Homer’s Iliad.)", 
+                    "description": "The Ramayana is one of the most well-known stories in the world, but many people in the United States have never heard about it, or know only small bits of the plot. The epic is widely known and loved in South and Southeast Asia. There it is considered first as an exciting adventure tale about a banished prince who wanders for years in the wilderness separated from his beloved wife. In this way it is comparable to the Odyssey tale of ancient Greece, which continues to entrance the Euro-American world. (India’s other great ancient epic, the Mahabharata, is a battle tale compared in turn with Homer’s Iliad.)",
                     "Link": "http://go.galegroup.com/ps/i.do?id=WBIXFT429452377&v=2.1&u=unlv_main&it=r&p=GLS&sw=w&asid=c6ef89e93a1271572eb5e8ceed2101a6"
                 },
                 {
                     "name": "Introduction to Kabir",
                     "image": "Kabir.jpg",
-                    "description": "Six hundred years ago Kabir was born in India in 1398 AD. He lived for 120 years and is said to have relinquished his body in 1518. This period is also said to be the beginning of Bhakti Movement in India. A weaver by profession, Kabir ranks among the world's greatest poets. Back home in India, he is perhaps the most quoted author. The Holy Guru Granth Sahib contains over 500 verses by Kabir. The Sikh community in particular and others who follow the Holy Granth, hold Kabir in the same reverence as the other ten Gurus.", 
+                    "description": "Six hundred years ago Kabir was born in India in 1398 AD. He lived for 120 years and is said to have relinquished his body in 1518. This period is also said to be the beginning of Bhakti Movement in India. A weaver by profession, Kabir ranks among the world's greatest poets. Back home in India, he is perhaps the most quoted author. The Holy Guru Granth Sahib contains over 500 verses by Kabir. The Sikh community in particular and others who follow the Holy Granth, hold Kabir in the same reverence as the other ten Gurus.",
                     "Link": "http://go.galegroup.com/ps/i.do?id=GALE|KFQWAX885759836&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=44d3e00fa2ab43810678f6d890fd48d3"
                 },
                 {
                     "name": "An Introduction to Mirabai",
                     "image": "Mirabai.jpg",
-                    "description": "Mirabai (also known as Meerabai, Mira, Meera) is the most well known of the women bhakti (Hindu devotional) saints of India. According to tradition, this 16th-century royal devotee of Krishna was born in Merta in Rajasthan in the kingdom of Marwar and dedicated to Krishna from childhood, but married into the royal family of Mewar in Chittor, most say against her will. She refused to behave as a woman of her caste and class was required to do and instead fearlessly danced and sang for her Lord in the public space of the temple and kept company with holy men and people from all walks of life. The rana, the ruler of Mewar (identified variously as her husband, her father-in-law, or her brother-in-law), tried to stop her, in many accounts repeatedly trying to kill her for these transgressions. Most famously, he sent her a cup of poison in the guise of holy water, but she remained unharmed and undeterred. Ultimately, she departed to become a wandering religious leader, reportedly traveling to holy places associated with Krishna, including Vrindavan (the land of his youthful incarnation) and Dwarka (the capital of the mature Krishna’s kingdom), where she ultimately merged with his image. Though admired by devotees of many different branches of devotional Hinduism, she remains formally unaffiliated and is explicitly rejected by the followers of Vallabhacarya. If she is said to have a guru at all, she is most often associated with the untouchable leatherworker saint, Raidas (also known as Ravidas, Rohidas). She is known not only for her story but also the devotional songs of love and longing she is said to have composed. A multitude of stories have circulated about her as her fame spread across India, and an immense body of songs are attributed to her, with those that might have been composed by this individual woman inseparable from those composed by others in subsequent centuries in her name and style. She has come to inspire many, her popularity crossing the borders of caste, language, religion, culture, and time.", 
+                    "description": "Mirabai (also known as Meerabai, Mira, Meera) is the most well known of the women bhakti (Hindu devotional) saints of India. According to tradition, this 16th-century royal devotee of Krishna was born in Merta in Rajasthan in the kingdom of Marwar and dedicated to Krishna from childhood, but married into the royal family of Mewar in Chittor, most say against her will. She refused to behave as a woman of her caste and class was required to do and instead fearlessly danced and sang for her Lord in the public space of the temple and kept company with holy men and people from all walks of life. The rana, the ruler of Mewar (identified variously as her husband, her father-in-law, or her brother-in-law), tried to stop her, in many accounts repeatedly trying to kill her for these transgressions. Most famously, he sent her a cup of poison in the guise of holy water, but she remained unharmed and undeterred. Ultimately, she departed to become a wandering religious leader, reportedly traveling to holy places associated with Krishna, including Vrindavan (the land of his youthful incarnation) and Dwarka (the capital of the mature Krishna’s kingdom), where she ultimately merged with his image. Though admired by devotees of many different branches of devotional Hinduism, she remains formally unaffiliated and is explicitly rejected by the followers of Vallabhacarya. If she is said to have a guru at all, she is most often associated with the untouchable leatherworker saint, Raidas (also known as Ravidas, Rohidas). She is known not only for her story but also the devotional songs of love and longing she is said to have composed. A multitude of stories have circulated about her as her fame spread across India, and an immense body of songs are attributed to her, with those that might have been composed by this individual woman inseparable from those composed by others in subsequent centuries in her name and style. She has come to inspire many, her popularity crossing the borders of caste, language, religion, culture, and time.",
                     "Link": "http://go.galegroup.com/ps/i.do?id=GALE|KHONNV180383508&v=2.1&u=unlv_main&it=r&p=LCO&sw=w&asid=d999315ac6a37e0c255b2ce7ea5fdb79"
                 }
             ]
@@ -892,7 +892,6 @@
                         "marker": "city-star_small.png",
                         "placement": "right"
                     }
-
                 ],
                 "landmarks": [
                     {
@@ -1196,7 +1195,7 @@
                     }
                 ],
                 "landmarks": [
-                {
+                    {
                         "link": "east_asia/yangtze-river.png",
                         "top": 0,
                         "left": 15,
