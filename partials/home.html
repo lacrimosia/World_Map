@@ -55,7 +55,7 @@
                   <img ng-src="img/past/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.past.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
                    <!--button markers to click on for landmark images in the past-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="{{landmark.landmarkImage.placement}}" ng-click="openMe('partials/FullSizeModal.html',landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize, '', '', '', '', landmark.landmarkImage.credits)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-star landmarkMarker"></i></button>
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.past.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="{{landmark.landmarkImage.placement}}" ng-click="openMe('partials/FullSizeModal.html',landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize, '', '', '', '', landmark.landmarkImage.credits)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map landmarkMarker"></i></button>
 
                 </div>
 
@@ -72,7 +72,7 @@
                   <img ng-src="img/present/{{places.link}}" class="img-responsive landmarks" ng-repeat="places in thing.present.landmarks" ng-style="{'z-index': '12', 'position': 'absolute', 'top': places.top+'px', 'left': places.left+'px', 'height': places.height}"/>
 
                   <!--button markers to click on for landmark images in the present-->
-                   <button class="stars img-responsive" ng-repeat="landmark in thing.present.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="{{landmark.landmarkImage.placement}}" ng-click="openMe('partials/FullSizeModal.html',landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize, '', '', '', '', landmark.landmarkImage.credits)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-star landmarkMarker"></i></button>
+                   <button class="stars img-responsive" ng-repeat="landmark in thing.present.landmarks" uib-tooltip="{{landmark.landmarkImage.title}}" tooltip-placement="{{landmark.landmarkImage.placement}}" ng-click="openMe('partials/FullSizeModal.html',landmark.landmarkImage.title, landmark.landmarkImage.info, landmark.fullSize, '', '', '', '', landmark.landmarkImage.credits)" ng-style="{'z-index': '15', 'position': 'absolute !important', 'top': landmark.landmarkImage.top+'px', 'left': landmark.landmarkImage.left+'px'}"><i class="fa fa-map landmarkMarker"></i><!--<img ng-src="img/{{landmark.landmarkImage.image}}"/>--></button>
                 </div>
 
                   <div class="col-sm-6 twoButtons">
