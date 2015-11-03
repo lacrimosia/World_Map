@@ -26,29 +26,7 @@
                         "id": "1"
                     }
                 ],
-                "Cities": [
-                    {
-                        "name": "Mayapan",
-                        "x": 185,
-                        "y": 60,
-                        "marker": "city-star_small.png",
-                        "placement": "left"
-                    },
-                    {
-                        "name": "Chichen Itza",
-                        "x": 198,
-                        "y": 30,
-                        "marker": "city-star_small.png",
-                        "placement": "right"
-                    },
-                    {
-                        "name": "Tikal",
-                        "x": 175,
-                        "y": 60,
-                        "marker": "city-star_small.png",
-                        "placement": "left"
-                    }
-                ],
+                "Cities": [],
                 "landmarks": [
                     {
                         "link": "",
@@ -61,8 +39,60 @@
                             "info": "In his 1492 transatlantic maritime expedition, Christopher Columbus became the first Christian European to make landfall in the Americas. Columbus, an Italian navigator sailing for the Spanish Crown, sought a westward route to Asia, which led him to coin the misnomer West Indies for the Antilles, where he made landfall. The newly discovered landmass came to be known in Europe as the New World. Ultimately, the two continents and collection of islands of the Western Hemisphere became known as the Americas, after Amerigo Vespucci. The indigenous people in the New World, however, came to be called Indians, and are still today often referred to as Indians, because Columbus and others original idea that they could travel to the Indies by sailing directly west across the the Atlantic Ocean",
                             "image": "circle_button.svg",
                             "placement": "left",
+                            "credits": "",
                             "top": 10,
                             "left": 405,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/mesoamerica/columbus-paths2.png",
+                        "landmarkImage": {
+                            "title": "Mayapan",
+                            "info": "In his 1492 transatlantic maritime expedition, Christopher Columbus became the first Christian European to make landfall in the Americas. Columbus, an Italian navigator sailing for the Spanish Crown, sought a westward route to Asia, which led him to coin the misnomer West Indies for the Antilles, where he made landfall. The newly discovered landmass came to be known in Europe as the New World. Ultimately, the two continents and collection of islands of the Western Hemisphere became known as the Americas, after Amerigo Vespucci. The indigenous people in the New World, however, came to be called Indians, and are still today often referred to as Indians, because Columbus and others original idea that they could travel to the Indies by sailing directly west across the the Atlantic Ocean",
+                            "image": "circle_button.svg",
+                            "placement": "left",
+                            "credits": "",
+                            "top": 30,
+                            "left": 185,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/mesoamerica/columbus-paths2.png",
+                        "landmarkImage": {
+                            "title": "Chichen Itza",
+                            "info": "In his 1492 transatlantic maritime expedition, Christopher Columbus became the first Christian European to make landfall in the Americas. Columbus, an Italian navigator sailing for the Spanish Crown, sought a westward route to Asia, which led him to coin the misnomer West Indies for the Antilles, where he made landfall. The newly discovered landmass came to be known in Europe as the New World. Ultimately, the two continents and collection of islands of the Western Hemisphere became known as the Americas, after Amerigo Vespucci. The indigenous people in the New World, however, came to be called Indians, and are still today often referred to as Indians, because Columbus and others original idea that they could travel to the Indies by sailing directly west across the the Atlantic Ocean",
+                            "image": "circle_button.svg",
+                            "placement": "right",
+                            "credits": "",
+                            "top": 5,
+                            "left": 205,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/mesoamerica/columbus-paths2.png",
+                        "landmarkImage": {
+                            "title": "Tikal",
+                            "info": "In his 1492 transatlantic maritime expedition, Christopher Columbus became the first Christian European to make landfall in the Americas. Columbus, an Italian navigator sailing for the Spanish Crown, sought a westward route to Asia, which led him to coin the misnomer West Indies for the Antilles, where he made landfall. The newly discovered landmass came to be known in Europe as the New World. Ultimately, the two continents and collection of islands of the Western Hemisphere became known as the Americas, after Amerigo Vespucci. The indigenous people in the New World, however, came to be called Indians, and are still today often referred to as Indians, because Columbus and others original idea that they could travel to the Indies by sailing directly west across the the Atlantic Ocean",
+                            "image": "circle_button.svg",
+                            "placement": "right",
+                            "credits": "",
+                            "top": 40,
+                            "left": 185,
                             "height": 100
                         }
                     }
@@ -187,6 +217,7 @@
                             "info": " The Story Begins. The Odyssey opens with Odysseus stranded on Ogygia, the island home of the enchantress Calypso. Almost ten years had passed since the end of the Trojan War. All the other Greek heroes were either dead or safely back in their homelands. Only Odysseus had yet to return home. Calypso was holding the hero captive, hoping that her beauty and offer of immortality would make him forget his wife, Penelope, and marry her. Finally the gods took pity on Odysseus. Athena encouraged his son Telemachus to go on a quest in search of his father. The young man traveled to Pylos and then to Sparta, where he met Helen and Menelaus. Telemachus was proud when he learned of his father's fame. Meanwhile Zeus* sent Hermes* to command Calypso to let the hero leave. She reluctantly agreed, and Odysseus sailed from the island on a raft. While the hero was at sea, Poseidon sent a great storm that destroyed the raft. Saved by a sea goddess, Odysseus finally reached the land of the Phaeacians. The Phaeacians welcomed the stranger and treated him as an honored guest. In return, Odysseus revealed his name and told the Phaeacians about the adventures he had had since leaving Troy many years before.",
                             "image": "circle_button.svg",
                             "placement": "left",
+                            "credits": "",
                             "top": 175,
                             "left": 150,
                             "height": 100
@@ -300,6 +331,7 @@
                             "info": "Traditionally regarded as the heavenly abode of the Greek gods and the site of the throne of Zeus, Olympus seems to have originally existed as an idealized mountain that only later came to be associated with a specific peak. The early epics, the Illiad and the Odyssey (composed by Homer around 700BC) offer little information regarding the geographic location of the heavenly mountain and there are several peaks in Greece, Turkey and Cyprus that bear the name Olympus. The most favored mythological choice is the tallest mountain range in Greece, the Olympos massif, 100 kilometers southwest of the city of Thessaloniki in northern Greece. The highest peak - shown in the photograph - is Mytikas at 2918 meters (9570 feet).",
                             "image": "circle_button.svg",
                             "placement": "top",
+                            "credits": "",
                             "top": 135,
                             "left": 275,
                             "height": 100
@@ -498,6 +530,7 @@
                             "info": "The Euphrates river begins at the place where the Karasu and Murat join in northeastern Turkey. It is the longest watercourse in Southwest Asia. The distance from the source of the Murat to where it joins with the Tigris (near Basra, Iraq) is 3,000 kilometers (1,864 miles). The waterway provided the water that led to the first flowering of civilization in Sumer dating from about the 4th millennium B.C. Many important ancient cities were located on or near it including Nippur, Shuruppak, Uruk, Eridu, and Ur (where Abraham was born). For several centuries, it was the eastern limit of effective Egyptian and Roman empire control.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 15,
                             "left": 110,
                             "height": 100
@@ -514,6 +547,7 @@
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 105,
                             "left": 30,
                             "height": 100
@@ -530,6 +564,7 @@
                             "info": "The great river system of Southwest Asia, comprising the Tigris and Euphrates rivers, which have their sources within 50 miles (80 km) of each other in eastern Turkey and travel southeast through northern Syria and Iraq to the head of the Persian Gulf.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": -10,
                             "left": 173,
                             "height": 100
@@ -546,6 +581,7 @@
                             "info": "The Fertile Crescent (also known as the Cradle of Civilization) is a crescent-shaped region containing the comparatively moist and fertile land of otherwise arid and semi-arid Western Asia, the Nile Valley and Nile Delta of northeast Africa. It includes parts of Asia Minor, also known as Anatolia.",
                             "image": "circle_button.svg",
                             "placement": "top",
+                            "credits": "",
                             "top": 45,
                             "left": 286,
                             "height": 100
@@ -650,6 +686,7 @@
                             "image": "circle_button.svg",
                             "top": 10,
                             "placement": "right",
+                            "credits": "",
                             "left": 118,
                             "height": 100
                         }
@@ -665,6 +702,7 @@
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 140,
                             "left": 50,
                             "height": 100
@@ -681,6 +719,7 @@
                             "info": "The great river system of Southwest Asia, comprising the Tigris and Euphrates rivers, which have their sources within 50 miles (80 km) of each other in eastern Turkey and travel southeast through northern Syria and Iraq to the head of the Persian Gulf.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": -30,
                             "left": 169,
                             "height": 100
@@ -768,6 +807,7 @@
                             "info": "Ramayana is a wonder epic. The Ramayana is the story about the life and times of Lord Ram, the seventh incarnation of Lord Vishnu. The Ramayana contains the teaching of Lord Rama. There is much to be learned about duty, honor, dharma, bhakti, values, philosophy and politics from the Ramayana. It can be said that the Ramayana in itself contains and explains the essence of Vedas in a simplified manner. The Ramayana beautifully portrays importance of family, relations, principals and that of conduct, leadership and righteousness.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 125,
                             "left": 205,
                             "height": 100
@@ -784,6 +824,7 @@
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "circle_button.svg",
                             "placement": "bottom",
+                            "credits": "",
                             "top": 70,
                             "left": 300,
                             "height": 100
@@ -841,6 +882,7 @@
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "circle_button.svg",
                             "placement": "bottom",
+                            "credits": "",
                             "top": 95,
                             "left": 300,
                             "height": 100
@@ -918,6 +960,7 @@
                             "info": "The Kingdom of Aksum or Axum, also known as the Aksumite Empire, was a trading nation in the area of northern Ethiopia and Eritrea pre-Islamic Arabs, which existed from approximately 100–940 AD. It grew from the proto-Aksumite Iron Age period c. 4th century BC to achieve prominence by the 1st century AD, and was a major player in the commercial route between the Roman Empire and Ancient India. The Aksumite rulers facilitated trade by minting their own Aksumite currency, the state established its hegemony over the declining Kingdom of Kush and regularly entered the politics of the kingdoms on the Arabian Peninsula, eventually extending its rule over the region with the conquest of the Himyarite Kingdom.",
                             "image": "circle_button.svg",
                             "placement": "top",
+                            "credits": "",
                             "top": 143,
                             "left": 130,
                             "height": 100
@@ -1078,6 +1121,7 @@
                             "info": "The Silk Road or Silk Route is an ancient network of trade and cultural transmission routes that were central to cultural interaction through regions of the Asian continent connecting the West and East by merchants, pilgrims, monks, soldiers, nomads, and urban dwellers from China and India to the Mediterranean Sea during various periods of time.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 150,
                             "left": 65,
                             "height": 100
@@ -1094,6 +1138,7 @@
                             "info": "Made by the Chinese Monk Xuanzang (Hsüan-tsang) on the Silk Road between China and India in the years 629 AD to 645 AD. The Path of the Journey to led from the Chinese Capital in Shaanxi Province of  China acros the Yellow River to the westernmost pass of the Great Wall of China.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 60,
                             "left": 30,
                             "height": 100
@@ -1110,6 +1155,7 @@
                             "info": "The Yellow River or Huang He is the 'mother river of China'. Its basin was the center of Chinese politics, economy and culture for over 2,000 years. It is the second-longest river in China (after the Yangtze), and sixth longest in the world.",
                             "image": "circle_button.svg",
                             "placement": "top",
+                            "credits": "",
                             "top": 65,
                             "left": 150
                         }
@@ -1125,6 +1171,7 @@
                             "info": "Winding about 3,964 miles, Yangtze River is the largest in China and the third largest in the world after the Nile in Africa and the Amazon in South America. Originating from the Tanggula Range in Qinghai Province in western China, it traverses eleven provinces and cities from west to east, including Qinghai, Tibet, Sichuan, Yunnan, Chongqing, Hubei, Hunan, Jiangxi, Anhui, Jiangsu and Shanghai. Finally it pours into the East China Sea at Shanghai.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 143,
                             "left": 210,
                             "height": 100
@@ -1224,6 +1271,7 @@
                             "info": "Winding about 3,964 miles, Yangtze River is the largest in China and the third largest in the world after the Nile in Africa and the Amazon in South America. Originating from the Tanggula Range in Qinghai Province in western China, it traverses eleven provinces and cities from west to east, including Qinghai, Tibet, Sichuan, Yunnan, Chongqing, Hubei, Hunan, Jiangxi, Anhui, Jiangsu and Shanghai. Finally it pours into the East China Sea at Shanghai.",
                             "image": "circle_button.svg",
                             "placement": "right",
+                            "credits": "",
                             "top": 143,
                             "left": 210,
                             "height": 100
