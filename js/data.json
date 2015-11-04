@@ -84,7 +84,7 @@
                             "info": "Tikal is the ruins of an ancient city found in a rainforest in Guatemala. Ambrosio Tut, a gum-sapper, reported the ruins to La Gaceta, a Guatemalan newspaper, which named the site Tikal. The Berlin Academy of Sciences’ Magazine then republished the report in 1853. Archeologists and treasure hunters then began visiting the forest. Today tourism to the site may help protect the rainforest. It is one of the largest archaeological sites and urban centers of the pre-Columbian Maya civilization. It is located in the archaeological region of the Petén Basin in what is now northern Guatemala. Situated in the department of El Petén, the site is part of Guatemala's Tikal National Park and in 1979 it was declared a UNESCO World Heritage Site. Tikal was the capital of a conquest state that became one of the most powerful kingdoms of the ancient Maya.[5] Though monumental architecture at the site dates back as far as the 4th century BC, Tikal reached its apogee during the Classic Period, ca. 200 to 900 AD. During this time, the city dominated much of the Maya region politically, economically, and militarily, while interacting with areas throughout Mesoamerica such as the great metropolis of Teotihuacan in the distant Valley of Mexico. There is evidence that Tikal was conquered by Teotihuacan in the 4th century AD.[6] Following the end of the Late Classic Period, no new major monuments were built at Tikal and there is evidence that elite palaces were burned. These events were coupled with a gradual population decline, culminating with the site’s abandonment by the end of the 10th century.",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "Photograph by Josh Healey",
+                            "credits": "",
                             "top": 67,
                             "left": 190,
                             "height": 100
@@ -172,7 +172,7 @@
                             "info": "Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archaeological site is located in Tinúm Municipality, Yucatán State, Mexico. Chichen Itza was a major focal point in the Northern Maya Lowlands from the Late Classic (c. AD 600–900) through the Terminal Classic (c. AD 800–900) and into the early portion of the Postclassic period (c. AD 900–1200). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc and Chenes styles of the Northern Maya lowlands. The presence of central Mexican styles was once thought to have been representative of direct migration or even conquest from central Mexico, but most contemporary interpretations view the presence of these non-Maya styles more as the result of cultural diffusion.",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "Photograph by grayline.com",
+                            "credits": "",
                             "top": 30,
                             "left": 205,
                             "height": 100
@@ -542,15 +542,15 @@
                     },
                     {
                         "name": "Babylon",
-                        "x": 180,
-                        "y": 45,
+                        "x": 175,
+                        "y": 30,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Uruk",
                         "x": 200,
-                        "y": 40,
+                        "y": 35,
                         "marker": "city-star_small.png",
                         "placement": "right"
                     },
@@ -582,7 +582,7 @@
                             "info": "The Euphrates river begins at the place where the Karasu and Murat join in northeastern Turkey. It is the longest watercourse in Southwest Asia. The distance from the source of the Murat to where it joins with the Tigris (near Basra, Iraq) is 3,000 kilometers (1,864 miles). The waterway provided the water that led to the first flowering of civilization in Sumer dating from about the 4th millennium B.C. Many important ancient cities were located on or near it including Nippur, Shuruppak, Uruk, Eridu, and Ur (where Abraham was born). For several centuries, it was the eastern limit of effective Egyptian and Roman empire control.",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "Photograph by LookLex Encyclopaedia",
+                            "credits": "",
                             "top": 15,
                             "left": 110,
                             "height": 100
@@ -600,7 +600,7 @@
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "Photograph by wisegeek.org",
+                            "credits": "",
                             "top": 105,
                             "left": 30,
                             "height": 100
@@ -619,8 +619,8 @@
                             "image": "pin_yellow.png",
                             "placement": "right",
                             "credits": "Photograph by Wikipedia",
-                            "top": -10,
-                            "left": 173,
+                            "top": 19,
+                            "left": 185,
                             "height": 100
                         }
                     },
@@ -742,7 +742,7 @@
                             "image": "pin_yellow.png",
                             "top": 10,
                             "placement": "right",
-                            "credits": "Photograph by LookLex Encyclopaedia",
+                            "credits": "",
                             "left": 118,
                             "height": 100
                         }
@@ -759,7 +759,7 @@
                             "info": "The Nile river, the father of African rivers and the longest river in the world. It rises south of the Equator and flows northward through northeastern Africa to drain into the Mediterranean Sea. It has a length of about 4,132 miles (6,650 kilometres) and drains an area estimated at 1,293,000 square miles (3,349,000 square kilometres).",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "Photograph by wisegeek.org",
+                            "credits": "",
                             "top": 140,
                             "left": 50,
                             "height": 100
@@ -1007,10 +1007,28 @@
                             "title": "Kingdom of Aksum",
                             "info": "The Kingdom of Aksum or Axum, also known as the Aksumite Empire, was a trading nation in the area of northern Ethiopia and Eritrea pre-Islamic Arabs, which existed from approximately 100–940 AD. It grew from the proto-Aksumite Iron Age period c. 4th century BC to achieve prominence by the 1st century AD, and was a major player in the commercial route between the Roman Empire and Ancient India. The Aksumite rulers facilitated trade by minting their own Aksumite currency, the state established its hegemony over the declining Kingdom of Kush and regularly entered the politics of the kingdoms on the Arabian Peninsula, eventually extending its rule over the region with the conquest of the Himyarite Kingdom.",
                             "image": "pin_yellow.png",
-                            "placement": "top",
+                            "placement": "right",
                             "credits": "Photograph by House Dok Productions",
                             "top": 143,
                             "left": 130,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "africa/kingdom-of-aksum.png",
+                        "href": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "100%",
+                        "fullSize": "past/africa/Blue-Nile-Falls.jpg",
+                        "landmarkImage": {
+                            "title": "Blue Nile Falls",
+                            "info": "The Blue Nile Falls are one of the greatest falls in Africa. It is located in Ethiopian plateau, passing the Blue Nile River. This waterfall is also known as Tis Issat meaning smoking water, as the continuous dropping of water creates a smoke-like bounce of water droplets. The Blue Nile Falls has an enormous height of 37 to 45 meters or around 150 feet and its width is estimated at about half a mile. Watching the river water drop down the waterfalls is truly breathtaking.",
+                            "image": "pin_yellow.png",
+                            "placement": "left",
+                            "credits": "",
+                            "top": 103,
+                            "left": 165,
                             "height": 100
                         }
                     }
@@ -1123,8 +1141,8 @@
                 "Cities": [
                     {
                         "name": "Heian-kyo",
-                        "x": 350,
-                        "y": 150,
+                        "x": 360,
+                        "y": 155,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
@@ -1220,7 +1238,7 @@
                             "info": "The Yellow River or Huang He is the 'mother river of China'. Its basin was the center of Chinese politics, economy and culture for over 2,000 years. It is the second-longest river in China (after the Yangtze), and sixth longest in the world.",
                             "image": "pin_yellow.png",
                             "placement": "top",
-                            "credits": "Photograph by Hiroyuki Nagaoka/Getty Images",
+                            "credits": "",
                             "top": 78,
                             "left": 140
                         }
