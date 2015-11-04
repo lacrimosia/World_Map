@@ -877,7 +877,7 @@
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "pin_yellow.png",
                             "placement": "bottom",
-                            "credits": "Photograph by Wikipedia",
+                            "credits": "Photograph by Jeeheon Cho",
                             "top": 70,
                             "left": 300,
                             "height": 100
@@ -936,7 +936,7 @@
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "pin_yellow.png",
                             "placement": "left",
-                            "credits": "Photograph by Wikipedia",
+                            "credits": "Photograph by Jeeheon Cho",
                             "top": 75,
                             "left": 240,
                             "height": 100
@@ -1133,12 +1133,12 @@
                         "x": 350,
                         "y": 145,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "left"
                     },
                     {
                         "name": "Edo",
                         "x": 380,
-                        "y": 100,
+                        "y": 127,
                         "marker": "city-star_small.png",
                         "placement": "bottom"
                     },
@@ -1151,7 +1151,7 @@
                     },
                     {
                         "name": "Peking",
-                        "x": 212,
+                        "x": 229,
                         "y": 45,
                         "marker": "city-star_small.png",
                         "placement": "top"
@@ -1262,67 +1262,53 @@
                 ],
                 "Cities": [
                     {
-                        "name": "Nagasaki",
-                        "x": 299,
-                        "y": 175,
-                        "marker": "city-star_small.png",
-                        "placement": "bottom"
-                    },
-                    {
-                        "name": "Hiroshima",
-                        "x": 322,
-                        "y": 143,
+                        "name": "Kyoto",
+                        "x": 360,
+                        "y": 160,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
                     {
-                        "name": "Kyoto",
-                        "x": 350,
-                        "y": 115,
-                        "marker": "city-star_small.png",
-                        "placement": "right"
-                    },
-                    {
                         "name": "Osaka",
                         "x": 350,
-                        "y": 113,
+                        "y": 152,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Tokyo",
                         "x": 380,
-                        "y": 93,
+                        "y": 125,
                         "marker": "city-star_small.png",
                         "placement": "bottom"
                     },
                     {
                         "name": "Xian",
-                        "x": 150,
-                        "y": 65,
+                        "x": 165,
+                        "y": 102,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Beijing",
-                        "x": 212,
-                        "y": 11,
+                        "x": 211,
+                        "y": 55,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
                     {
                         "name": "Shanghai",
-                        "x": 242,
-                        "y": 40,
+                        "x": 240,
+                        "y": 90,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Hong Kong",
                         "x": 206,
-                        "y": 90,
+                        "y": 129,
                         "marker": "city-star_small.png",
-                        "placement": "bottom"
+                        "placement": "left"
                     }
                 ],
                 "landmarks": [
@@ -1339,7 +1325,7 @@
                             "image": "pin_yellow.png",
                             "placement": "right",
                             "credits": "Photograph by aptouring.com",
-                            "top": 143,
+                            "top": 152,
                             "left": 210,
                             "height": 100
                         }
