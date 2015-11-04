@@ -918,7 +918,7 @@
                     {
                         "name": "Mumbai",
                         "x": 165,
-                        "y": 135,
+                        "y": 115,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     }
@@ -990,7 +990,7 @@
                     {
                         "name": "Axum",
                         "x": 205,
-                        "y": 95,
+                        "y": 100,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     }
@@ -1142,21 +1142,21 @@
                     {
                         "name": "Heian-kyo",
                         "x": 360,
-                        "y": 155,
+                        "y": 160,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
                     {
                         "name": "Osaka",
                         "x": 350,
-                        "y": 145,
+                        "y": 152,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Edo",
                         "x": 380,
-                        "y": 127,
+                        "y": 125,
                         "marker": "city-star_small.png",
                         "placement": "bottom"
                     },
@@ -1169,22 +1169,22 @@
                     },
                     {
                         "name": "Peking",
-                        "x": 229,
-                        "y": 45,
+                        "x": 211,
+                        "y": 55,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
                     {
                         "name": "Shanghai",
-                        "x": 242,
-                        "y": 83,
+                        "x": 240,
+                        "y": 90,
                         "marker": "city-star_small.png",
                         "placement": "top"
                     },
                     {
                         "name": "Hong Kong",
                         "x": 206,
-                        "y": 128,
+                        "y": 129,
                         "marker": "city-star_small.png",
                         "placement": "right"
                     }
@@ -1302,8 +1302,8 @@
                     },
                     {
                         "name": "Xian",
-                        "x": 165,
-                        "y": 102,
+                        "x": 150,
+                        "y": 90,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
