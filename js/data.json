@@ -24,6 +24,10 @@
                     {
                         "link": "mesoamerica/columbus-path-edge.png",
                         "id": "1"
+                    },
+                    {
+                        "link": "mesoamerica/mayan-borders.png",
+                        "id": "1"
                     }
                 ],
                 "Cities": [
@@ -52,6 +56,7 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -69,6 +74,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -81,6 +87,24 @@
                             "credits": "Photograph by Josh Healey",
                             "top": 67,
                             "left": 190,
+                            "height": 100
+                        }
+                    },
+                    {
+                        "link": "",
+                        "href": "",
+                        "top": 0,
+                        "left": 15,
+                        "height": "auto",
+                        "fullSize": "past/mesoamerica/mayans.jpg",
+                        "landmarkImage": {
+                            "title": "Mayan Civilization",
+                            "info": "The Maya are an indigenous people of Mexico and Central America who have continuously inhabited the lands comprising modern-day Yucatan, Quintana Roo, Campeche, Tabasco, and Chiapas in Mexico and southward through Guatemala, Belize, El Salvador and Honduras. The designation Maya comes from the ancient Yucatan city of Mayapan, the last capital of a Mayan Kingdom in the Post-Classic Period. The Maya people refer to themselves by ethnicity and language bonds such as Quiche in the south or Yucatec in the north (though there are many others).",
+                            "image": "pin_yellow.png",
+                            "placement": "left",
+                            "credits": "Photograph by redorbit.com",
+                            "top": 100,
+                            "left": 150,
                             "height": 100
                         }
                     }
@@ -120,6 +144,7 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -137,6 +162,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -231,13 +257,14 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "http://www.wwnorton.com/college/english/nawol3/section/volA/odysseus-map.aspx",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
                         "fullSize": "past/mediterranean/odyssey.jpg",
                         "landmarkImage": {
                             "title": "Odyssey",
-                            "info": " The Story Begins. The Odyssey opens with Odysseus stranded on Ogygia, the island home of the enchantress Calypso. Almost ten years had passed since the end of the Trojan War. All the other Greek heroes were either dead or safely back in their homelands. Only Odysseus had yet to return home. Calypso was holding the hero captive, hoping that her beauty and offer of immortality would make him forget his wife, Penelope, and marry her. Finally the gods took pity on Odysseus. Athena encouraged his son Telemachus to go on a quest in search of his father. The young man traveled to Pylos and then to Sparta, where he met Helen and Menelaus. Telemachus was proud when he learned of his father's fame. Meanwhile Zeus* sent Hermes* to command Calypso to let the hero leave. She reluctantly agreed, and Odysseus sailed from the island on a raft. While the hero was at sea, Poseidon sent a great storm that destroyed the raft. Saved by a sea goddess, Odysseus finally reached the land of the Phaeacians. The Phaeacians welcomed the stranger and treated him as an honored guest. In return, Odysseus revealed his name and told the Phaeacians about the adventures he had had since leaving Troy many years before.",
+                            "info": " The Story Begins. The Odyssey opens with Odysseus stranded on Ogygia, the island home of the enchantress Calypso. Almost ten years had passed since the end of the Trojan War. All the other Greek heroes were either dead or safely back in their homelands. Only Odysseus had yet to return home. Calypso was holding the hero captive, hoping that her beauty and offer of immortality would make him forget his wife, Penelope, and marry her. Finally the gods took pity on Odysseus. Athena encouraged his son Telemachus to go on a quest in search of his father. The young man traveled to Pylos and then to Sparta, where he met Helen and Menelaus. Telemachus was proud when he learned of his father's fame. Meanwhile Zeus* sent Hermes* to command Calypso to let the hero leave. She reluctantly agreed, and Odysseus sailed from the island on a raft. While the hero was at sea, Poseidon sent a great storm that destroyed the raft. Saved by a sea goddess, Odysseus finally reached the land of the Phaeacians. The Phaeacians welcomed the stranger and treated him as an honored guest. Click the Read more button for more information.",
                             "image": "pin_yellow.png",
                             "placement": "left",
                             "credits": "Photograph by morrisonnicholas",
@@ -281,7 +308,7 @@
                     {
                         "name": "Corinth",
                         "x": 295,
-                        "y": 205,
+                        "y": 193,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
@@ -345,6 +372,7 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -544,6 +572,7 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -561,6 +590,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -578,6 +608,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -595,6 +626,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -699,6 +731,7 @@
                 "landmarks": [
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -716,6 +749,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -733,6 +767,7 @@
                     },
                     {
                         "link": "",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -791,10 +826,10 @@
                 "Cities": [
                     {
                         "name": "Ayodhya",
-                        "x": 255,
-                        "y": 95,
+                        "x": 271,
+                        "y": 88,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "top"
                     },
                     {
                         "name": "Mumbai",
@@ -806,7 +841,7 @@
                     {
                         "name": "Sri Lanka",
                         "x": 250,
-                        "y": 250,
+                        "y": 260,
                         "marker": "city-star_small.png",
                         "placement": "right"
                     }
@@ -814,6 +849,7 @@
                 "landmarks": [
                     {
                         "link": "india/Ramayana-path.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -825,12 +861,13 @@
                             "placement": "right",
                             "credits": "Photograph by nithyanandagalleria.com",
                             "top": 125,
-                            "left": 205,
+                            "left": 220,
                             "height": 100
                         }
                     },
                     {
                         "link": "india/ganges-river.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -866,10 +903,10 @@
                 "Cities": [
                     {
                         "name": "Ayodhya",
-                        "x": 255,
-                        "y": 95,
+                        "x": 271,
+                        "y": 88,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "bottom"
                     },
                     {
                         "name": "New Delhi",
@@ -889,6 +926,7 @@
                 "landmarks": [
                     {
                         "link": "india/ganges-river.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -897,10 +935,10 @@
                             "title": "The Ganges River",
                             "info": "From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.",
                             "image": "pin_yellow.png",
-                            "placement": "bottom",
+                            "placement": "left",
                             "credits": "Photograph by Wikipedia",
-                            "top": 95,
-                            "left": 300,
+                            "top": 75,
+                            "left": 240,
                             "height": 100
                         }
                     }
@@ -960,6 +998,7 @@
                 "landmarks": [
                     {
                         "link": "africa/kingdom-of-aksum.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "100%",
@@ -1023,10 +1062,10 @@
                     },
                     {
                         "name": "Addis Ababa",
-                        "x": 195,
-                        "y": 65,
+                        "x": 205,
+                        "y": 100,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     }
                 ],
                 "landmarks": []
@@ -1105,7 +1144,7 @@
                     },
                     {
                         "name": "Chang'an",
-                        "x": 168,
+                        "x": 150,
                         "y": 90,
                         "marker": "city-star_small.png",
                         "placement": "bottom"
@@ -1135,6 +1174,7 @@
                 "landmarks": [
                     {
                         "link": "east_asia/silk-road.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "auto",
@@ -1152,6 +1192,7 @@
                     },
                     {
                         "link": "east_asia/journey-to-the-west-path.svg",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "300px",
@@ -1169,6 +1210,7 @@
                     },
                     {
                         "link": "east_asia/yellow-river.svg",
+                        "href": "",
                         "top": 135,
                         "left": 98,
                         "height": "60%",
@@ -1178,13 +1220,14 @@
                             "info": "The Yellow River or Huang He is the 'mother river of China'. Its basin was the center of Chinese politics, economy and culture for over 2,000 years. It is the second-longest river in China (after the Yangtze), and sixth longest in the world.",
                             "image": "pin_yellow.png",
                             "placement": "top",
-                            "credits": "",
+                            "credits": "Photograph by Hiroyuki Nagaoka/Getty Images",
                             "top": 78,
                             "left": 140
                         }
                     },
                     {
                         "link": "east_asia/yangtze-river.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "100%",
@@ -1194,7 +1237,7 @@
                             "info": "Winding about 3,964 miles, Yangtze River is the largest in China and the third largest in the world after the Nile in Africa and the Amazon in South America. Originating from the Tanggula Range in Qinghai Province in western China, it traverses eleven provinces and cities from west to east, including Qinghai, Tibet, Sichuan, Yunnan, Chongqing, Hubei, Hunan, Jiangxi, Anhui, Jiangsu and Shanghai. Finally it pours into the East China Sea at Shanghai.",
                             "image": "pin_yellow.png",
                             "placement": "right",
-                            "credits": "",
+                            "credits": "Photograph by aptouring.com",
                             "top": 143,
                             "left": 210,
                             "height": 100
@@ -1237,25 +1280,25 @@
                         "x": 350,
                         "y": 115,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "right"
                     },
                     {
                         "name": "Osaka",
                         "x": 350,
                         "y": 113,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     },
                     {
                         "name": "Tokyo",
                         "x": 380,
-                        "y": 60,
+                        "y": 93,
                         "marker": "city-star_small.png",
-                        "placement": "top"
+                        "placement": "bottom"
                     },
                     {
                         "name": "Xian",
-                        "x": 168,
+                        "x": 150,
                         "y": 65,
                         "marker": "city-star_small.png",
                         "placement": "left"
@@ -1285,6 +1328,7 @@
                 "landmarks": [
                     {
                         "link": "east_asia/yangtze-river.png",
+                        "href": "",
                         "top": 0,
                         "left": 15,
                         "height": "100%",

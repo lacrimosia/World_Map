@@ -51,8 +51,8 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
 
         // Modal calls 
 
-        $scope.openMe = function(templateLink, title, description, myFullImage, Link, theImage, index, array, credits) {
-            modalService.openMenuModal(templateLink, title, description, myFullImage, Link, theImage, index, array, credits);   
+        $scope.openMe = function(templateLink, title, description, myFullImage, Link, theImage, index, array, credits, href) {
+            modalService.openMenuModal(templateLink, title, description, myFullImage, Link, theImage, index, array, credits, href);   
         };
 
         $scope.openHelpMenu = function(size, title, description) {

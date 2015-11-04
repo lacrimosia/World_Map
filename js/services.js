@@ -24,7 +24,7 @@ angular.module('myApp.services', ['ui.bootstrap'])
 // Modal Service for all the popups
   .factory('modalService', ['$uibModal', function($uibModal){
   	return {
-      openMenuModal: function(templateLink, title, description, myFullImage, Link, theImage, index, array, credits) {
+      openMenuModal: function(templateLink, title, description, myFullImage, Link, theImage, index, array, credits, href) {
         var modalObj = $uibModal.open({
           templateUrl: templateLink,
           backdrop: 'static',
@@ -39,6 +39,7 @@ angular.module('myApp.services', ['ui.bootstrap'])
             $scope.Array = array;
             $scope.credit = credits;
             $scope.show = false;
+            $scope.href = href;
 
             $scope.ok = function(id){
               //Process Close Button Click

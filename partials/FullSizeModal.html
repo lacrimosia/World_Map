@@ -4,6 +4,7 @@
 		<h1> {{title}} </h1>
 		<img ng-src="img/{{myFullImage}}" class="img-responsive center-block" alt="{{myFullImage}}" />
 		<small>{{credit}}</small><p></p>
-			<p>{{description}}</p>		
+			<p>{{description}}</p>
+			<div class="modal-footer" ng-if="href!=''"><p><a role="button" class="btn btn-primary btn-md pull-right" ng-href="{{href}}" target="_blank"><i class="fa fa-thumb-tack"></i> Read more</a></p></div>	
 </div>
 </div>
