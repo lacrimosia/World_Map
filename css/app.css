@@ -9,6 +9,11 @@ div.lightbox {
 	z-index: 999;
 }
 
+.logos{
+	cursor: pointer !important;
+	width: 55% !important;
+}
+
 .container{
 	width: 687px !important;
 	/*width: auto !important;
