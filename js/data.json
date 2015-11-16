@@ -796,7 +796,13 @@
                     "name": "Hebrew Bible",
                     "image": "hebrew.jpg",
                     "description": "Includes the creation of the world and humankind; the expulsion of Adam and Eve from the Garden of Eden; the first murder of Abel by Cain; the story of the Ark of Noah; the Tower of Babel; and stories of the Patriarchs—Abraham, Isaac, and Jacob.",
-                    "Link": "http://search.credoreference.com/content/entry/sharpejft/the_hebrew_bible/0"
+                    "Link": "https://www.biblegateway.com/"
+                },
+                {
+                    "name": "Quran",
+                    "image": "quran.jpg",
+                    "description": "A significant religious text written in Quranic Arabic, and is followed by believers of the Islamic faith. The Quran contains 6,236 numbered verses (ayāt) and is divided into 114 chapters.",
+                    "Link": "http://corpus.quran.com/"
                 },
                 {
                     "name": "Introduction to Alf Layla wa-Layla (The Arabian Nights)",
