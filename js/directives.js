@@ -1,6 +1,6 @@
 
 
-angular.module('myApp.directives', ['ui.bootstrap', 'cfp.hotkeys'])
+angular.module('myApp.directives', ['ui.bootstrap'])
 
   // check z-index of mobilecheck class to determine the size of the viewport
   .directive("mobileCheck", function() {

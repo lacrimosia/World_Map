@@ -1,6 +1,6 @@
 
 
-angular.module('myApp.services', ['ui.bootstrap', 'cfp.hotkeys'])
+angular.module('myApp.services', ['ui.bootstrap'])
 
   .factory('Data', ['$http', function($http) {
 
@@ -22,7 +22,7 @@ angular.module('myApp.services', ['ui.bootstrap', 'cfp.hotkeys'])
   }])
 
 // Modal Service for all the popups
-  .factory('modalService', ['$uibModal', 'hotkeys', function($uibModal, hotkeys){
+  .factory('modalService', ['$uibModal', function($uibModal){
   	return {
       openMenuModal: function(templateLink, title, description, myFullImage, Link, theImage, index, array, credits, href) {
         var modalObj = $uibModal.open({
