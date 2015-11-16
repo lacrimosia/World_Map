@@ -1,4 +1,4 @@
-angular.module('myApp.controllers', ['ui.bootstrap'])
+angular.module('myApp.controllers', ['ui.bootstrap', 'cfp.hotkeys'])
 
 .controller('AppCtrl', function($scope, $http, Data) {
 
@@ -32,7 +32,8 @@ angular.module('myApp.controllers', ['ui.bootstrap'])
     '$uibModal',
     'modalService',
     'Data',
-    function($scope, $http, $uibModal, modalService, Data) {
+    'hotkeys',
+    function($scope, $http, $uibModal, modalService, Data, hotkeys) {
 
         $scope.oneAtATime = true;
         $scope.change = true;
