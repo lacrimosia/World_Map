@@ -294,21 +294,21 @@
                     {
                         "name": "Florence",
                         "x": 169,
-                        "y": 165,
+                        "y": 160,
                         "marker": "city-star_small.png",
                         "placement": "right"
                     },
                     {
                         "name": "Rome",
                         "x": 178,
-                        "y": 165,
+                        "y": 160,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Corinth",
                         "x": 295,
-                        "y": 193,
+                        "y": 198,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
@@ -365,6 +365,13 @@
                         "name": "Alexandria",
                         "x": 365,
                         "y": 100,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
+                    },
+                    {
+                        "name": "St. Petersburg",
+                        "x": 367,
+                        "y": -209,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     }
