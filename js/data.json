@@ -182,10 +182,10 @@
             },
             "Books": [
                 {
-                    "name": "Goblin with a Gauge: Teaching Emily Dickinson",
-                    "image": "Dickinson.jpg",
-                    "description": "For the past several years, I have had the privilege of teaching seminars on Dickinson's poetry in her house, the Emily Dickinson Homestead. The seminars are open to the community, and my students have included computer programmers, English teachers, social workers, novelists, Homestead guides, a mathematician, a neurolinguistics researcher, and a number of people who identify themselves by saying they are taking the class because they are tired of being embarrassed when out-of-town friends say, 'You live in Amherst, you must know all about Emily Dickinson.' When I started teaching these seminars, I had two modest goals: to lead my students, many of whom had read little or no Dickinson before, through close readings of her poems; and to see what intelligent non-critics would make of the poetic peculiarities that have long bedeviled Dickinson scholars. As a poet and long-time student of American poetry, I felt quite comfortable with Dickinson's erratic punctuation, incomplete sentences, willful word choices and dizzying shifts of perspective. I never expected my students to confront me with problems that would require me to find a new approach to Dickinson's work.",
-                    "Link": "http://muse.jhu.edu/journals/emily_dickinson_journal/v009/9.2ladin.html"
+                    "name": "Popul Vuh",
+                    "image": "popol.jpg",
+                    "description": "The Popol Vuh is the story of creation according to the Quiche Maya of the region known today as Guatemala. Translated as `The Council Book', The Book of the People' or, literally, 'The Book of the Mat', the work has been referred to as 'The Mayan Bible' although this comparison is imprecise.",
+                    "Link": "http://www.ancient.eu/Popol_Vuh/"
                 }
             ]
         },
