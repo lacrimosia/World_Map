@@ -806,6 +806,12 @@
                     "Link": "https://www.biblegateway.com/"
                 },
                 {
+                    "name": "The Holy Bible",
+                    "image": "bible.jpg",
+                    "description": "The Bible is the sacred Book, or collection of books, accepted by the Christian Church as uniquely inspired by God, and thus authoritative, providing guidelines for belief and behavior. The Old Testament tells the story of God's chosen people, the Hebrews, who were later known as Israelites or Jews. Sometime around 1800 B.C., God made a covenant with a man named Abraham to make of his descendants a great nation. The first few of these descendants migrated to Egypt to escape a famine in their own land. After many generations they had greatly increased their numbers but had become enslaved to the Egyptians. God sent a great leader and prophet, Moses, to lead the Hebrews out of captivity and into the Promised Land of Israel. During this time God gave Moses the Ten Commandments which are still considered the basis for a moral life by both Jews and Christians. The New Testament contains the sacred books that are unique to Christianity. All the New Testament books were written in the Greek language over the period of about 50 to 120 A.D. None of the New Testament books were originally written as part of a Christian Bible, but they were read at church services for instruction in the faith. The collection of books we know as the New Testament emerged in the late second century, A.D. The church leaders accepted books they believed were based on eyewitness accounts of the events narrated, while rejecting many other early Christian writings. Eventually, the 27 books which form the present New Testament, along with the Old Testament books, became the Christian Bible as we know it today. The New Testament canon was formally adopted by the Synod of Carthage in 397 A.D.",
+                    "Link": "https://www.bible.com/bible/1/jhn.1.kjv"
+                },
+                {
                     "name": "Quran",
                     "image": "quran.jpg",
                     "description": "A significant religious text written in Quranic Arabic, and is followed by believers of the Islamic faith. The Quran contains 6,236 numbered verses (ayāt) and is divided into 114 chapters.",
