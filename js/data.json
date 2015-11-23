@@ -374,6 +374,13 @@
                         "y": -209,
                         "marker": "city-star_small.png",
                         "placement": "left"
+                    },
+                    {
+                        "name": "Moscow",
+                        "x": 434,
+                        "y": -188,
+                        "marker": "city-star_small.png",
+                        "placement": "left"
                     }
                 ],
                 "landmarks": [
@@ -1008,7 +1015,7 @@
                 "Cities": [
                     {
                         "name": "Axum",
-                        "x": 205,
+                        "x": 292,
                         "y": 100,
                         "marker": "city-star_small.png",
                         "placement": "left"
@@ -1028,8 +1035,8 @@
                             "image": "pin_yellow.png",
                             "placement": "right",
                             "credits": "Photograph by House Dok Productions",
-                            "top": 143,
-                            "left": 130,
+                            "top": 53,
+                            "left": 311,
                             "height": 100
                         }
                     },
@@ -1046,8 +1053,8 @@
                             "image": "pin_yellow.png",
                             "placement": "left",
                             "credits": "",
-                            "top": 103,
-                            "left": 165,
+                            "top": 95,
+                            "left": 305,
                             "height": 100
                         }
                     }
@@ -1071,38 +1078,45 @@
                 "Cities": [
                     {
                         "name": "Khartoum",
-                        "x": 113,
-                        "y": 55,
+                        "x": 285,
+                        "y": 80,
                         "marker": "city-star_small.png",
-                        "placement": "right"
+                        "placement": "left"
                     },
                     {
                         "name": "Juba",
-                        "x": 98,
-                        "y": 218,
+                        "x": 270,
+                        "y": 160,
                         "marker": "city-star_small.png",
                         "placement": "right"
                     },
                     {
                         "name": "Mogadishu",
-                        "x": 325,
-                        "y": 245,
+                        "x": 370,
+                        "y": 180,
                         "marker": "city-star_small.png",
-                        "placement": "left"
+                        "placement": "bottom"
                     },
                     {
                         "name": "Aksum",
-                        "x": 205,
+                        "x": 360,
                         "y": 40,
                         "marker": "city-star_small.png",
                         "placement": "left"
                     },
                     {
                         "name": "Addis Ababa",
-                        "x": 205,
-                        "y": 100,
+                        "x": 320,
+                        "y": 55,
                         "marker": "city-star_small.png",
                         "placement": "left"
+                    },
+                    {
+                        "name": "Ogidi",
+                        "x": 65,
+                        "y": 55,
+                        "marker": "city-star_small.png",
+                        "placement": "right"
                     }
                 ],
                 "landmarks": []
