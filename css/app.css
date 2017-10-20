@@ -11,14 +11,16 @@ div.lightbox {
 
 .logos{
 	cursor: pointer !important;
-	width: 55% !important;
+	width: 30% !important;
 }
 
 .container{
-	width: 687px !important;
+	/*width: 687px !important;*/
 	/*width: auto !important;
 	min-width: 687px !important;
 	max-width: 900px !important;*/
+	min-width: 768px !important;
+	width: 100%;
 }
 
 .largeTitle{
@@ -241,6 +243,7 @@ div.popup {
 	height: 6%;
 }
 
+
 .unlvText{
 	font-size: 1.8em !important;
 }
@@ -269,7 +272,8 @@ div.popup:after {
 div.popup.expanded {
 	/*width: 1170px;*/
 	width: 100%;
-	height: auto;
+	height: 100%;
+	overflow-y: hidden;
 	/*-webkit-transition: height .8s, width .8s;
     transition:  height .8s, width .8s;*/
     -ms-transform: none;
@@ -279,6 +283,13 @@ div.popup.expanded {
     position: absolute;
     top: 0px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px){
+	/*div.popup.expanded {
+		height: auto;
+	    overflow-y: hidden;
+	}*/
 }
 
 .bubbleText{
@@ -608,6 +619,10 @@ div.popup.expanded {
     z-index: 40;
 }
 */
+
+div.popup.expanded{
+
+}
 
 div.popup.expanded:after {
 	display: none;
